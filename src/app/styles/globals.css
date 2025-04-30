@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+@layer base {
+  :root {
+    /* THEME CONFIG STYLING VARIABLES */
+    --foreground-rgb: 30 41 59; /* Default text color text-slate-800 */
+    --font-heading: unset;
+    --border-radius-theme: 0.375rem; /* 0.125rem / 0.375rem / 1rem */
+    --border-radius-theme-button: 0.375rem; /* 0.125rem / 0.375rem / 1.75rem */
+
+    --primary-color-500: var(--foreground-rgb);
+    --primary-color-600: var(--foreground-rgb);
+    --secondary-color-500: var(--foreground-rgb);
+    --secondary-color-600: var(--foreground-rgb);
+
+    --sm-heading-font-size: clamp(1.5rem, 6vw, 2.25rem);
+    --base-heading-font-size: clamp(1.75rem, 6vw, 2.675rem);
+    --lg-heading-font-size: clamp(2.25rem, 7vw, 3.25rem);
+    --xl-heading-font-size: clamp(3.25rem, 7vw, 4rem);
+    --2xl-heading-font-size: clamp(3.75rem, 7vw, 5rem);
+
+    --container-horizontal-padding: 1rem;
+  }
+  @media (min-width: 1280px) {
+    :root {
+      --container-horizontal-padding: 5rem;
+    }
+  }
+  @media (min-width: 1536px) {
+    :root {
+      --container-horizontal-padding: 6rem;
+    }
+  }
+
+  .dark {
+    --foreground-rgb: 241 245 249; /* text-slate-100 */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.u-scroll-x::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.u-scroll-x {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.underline-hover-effect {
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  position: relative;
+}
+
+.underline-hover-effect::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: 2px;
+  width: 0;
+  height: 1.5px;
+  transition: width 0.3s ease-out;
+  background-color: currentColor;
+}
+
+.underline-hover-effect:hover::before {
+  width: 100%;
+}
+
+h1 u,
+h2 u,
+h1 code,
+h2 code {
+  @apply font-heading bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent;
+  text-decoration: unset;
+}
+h3 u,
+h4 u,
+h3 code,
+h4 code {
+  @apply font-heading text-primary-600;
+  text-decoration: unset;
+}
+
+h1 b,
+h2 b,
+h1 strong,
+h2 strong {
+  @apply font-extrabold;
+}
+
+ul li.custom-bullet {
+  list-style-image: url('/icons/checkmark.svg');
+  text-indent: 5px;
+}
+
+.show-scrollbar::-webkit-scrollbar {
+  height: 5px; /* for Horizonatal scrollbar */
+  width: 5px; /* for Vertical scrollbar */
+  @apply bg-slate-200;
+}
+
+.show-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-slate-700;
+  border-radius: 5px;
+}
+
+.show-scrollbar::-webkit-scrollbar-thumb:hover {
+  cursor: grabbing;
+}
+
+.NavMenu > div {
+  position: initial !important;
+}
