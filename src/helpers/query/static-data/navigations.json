@@ -7,10 +7,10 @@
     "darkMode": false,
     "logo": {
       "id": "logo",
-      "url": "https://images.ctfassets.net/ehmycbmc25mu/7vvCItsTwfA8tl0SyqlzWT/b8c89a775becaac933165795be38ef05/novajam_logo_black.webp",
-      "title": "novajam logo black",
+      "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
+      "title": "agapitou logo",
       "description": null,
-      "width": 1055,
+      "width": 459,
       "height": 160,
       "contentType": "image/webp"
     },
@@ -18,38 +18,45 @@
     "menuItems": [
       {
         "id": "home",
-        "label": "Home",
+        "label": "Αρχική",
         "href": "/",
         "openNewTab": false,
         "contentType": "link"
       },
       {
+        "id": "services",
+        "label": "Υπηρεσίες",
+        "href": "/services",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
+        "id": "doctor",
+        "label": "Η Καρδιολόγος",
+        "href": "/home",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
+        "id": "office",
+        "label": "Το Ιατρείο",
+        "href": "/home",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
         "id": "contact",
-        "label": "Contact",
+        "label": "Επικοινωνία",
         "href": "/contact",
         "openNewTab": false,
-        "contentType": "link"
-      },
-      {
-        "id": "faq",
-        "label": "FAQ",
-        "href": "/faq",
-        "openNewTab": false,
-        "contentType": "link"
-      },
-      {
-        "id": "github",
-        "label": "Github",
-        "href": "https://github.com/minhwpm/novajam",
-        "openNewTab": true,
         "contentType": "link"
       }
     ],
     "buttons": [
       {
         "id": "5ch7AWS9JLFOzlZ2HA35H5",
-        "label": "Get PRO",
-        "href": "https://novajam-pro.vercel.app",
+        "label": "Κλείσε Ραντεβού",
+        "href": "/contact",
         "openNewTab": true,
         "variant": "primary",
         "withArrow": false,
@@ -65,8 +72,8 @@
     "darkMode": true,
     "logo": {
       "id": "logo",
-      "url": "https://images.ctfassets.net/ehmycbmc25mu/7vvCItsTwfA8tl0SyqlzWT/b8c89a775becaac933165795be38ef05/novajam_logo_black.webp",
-      "title": "novajam logo black",
+      "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
+      "title": "agapitou logo black",
       "description": null,
       "width": 1055,
       "height": 160,
@@ -76,38 +83,45 @@
     "menuItems": [
       {
         "id": "home",
-        "label": "Home",
+        "label": "Αρχική",
         "href": "/",
         "openNewTab": false,
         "contentType": "link"
       },
       {
+        "id": "services",
+        "label": "Υπηρεσίες",
+        "href": "/services",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
+        "id": "doctor",
+        "label": "Η Καρδιολόγος",
+        "href": "/home",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
+        "id": "office",
+        "label": "Το Ιατρείο",
+        "href": "/home",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
         "id": "contact",
-        "label": "Contact",
+        "label": "Επικοινωνία",
         "href": "/contact",
         "openNewTab": false,
-        "contentType": "link"
-      },
-      {
-        "id": "faq",
-        "label": "FAQ",
-        "href": "/faq",
-        "openNewTab": false,
-        "contentType": "link"
-      },
-      {
-        "id": "github",
-        "label": "Github",
-        "href": "https://github.com/minhwpm/novajam",
-        "openNewTab": true,
         "contentType": "link"
       }
     ],
     "buttons": [
       {
         "id": "5ch7AWS9JLFOzlZ2HA35H5",
-        "label": "Get PRO",
-        "href": "https://novajam.vercel.app",
+        "label": "Κλείσε Ραντεβού",
+        "href": "/contact",
         "openNewTab": true,
         "variant": "primary",
         "withArrow": false,

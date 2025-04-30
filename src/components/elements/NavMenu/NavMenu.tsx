@@ -14,7 +14,7 @@ const NavMenu: React.FC<{
 }> = ({ menuItems, layout }) => {
   return (
     <NavigationMenu.Root
-      className={classNames('NavMenu hidden lg:flex justify-end')}
+      className={classNames('NavMenu hidden lg:flex justify-start')}
     >
       <NavigationMenu.List
         className={classNames(
@@ -26,7 +26,7 @@ const NavMenu: React.FC<{
             item && (
               <NavigationMenu.Item
                 key={item.id}
-                className={classNames('text-smd py-7 px-5', {
+                className={classNames('text-smd py-7 px-3.5', {
                   relative: 'menuItems' in item && item.layout === 'dropdown',
                 })}
               >

@@ -1,8 +1,19 @@
 import classNames from 'classnames';
-import { Poppins, Montserrat, Inter, Playfair_Display } from 'next/font/google';
+import {
+  Roboto,
+  Poppins,
+  Montserrat,
+  Inter,
+  Playfair_Display,
+} from 'next/font/google';
+
+const Roboto_Font = Roboto({
+  subsets: ['latin', 'latin-ext', 'greek', 'greek-ext'],
+  weight: ['100', '300', '400', '500', '700', '900'],
+});
 
 const Inter_Font = Inter({
-  subsets: ['latin', 'latin-ext', 'vietnamese'],
+  subsets: ['latin', 'latin-ext', 'greek', 'greek-ext'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
 });
 
@@ -29,6 +40,7 @@ export const generateFontClassnames = (
   fontHeading: string | null,
 ) =>
   classNames({
+    [Roboto_Font.className]: fontMain === 'Roboto',
     [Inter_Font.className]: fontMain === 'Inter',
     [Montserrat_Font.className]: fontMain === 'Montserrat',
     [Montserrat_Font.variable]: fontHeading === 'Montserrat',

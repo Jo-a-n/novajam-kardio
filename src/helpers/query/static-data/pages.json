@@ -1,9 +1,9 @@
 [
   {
-    "title": "NovaJAM | Demo | SaaS ",
+    "title": "Αγαπητού | Καρδιολόγος | Ηλιούπολη",
     "url": "/",
-    "fontMain": "Poppins",
-    "fontHeading": "Poppins",
+    "fontMain": "Roboto",
+    "fontHeading": "Roboto",
     "colorPrimary": "indigo",
     "colorSecondary": "fuchsia",
     "borderRadius": "large",
@@ -31,29 +31,31 @@
       {
         "contentType": "smartsection",
         "id": "1qnUbh4OB4yNo3LJJ1ADp0",
-        "htmlid": "saas-hero",
-        "layout": "Rows",
-        "gap": "sm",
-        "backgroundColor": null,
-        "backgroundImage": null,
+        "htmlid": "agapitou-hero",
+        "layout": "Columns",
+        "gap": "2xl",
+        "backgroundColor": "#FAF6F6",
+        "backgroundImage": {
+          "url": "https://images.ctfassets.net/n8ip1shnectl/56oSVm9cfihFDNaP6COvgL/f22cb3db8ff1409d8104ae5bd3b9eaf0/agapitou-7.jpg"
+        },
         "enableParallaxEffect": false,
         "darkMode": false,
-        "sectionSeparator": false,
-        "paddingTop": "2xl",
+        "sectionSeparator": true,
+        "paddingTop": "xl",
         "paddingBottom": "xl",
         "fullViewWidth": false,
         "content": [
           {
             "eyebrow": null,
-            "title": "# __Make workflow your `competitive advantage`__",
-            "body": "With highly flexible blocks, you can easily build a page without coding. Build your next landing page. Integer ut Oberyn massa. Sed feugiat vitae turpis a porta. Aliquam sagittis interdum Melisandre.",
+            "title": "# __Έλενα Αγαπητού `Καρδιολόγος`__",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "disclaimer": null,
             "titleFontSize": "xl",
-            "alignment": "center",
-            "paddingTop": "none",
+            "alignment": "left",
+            "paddingTop": "2xl",
             "paddingLeft": "none",
             "paddingBottom": "base",
-            "paddingRight": "none",
+            "paddingRight": "lg",
             "contentType": "richcontent",
             "ctas": [
               {
@@ -73,93 +75,6 @@
                 "withArrow": false,
                 "icon": null,
                 "id": "6qJNP6mum4yxzvYD6kaBEN"
-              }
-            ]
-          },
-          {
-            "file": {
-              "url": "https://images.ctfassets.net/ehmycbmc25mu/6C8WE9mpr1piWHKZdE1HGD/1818ba5f42ed9b60281445f92957672b/dashboard_hero.webp",
-              "title": "dashboard_hero.webp",
-              "description": null,
-              "width": 1824,
-              "height": 1270,
-              "contentType": "image/webp"
-            },
-            "contentType": "featuredmedia"
-          },
-          {
-            "contentType": "contentlist",
-            "id": "1mRLe2Pj2hvSKFfBCPNseY",
-            "gap": "lg",
-            "layout": "grid",
-            "columns": 3,
-            "ctas": [],
-            "contentItems": [
-              {
-                "contentType": "flexiblecontent",
-                "id": "1SE6Nd1JB3AMEbsQkvrBDR",
-                "title": "### __Project management__",
-                "eyebrow": null,
-                "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
-                "tags": null,
-                "redirectUrl": null,
-                "alignment": "start",
-                "layout": "vertical",
-                "buttons": [],
-                "media": [
-                  {
-                    "url": "https://images.ctfassets.net/ehmycbmc25mu/5IxdvlyRVPRDfIW5dVKojA/ac69ce7fc5d2eb7ea19a774e3f5df3a5/code.svg",
-                    "description": null,
-                    "width": 44,
-                    "height": 38,
-                    "contentType": "image/svg+xml",
-                    "id": "5IxdvlyRVPRDfIW5dVKojA"
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "1AYle26SKkFP38HQtLaxVi",
-                "title": "### __Time tracking__",
-                "eyebrow": null,
-                "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
-                "tags": null,
-                "redirectUrl": null,
-                "alignment": "start",
-                "layout": "vertical",
-                "buttons": [],
-                "media": [
-                  {
-                    "url": "https://images.ctfassets.net/ehmycbmc25mu/2uSAvze1JkPBjelWOW94S5/4d77c65ed6c770a0f8129c4c1fd5e3be/countdown-2.svg",
-                    "description": null,
-                    "width": 37,
-                    "height": 37,
-                    "contentType": "image/svg+xml",
-                    "id": "2uSAvze1JkPBjelWOW94S5"
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "3MFxF1Ix5BNjT7QX1aOJNT",
-                "title": "### __Beautiful mobile app__",
-                "eyebrow": null,
-                "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
-                "tags": null,
-                "redirectUrl": null,
-                "alignment": "start",
-                "layout": "vertical",
-                "buttons": [],
-                "media": [
-                  {
-                    "url": "https://images.ctfassets.net/ehmycbmc25mu/66UQiwnQNr13NkNe8c3iF0/d5654d9537c8c916c6746baf3a241b85/smartphone.svg",
-                    "description": null,
-                    "width": 26,
-                    "height": 38,
-                    "contentType": "image/svg+xml",
-                    "id": "66UQiwnQNr13NkNe8c3iF0"
-                  }
-                ]
               }
             ]
           }
@@ -761,9 +676,9 @@
   },
   {
     "title": "NovaJAM | FAQ",
-    "url": "/faq",
+    "url": "/services",
     "seo": null,
-    "fontMain": "Poppins",
+    "fontMain": "Roboto",
     "fontHeading": null,
     "colorPrimary": "indigo",
     "colorSecondary": "fuchsia",

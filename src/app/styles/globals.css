@@ -37,12 +37,12 @@
   }
   @media (min-width: 1280px) {
     :root {
-      --container-horizontal-padding: 5rem;
+      --container-horizontal-padding: 2rem;
     }
   }
   @media (min-width: 1536px) {
     :root {
-      --container-horizontal-padding: 6rem;
+      --container-horizontal-padding: 4rem;
     }
   }
 

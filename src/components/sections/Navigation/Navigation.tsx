@@ -86,7 +86,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
             },
           )}
         >
-          <div className="w-full px-4 md:px-6 lg:px-8 xl:px-10 flex items-center gap-x-4">
+          <div className="w-full max-w-screen-2xl mx-auto px-4 md:px-6 lg:px-8 xl:px-10 flex items-center gap-x-4 ">
             <div className="shrink-0 py-4">
               <Logo redirectUrl={logoRedirect ?? ''} logo={logo} />
             </div>
