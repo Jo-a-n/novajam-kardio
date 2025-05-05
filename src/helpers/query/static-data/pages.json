@@ -63,13 +63,13 @@
                 "label": "Κλείσε Ραντεβού",
                 "openNewTab": false,
                 "variant": "primary",
-                "withArrow": true,
+                "withArrow": false,
                 "icon": null,
                 "id": "4jw1KgKF0C9vHH3Zym3m6w"
               },
               {
-                "href": "/demo/about-us",
-                "label": "Η Καρδιολόγος",
+                "href": "/services",
+                "label": "Υπηρεσίες Ιατρείου",
                 "openNewTab": false,
                 "variant": "ghost",
                 "withArrow": false,
@@ -83,22 +83,22 @@
       {
         "contentType": "smartsection",
         "id": "7GnfgfMwy4Zp7cKQgx3OXs",
-        "htmlid": "saas-getting-started-is-easier-than-ever",
+        "htmlid": "learn-more-about-the-doctor",
         "layout": "Columns",
         "gap": "xl",
-        "backgroundColor": "#f1f5f9",
+        "backgroundColor": "#FAF6F6",
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": false,
-        "sectionSeparator": false,
+        "sectionSeparator": true,
         "paddingTop": "xl",
         "paddingBottom": "xl",
         "fullViewWidth": false,
         "content": [
           {
             "eyebrow": null,
-            "title": "## __Getting started is easier than ever__",
-            "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page so quickly with NovaJAM.",
+            "title": "## __Μάθετε περισσότερα για την Καρδιολόγο__",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",
@@ -110,9 +110,9 @@
             "ctas": [
               {
                 "href": "/contact",
-                "label": "Get started for free",
+                "label": "Η Καρδιολόγος",
                 "openNewTab": false,
-                "variant": "primary",
+                "variant": "secondary",
                 "withArrow": true,
                 "icon": null,
                 "id": "4jw1KgKF0C9vHH3Zym3m6w"
@@ -121,12 +121,12 @@
           },
           {
             "file": {
-              "url": "https://images.ctfassets.net/ehmycbmc25mu/7tSlE8iMnaoSOqmVX1hOk0/e07508600ae52aa28813e19e98827d40/team_member_report.webp",
-              "title": "team_member_report.webp",
+              "url": "https://images.ctfassets.net/n8ip1shnectl/3OYa1kEKHv5X01KXCtm48w/830a41d8179d8bbdcffc9188c335462f/agapitou-15.jpg",
+              "title": "Photo of the doctor smiling",
               "description": null,
               "width": 771,
               "height": 731,
-              "contentType": "image/webp"
+              "contentType": "image/jpg"
             },
             "contentType": "featuredmedia"
           }
@@ -138,7 +138,7 @@
         "htmlid": "saas-statistics",
         "layout": "Classic L",
         "gap": null,
-        "backgroundColor": null,
+        "backgroundColor": "#FAF6F6",
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": false,
@@ -185,147 +185,82 @@
       },
       {
         "contentType": "smartsection",
-        "id": "3CLso88Ykx2zLrzgbdwZ2u",
-        "htmlid": "saas-manage-your-projects-fast",
-        "layout": "Banner",
-        "gap": "lg",
-        "backgroundColor": null,
+        "id": null,
+        "htmlid": "learn-more-about-the-doctor",
+        "layout": "Columns",
+        "gap": "xl",
+        "backgroundColor": "#FAF6F6",
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": false,
-        "sectionSeparator": false,
-        "paddingTop": "2xl",
-        "paddingBottom": "2xl",
+        "sectionSeparator": true,
+        "paddingTop": "xl",
+        "paddingBottom": "xl",
         "fullViewWidth": false,
         "content": [
           {
-            "eyebrow": null,
-            "title": "# __Manage your projects fast__",
-            "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
-            "disclaimer": null,
-            "titleFontSize": "base",
-            "alignment": "center",
-            "paddingTop": "none",
-            "paddingLeft": "none",
-            "paddingBottom": "none",
-            "paddingRight": null,
-            "contentType": "richcontent",
-            "ctas": []
-          },
-          {
             "file": {
-              "url": "https://images.ctfassets.net/ehmycbmc25mu/2DWCNIOUEQJENahOzvpKdC/7929b098ceed2a8016c414d671aad2b4/management_settings.webp",
-              "title": "management_settings.webp",
+              "url": "https://images.ctfassets.net/n8ip1shnectl/56oSVm9cfihFDNaP6COvgL/f22cb3db8ff1409d8104ae5bd3b9eaf0/agapitou-7.jpg",
+              "title": "Photo of the the doctor's desk and the office",
               "description": null,
-              "width": 729,
-              "height": 572,
-              "contentType": "image/webp"
+              "width": 771,
+              "height": 731,
+              "contentType": "image/jpg"
             },
             "contentType": "featuredmedia"
           },
           {
-            "contentType": "contentlist",
-            "id": "2bGWxyK3zwZgrwQ88IflZJ",
-            "gap": "base",
-            "layout": "grid",
-            "columns": 1,
-            "ctas": [],
-            "contentItems": [
-              {
-                "contentType": "flexiblecontent",
-                "id": "4rHbE0KEyTCK9COViWw9rQ",
-                "title": "__Create a project__",
-                "eyebrow": null,
-                "body": "With lots of unique blocks, you can easily build a page without coding. ",
-                "tags": null,
-                "redirectUrl": null,
-                "alignment": "start",
-                "layout": "horizontal",
-                "buttons": [],
-                "media": [
-                  {
-                    "url": "https://images.ctfassets.net/ehmycbmc25mu/5XPaB9kgTyy56kRs4YXZ9M/ae4cd65e8582e1f9713e23d5256e58bb/1.svg",
-                    "description": null,
-                    "width": 50,
-                    "height": 50,
-                    "contentType": "image/svg+xml",
-                    "id": "5XPaB9kgTyy56kRs4YXZ9M"
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "1PM1ueJr0W9BOdPGsXpE0c",
-                "title": "__Assign related people__",
-                "eyebrow": null,
-                "body": "With lots of unique blocks, you can easily build a page without coding. ",
-                "tags": null,
-                "redirectUrl": null,
-                "alignment": "start",
-                "layout": "horizontal",
-                "buttons": [],
-                "media": [
-                  {
-                    "url": "https://images.ctfassets.net/ehmycbmc25mu/742XK3U4WZss9sx76AUTzD/381290530cfdd8b7e9794ab4cbd2b778/2.svg",
-                    "description": null,
-                    "width": 50,
-                    "height": 50,
-                    "contentType": "image/svg+xml",
-                    "id": "742XK3U4WZss9sx76AUTzD"
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "1Inkq6jpwMay22OnD1IPkb",
-                "title": "__Make it done on-time__",
-                "eyebrow": null,
-                "body": "With lots of unique blocks, you can easily build a page without coding. ",
-                "tags": null,
-                "redirectUrl": null,
-                "alignment": "start",
-                "layout": "horizontal",
-                "buttons": [],
-                "media": [
-                  {
-                    "url": "https://images.ctfassets.net/ehmycbmc25mu/6VlKRgERvKgrzmBJoUU32y/c02ad412c0d336704621e215d15ddf5e/3.svg",
-                    "description": null,
-                    "width": 50,
-                    "height": 50,
-                    "contentType": "image/svg+xml",
-                    "id": "6VlKRgERvKgrzmBJoUU32y"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "contentType": "smartsection",
-        "id": "4jCYEQTHOSTC7SJl1VSwq2",
-        "htmlid": "saas-testimonials",
-        "layout": "Columns",
-        "gap": "xl",
-        "backgroundColor": "#f1f5f9",
-        "backgroundImage": null,
-        "enableParallaxEffect": false,
-        "darkMode": false,
-        "sectionSeparator": false,
-        "paddingTop": "2xl",
-        "paddingBottom": "2xl",
-        "fullViewWidth": false,
-        "content": [
-          {
             "eyebrow": null,
-            "title": "## __Don't just take our words for it. Let's hear from our customers.__",
-            "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+            "title": "## __Άρτια εξοπλισμένο Ιατρείο__",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",
             "paddingTop": "none",
             "paddingLeft": "none",
             "paddingBottom": "none",
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": [
+              {
+                "href": "/Agapitou-office",
+                "label": "Το Ιατρείο",
+                "openNewTab": false,
+                "variant": "secondary",
+                "withArrow": true,
+                "icon": null,
+                "id": null
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "contentType": "smartsection",
+        "id": "4jCYEQTHOSTC7SJl1VSwq2",
+        "htmlid": "patient-testimonials",
+        "layout": "Columns",
+        "gap": "xl",
+        "backgroundColor": "#FAF6F6",
+        "backgroundImage": null,
+        "enableParallaxEffect": false,
+        "darkMode": false,
+        "sectionSeparator": true,
+        "paddingTop": "2xl",
+        "paddingBottom": "2xl",
+        "fullViewWidth": false,
+        "content": [
+          {
+            "eyebrow": null,
+            "title": "## __Αξιολογήσεις Ασθενών που επισκέφτηκαν το Ιατρείο__",
+            "body": "Οι αξιολογήσεις προέρχονται από άτομα που έχουν επισκεφθεί το ιατρείο και επιθυμούν να μοιραστούν την εμπειρία τους.",
+            "disclaimer": null,
+            "titleFontSize": "base",
+            "alignment": "start",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": "xl",
             "paddingRight": "none",
             "contentType": "richcontent",
             "ctas": []
@@ -339,9 +274,9 @@
             "ctas": [],
             "contentItems": [
               {
-                "content": "### Intuitive and flexible\n\"The components are intuitive and flexible, making development fast and enjoyable. The customization options helped me create a sleek, professional design effortlessly. It’s perfect for modern web projects.\"",
-                "authorName": "Alex Carter",
-                "authorTitle": "Digital Marketer",
+                "content": "### Επεξηγηματική και Κατανοητή\n\"Η γιατρος ηταν ιδιαιτερα επεξηγηματικη. Διερευνησε το προβλημα μου κ μου εδωσε κατανοητες επεξηγησεις και οδηγιες.\"",
+                "authorName": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+                "authorTitle": null,
                 "authorImage": null,
                 "rating": 5,
                 "alignment": "center",
@@ -351,9 +286,9 @@
                 "id": "1GV2wbtNig8qwHoExp7mz1"
               },
               {
-                "content": "### Time saving\n\"This system streamlined my workflow with its reusable components and clear documentation. The design is responsive and visually stunning, saving me time while delivering excellent results. Highly recommend!\"",
-                "authorName": "Maria Lopez",
-                "authorTitle": "UX Designer",
+                "content": "### Άριστη επαγγελματίας\n\"Εξαιρετική!!!!!Την συνιστούμε ανεπιφύλακτα!!!!!! Της μεταβίβασαμε τα συγχαρητήρια για την διάγνωση από τους καρδιολογους της ΜΕΘ του Ευαγγελισμου για το επείγον καρδιολογικο πρόβλημα που αντιμετωπισαμε .Την ευχαριστούμε και την συστήνουμε για μια ακόμη φορα\"",
+                "authorName": "ΟΛΓΑ",
+                "authorTitle": null,
                 "authorImage": null,
                 "rating": 5,
                 "alignment": "center",
@@ -363,9 +298,9 @@
                 "id": "1DYnx6k8erO8X7lVbwRqsz"
               },
               {
-                "content": "### A true game-changer\n\"I was amazed by the simplicity and efficiency of the design. Integration with my tools was seamless, and the final output exceeded expectations. A true game-changer for developers!\"",
-                "authorName": "James Kim",
-                "authorTitle": "Software Engineer",
+                "content": "### Μεθοδική, προσιτή και αξιόπιστη\n\"Παρόλο που πήγα για έναν απλό καρδιολογικό έλεγχο η κα Αγαπητού έδωσε μεγάλη σημασία και προσοχή στην εξέτασή μου. Με έκανε να αισθανθώ πολύ άνετα και μου έλυσε όποιες απορίες είχα. Τη συστήνω ανεπιφύλακτα\"",
+                "authorName": "Maria",
+                "authorTitle": null,
                 "authorImage": null,
                 "rating": 5,
                 "alignment": "center",
@@ -378,297 +313,55 @@
           }
         ]
       },
+
       {
         "contentType": "smartsection",
-        "id": "6xG6U4YgzbztEemgDmq1cn",
-        "htmlid": "saas-pricing-and-plans",
-        "layout": "Rows",
-        "gap": "lg",
-        "backgroundColor": "#161c2d",
+        "id": "3HYjwddRnZKK894uA498Oj",
+        "htmlid": "saas-statistics",
+        "layout": "Classic L",
+        "gap": null,
+        "backgroundColor": "#141414",
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": true,
-        "sectionSeparator": false,
-        "paddingTop": "2xl",
-        "paddingBottom": "xl",
+        "sectionSeparator": true,
+        "paddingTop": "lg",
+        "paddingBottom": "lg",
         "fullViewWidth": false,
         "content": [
           {
-            "eyebrow": null,
-            "title": "## __Pricing & Plans__",
-            "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
-            "disclaimer": null,
-            "titleFontSize": "base",
-            "alignment": "center",
-            "paddingTop": "none",
-            "paddingLeft": "none",
-            "paddingBottom": "none",
-            "paddingRight": null,
-            "contentType": "richcontent",
-            "ctas": []
-          },
-          {
             "contentType": "contentlist",
-            "id": "4QAvfSOypii9YjGuv1QBaw",
+            "id": "65hfrXOaeKnq9uoe2R4e5a",
             "gap": "base",
             "layout": "grid",
             "columns": 3,
             "ctas": [],
             "contentItems": [
               {
-                "contentType": "pricingplan",
-                "id": "3ZZ6X9gqjZWbpNH0i2DWNO",
-                "planName": "STARTER",
-                "badge": null,
-                "featured": false,
-                "description": null,
-                "features": [
-                  "Commercial License",
-                  "100+ HTML UI Elements",
-                  "01 Domain Support"
-                ],
-                "planLimitations": [
-                  "6 Month Premium Support",
-                  "Lifetime Updates"
-                ],
-                "disclaimer": "No credit card required",
-                "alignment": "start",
-                "cta": {
-                  "href": "/demo/contact",
-                  "label": "Start Free Trial",
-                  "openNewTab": false,
-                  "variant": "primary",
-                  "withArrow": true,
-                  "icon": null
-                },
-                "pricingOptions": [
-                  {
-                    "billingCycle": "Monthly",
-                    "price": "$19",
-                    "priceSuffix": "billed monthly"
-                  },
-                  {
-                    "billingCycle": "Yearly",
-                    "price": "$190",
-                    "priceSuffix": "billed yearly"
-                  }
-                ]
+                "keyNumber": "1M+",
+                "description": "Customer visits every months",
+                "alignment": "center",
+                "layout": "vertical",
+                "contentType": "statistics",
+                "id": "4Xg1CiTXOzmdxCUCR9XmV9"
               },
               {
-                "contentType": "pricingplan",
-                "id": "4qLfOR4ykEUEeJp6cZ7g0Z",
-                "planName": "STANDARD",
-                "badge": null,
-                "featured": false,
-                "description": null,
-                "features": [
-                  "Commercial License",
-                  "100+ HTML UI Elements",
-                  "Unlimited Domain Support",
-                  "6 Month Premium Support"
-                ],
-                "planLimitations": ["Lifetime Updates"],
-                "disclaimer": "No credit card required",
+                "keyNumber": "93%",
+                "description": "Satisfaction rate from our customers.",
                 "alignment": "start",
-                "cta": {
-                  "href": "/demo/contact",
-                  "label": "Start Free Trial",
-                  "openNewTab": false,
-                  "variant": "primary",
-                  "withArrow": true,
-                  "icon": null
-                },
-                "pricingOptions": [
-                  {
-                    "billingCycle": "Monthly",
-                    "price": "$49",
-                    "priceSuffix": "billed monthly"
-                  },
-                  {
-                    "billingCycle": "Yearly",
-                    "price": "$490",
-                    "priceSuffix": "billed yearly"
-                  }
-                ]
+                "layout": "vertical",
+                "contentType": "statistics",
+                "id": "1fDHw3l1niEN4sWphcmwhV"
               },
               {
-                "contentType": "pricingplan",
-                "id": "77w6JruMungWRVfYDEI9UG",
-                "planName": "PREMIUM",
-                "badge": null,
-                "featured": false,
-                "description": null,
-                "features": [
-                  "Commercial License",
-                  "100+ HTML UI Elements",
-                  "Unlimited Domain Support",
-                  "6 Month Premium Support",
-                  "Lifetime Updates"
-                ],
-                "planLimitations": null,
-                "disclaimer": "No credit card required",
+                "keyNumber": "4.9",
+                "description": "Average customer ratings out of 5.00!",
                 "alignment": "start",
-                "cta": {
-                  "href": "/demo/contact",
-                  "label": "Start Free Trial",
-                  "openNewTab": false,
-                  "variant": "primary",
-                  "withArrow": true,
-                  "icon": null
-                },
-                "pricingOptions": [
-                  {
-                    "billingCycle": "Monthly",
-                    "price": "$99",
-                    "priceSuffix": "billed monthly"
-                  },
-                  {
-                    "billingCycle": "Yearly",
-                    "price": "$990",
-                    "priceSuffix": "billed monthly"
-                  }
-                ]
+                "layout": "vertical",
+                "contentType": "statistics",
+                "id": "2iSfAdQ4EzD9bBAe04dikO"
               }
             ]
-          }
-        ]
-      },
-      {
-        "contentType": "smartsection",
-        "id": "62A19KAjaADhdZSoMszphR",
-        "htmlid": "saas-faq",
-        "layout": "Banner",
-        "gap": "xl",
-        "backgroundColor": "#161c2d",
-        "backgroundImage": null,
-        "enableParallaxEffect": false,
-        "darkMode": true,
-        "sectionSeparator": false,
-        "paddingTop": "none",
-        "paddingBottom": "2xl",
-        "fullViewWidth": false,
-        "content": [
-          {
-            "contentType": "contentlist",
-            "id": "4phxckko4ud0xDtWt2jEZO",
-            "gap": "lg",
-            "layout": "grid",
-            "columns": 2,
-            "ctas": [],
-            "contentItems": [
-              {
-                "contentType": "flexiblecontent",
-                "id": "5gU4owPqYCp17AZewCHg5y",
-                "title": "#### __What is NovaJAM?__",
-                "eyebrow": null,
-                "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page. Integer ut Oberyn massa. Sed feugiat vitae turpis a porta. Aliquam sagittis interdum Melisandre.",
-                "tags": null,
-                "redirectUrl": null,
-                "alignment": "start",
-                "layout": "horizontal",
-                "media": [
-                  {
-                    "url": "https://images.ctfassets.net/ehmycbmc25mu/5kKf58zfV2qBYMtOSStHTu/19fe0a4be0f7d81d4d1eb67ca67ca1c2/small-right.svg",
-                    "description": null,
-                    "width": 29,
-                    "height": 29,
-                    "contentType": "image/svg+xml",
-                    "id": "5kKf58zfV2qBYMtOSStHTu"
-                  }
-                ],
-                "buttons": [
-                  {
-                    "href": null,
-                    "label": "Click to learn more",
-                    "openNewTab": false,
-                    "variant": "ghost",
-                    "withArrow": true,
-                    "icon": null,
-                    "id": "4Z5ttwKbvgpFWBo80sdh3Q"
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "70WfQGS2dWXKQcRfq5Fl08",
-                "title": "#### __Does it work with CMS?__",
-                "eyebrow": null,
-                "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page. Integer ut Oberyn massa. Sed feugiat vitae turpis a porta. Aliquam sagittis interdum Melisandre.",
-                "tags": null,
-                "redirectUrl": null,
-                "alignment": "start",
-                "layout": "horizontal",
-                "buttons": [],
-                "media": [
-                  {
-                    "url": "https://images.ctfassets.net/ehmycbmc25mu/5kKf58zfV2qBYMtOSStHTu/19fe0a4be0f7d81d4d1eb67ca67ca1c2/small-right.svg",
-                    "description": null,
-                    "width": 29,
-                    "height": 29,
-                    "contentType": "image/svg+xml",
-                    "id": "5kKf58zfV2qBYMtOSStHTu"
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "5kL9qhowwaCdXsD9mCe4fI",
-                "title": "#### __Do I get free update?__",
-                "eyebrow": null,
-                "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page. Integer ut Oberyn massa. Sed feugiat vitae turpis a porta. Aliquam sagittis interdum Melisandre.",
-                "tags": null,
-                "redirectUrl": null,
-                "alignment": "start",
-                "layout": "horizontal",
-                "buttons": [],
-                "media": [
-                  {
-                    "url": "https://images.ctfassets.net/ehmycbmc25mu/5kKf58zfV2qBYMtOSStHTu/19fe0a4be0f7d81d4d1eb67ca67ca1c2/small-right.svg",
-                    "description": null,
-                    "width": 29,
-                    "height": 29,
-                    "contentType": "image/svg+xml",
-                    "id": "5kKf58zfV2qBYMtOSStHTu"
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "1gDonykusAIwTpe2rSVUg7",
-                "title": "#### __Will you provide support?__",
-                "eyebrow": null,
-                "body": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page. Integer ut Oberyn massa. Sed feugiat vitae turpis a porta. Aliquam sagittis interdum Melisandre.",
-                "tags": null,
-                "redirectUrl": null,
-                "alignment": "start",
-                "layout": "horizontal",
-                "buttons": [],
-                "media": [
-                  {
-                    "url": "https://images.ctfassets.net/ehmycbmc25mu/5kKf58zfV2qBYMtOSStHTu/19fe0a4be0f7d81d4d1eb67ca67ca1c2/small-right.svg",
-                    "description": null,
-                    "width": 29,
-                    "height": 29,
-                    "contentType": "image/svg+xml",
-                    "id": "5kKf58zfV2qBYMtOSStHTu"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "eyebrow": null,
-            "title": null,
-            "body": "__Haven’t got your answer? [Contact our support now](https://novajam.vercel.app/contact)__",
-            "disclaimer": null,
-            "titleFontSize": "base",
-            "alignment": "center",
-            "paddingTop": "none",
-            "paddingLeft": "none",
-            "paddingBottom": "none",
-            "paddingRight": null,
-            "contentType": "richcontent",
-            "ctas": []
           }
         ]
       }

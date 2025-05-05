@@ -33,14 +33,14 @@
       {
         "id": "doctor",
         "label": "Η Καρδιολόγος",
-        "href": "/home",
+        "href": "/Agapitou",
         "openNewTab": false,
         "contentType": "link"
       },
       {
         "id": "office",
         "label": "Το Ιατρείο",
-        "href": "/home",
+        "href": "/Agapitou-office",
         "openNewTab": false,
         "contentType": "link"
       },
@@ -98,14 +98,14 @@
       {
         "id": "doctor",
         "label": "Η Καρδιολόγος",
-        "href": "/home",
+        "href": "/Agapitou",
         "openNewTab": false,
         "contentType": "link"
       },
       {
         "id": "office",
         "label": "Το Ιατρείο",
-        "href": "/home",
+        "href": "/Agapitou-office",
         "openNewTab": false,
         "contentType": "link"
       },
