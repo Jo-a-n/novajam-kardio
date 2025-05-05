@@ -4,9 +4,9 @@
     "url": "/",
     "fontMain": "Roboto",
     "fontHeading": "Roboto",
-    "colorPrimary": "indigo",
-    "colorSecondary": "fuchsia",
-    "borderRadius": "large",
+    "colorPrimary": "brand",
+    "colorSecondary": "brand",
+    "borderRadius": "medium",
     "seo": {
       "metaTitle": "Build Faster with NovaJAM SaaS Demo",
       "metaDescription": "Experience NovaJAM SaaS, the ultimate platform for creating professional landing pages effortlessly. Try our free demo to explore powerful tools and CMS integration.",
@@ -36,18 +36,18 @@
         "gap": "2xl",
         "backgroundColor": "#FAF6F6",
         "backgroundImage": {
-          "url": "https://images.ctfassets.net/n8ip1shnectl/56oSVm9cfihFDNaP6COvgL/f22cb3db8ff1409d8104ae5bd3b9eaf0/agapitou-7.jpg"
+          "url": "https://images.ctfassets.net/n8ip1shnectl/241MjUWeR4YfMk8b2aMORn/3a49a05bf18e72b4f1ed360fe3bcaf8f/hero.png"
         },
         "enableParallaxEffect": false,
-        "darkMode": false,
+        "darkMode": true,
         "sectionSeparator": true,
-        "paddingTop": "xl",
+        "paddingTop": "lg",
         "paddingBottom": "xl",
         "fullViewWidth": false,
         "content": [
           {
             "eyebrow": null,
-            "title": "# __Έλενα Αγαπητού `Καρδιολόγος`__",
+            "title": "# __Έλενα Αγαπητού - Καρδιολόγος__",
             "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "disclaimer": null,
             "titleFontSize": "xl",
@@ -60,7 +60,7 @@
             "ctas": [
               {
                 "href": "/contact",
-                "label": "Get started for free",
+                "label": "Κλείσε Ραντεβού",
                 "openNewTab": false,
                 "variant": "primary",
                 "withArrow": true,
@@ -69,7 +69,7 @@
               },
               {
                 "href": "/demo/about-us",
-                "label": "Learn More",
+                "label": "Η Καρδιολόγος",
                 "openNewTab": false,
                 "variant": "ghost",
                 "withArrow": false,

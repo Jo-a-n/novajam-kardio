@@ -183,3 +183,13 @@
   --secondary-color-500: 234, 179, 8;
   --secondary-color-600: 202, 138, 4;
 }
+.brand-primary-color {
+  --primary-color-200: 221, 172, 173;
+  --primary-color-500: 182, 73, 75;
+  --primary-color-600: 125, 28, 30;
+}
+.brand-secondary-color {
+  --secondary-color-200: 196, 196, 196;
+  --secondary-color-500: 120, 120, 120;
+  --secondary-color-600: 20, 20, 20;
+}
