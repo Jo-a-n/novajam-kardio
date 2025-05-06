@@ -25,7 +25,8 @@ export const RichContent: React.FC<{
   return (
     <div
       className={classNames('max-w-4xl flex flex-col gap-6', {
-        'items-center text-center justify-self-center': alignment === 'center',
+        'items-center text-center justify-self-center mx-auto':
+          alignment === 'center',
         'items-end text-end justify-self-end': alignment === 'end',
         //padding //@TODO refactor padding
         'pt-2 md:pt-2.5 lg:pt-3.5': paddingTop === 'xs',
