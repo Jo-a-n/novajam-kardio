@@ -38,7 +38,7 @@ export const FlexibleContent: React.FC<{
         'group',
         layout === 'horizontal'
           ? 'flex rounded-theme gap-4 lg:gap-6'
-          : 'flex flex-col rounded-theme h-full gap-4 lg:gap-6',
+          : 'flex flex-col rounded-theme h-full gap-6 lg:gap-6',
         animationClass,
       )}
       style={{ animationDelay }}
@@ -94,7 +94,7 @@ export const FlexibleContent: React.FC<{
           {title && (
             <MarkdownRenderer
               className={classNames(
-                'text-lg xl:text-xl font-heading dark:text-slate-100',
+                'text-xl font-semibold tracking-wider xl:text-xl font-heading dark:text-slate-100',
                 { 'group-hover:text-primary-500': !!redirectUrl },
               )}
             >
@@ -116,7 +116,7 @@ export const FlexibleContent: React.FC<{
           {body && (
             <MarkdownRenderer
               className={classNames(
-                'prose 2xl:prose-lg leading-loose text-slate-600 dark:text-white/80',
+                'text-lg xl:text-xl font-normal tracking-wide leading-relaxed text-slate-800 dark:text-white/70',
                 {
                   'mt-1 lg:mt-2': title || !!tags?.length,
                   'mb-3 lg:mb-5': buttons.length > 0,

@@ -23,12 +23,12 @@ export const QnA: React.FC<{ data: QAType }> = ({ data }) => {
   };
 
   return (
-    <div className="max-w-2xl rounded-theme bg-white">
+    <div className="w-full max-w-3xl rounded-theme bg-white">
       <button
         className="p-4 lg:p-6 w-full flex justify-between items-baseline gap-10"
         onClick={toggleCollapsed}
       >
-        <span className="text-lg 2xl:text-xl text-start font-heading font-semibold text-slate-800 max-w-none">
+        <span className="text-lg xl:text-xl text-start font-heading font-semibold text-slate-800 max-w-none">
           {heading}
         </span>
         <FaChevronRight

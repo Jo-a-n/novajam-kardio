@@ -82,6 +82,172 @@
       },
       {
         "contentType": "smartsection",
+        "id": "",
+        "htmlid": "services-offered",
+        "layout": "Rows",
+        "gap": "lg",
+        "backgroundColor": "#FAF6F6",
+        "backgroundImage": null,
+        "enableParallaxEffect": false,
+        "darkMode": false,
+        "sectionSeparator": false,
+        "paddingTop": "xl",
+        "paddingBottom": "xl",
+        "fullViewWidth": false,
+        "content": [
+          {
+            "eyebrow": null,
+            "title": "## __Υπηρεσίες του Ιατρείου__",
+            "disclaimer": null,
+            "titleFontSize": "sm",
+            "alignment": "center",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": "xs",
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": []
+          },
+          {
+            "contentType": "contentlist",
+            "id": "",
+            "gap": "base",
+            "layout": "grid",
+            "columns": 4,
+            "ctas": [],
+            "contentItems": [
+              {
+                "contentType": "flexiblecontent",
+                "id": "",
+                "alignment": "center",
+                "title": null,
+                "body": null,
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "href": "/services",
+                    "label": "Συνταγογράφηση",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": null
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "",
+                "alignment": "center",
+                "title": null,
+                "body": null,
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "href": "/services",
+                    "label": "Ηλεκτροκαρδιογράφημα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": null
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "",
+                "alignment": "center",
+                "title": null,
+                "body": null,
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "href": "/services",
+                    "label": "Υπερηχογράφημα (triplex)",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": null
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "",
+                "alignment": "center",
+                "title": null,
+                "body": null,
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "href": "/services",
+                    "label": "Holter ρυθμού & πίεσης",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eyebrow": null,
+            "disclaimer": null,
+            "titleFontSize": "base",
+            "alignment": "center",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": "none",
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": [
+              {
+                "href": "/services",
+                "label": "Δείτε Όλες τις Υπηρεσίες",
+                "openNewTab": false,
+                "variant": "primary",
+                "withArrow": true,
+                "icon": null,
+                "id": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "contentType": "smartsection",
         "id": "7GnfgfMwy4Zp7cKQgx3OXs",
         "htmlid": "learn-more-about-the-doctor",
         "layout": "Columns",
@@ -156,28 +322,28 @@
             "ctas": [],
             "contentItems": [
               {
-                "keyNumber": "1M+",
-                "description": "Customer visits every months",
+                "keyNumber": "15+",
+                "description": "Χρόνια Κλινικής Εμπειρίας",
                 "alignment": "start",
                 "layout": "horizontal",
                 "contentType": "statistics",
                 "id": "4Xg1CiTXOzmdxCUCR9XmV9"
               },
               {
-                "keyNumber": "93%",
-                "description": "Satisfaction rate from our customers.",
-                "alignment": "start",
-                "layout": "horizontal",
-                "contentType": "statistics",
-                "id": "1fDHw3l1niEN4sWphcmwhV"
-              },
-              {
-                "keyNumber": "4.9",
-                "description": "Average customer ratings out of 5.00!",
+                "keyNumber": "100%",
+                "description": "Ικανοποίηση σε Αξιολογήσεις",
                 "alignment": "start",
                 "layout": "horizontal",
                 "contentType": "statistics",
                 "id": "2iSfAdQ4EzD9bBAe04dikO"
+              },
+              {
+                "keyNumber": "54",
+                "description": "Συστάσεις Ασθενών (μέσω αξιολογήσεων)",
+                "alignment": "start",
+                "layout": "horizontal",
+                "contentType": "statistics",
+                "id": "1fDHw3l1niEN4sWphcmwhV"
               }
             ]
           }
@@ -316,50 +482,114 @@
 
       {
         "contentType": "smartsection",
-        "id": "3HYjwddRnZKK894uA498Oj",
-        "htmlid": "saas-statistics",
-        "layout": "Classic L",
-        "gap": null,
-        "backgroundColor": "#141414",
+        "id": "6xG6U4YgzbztEemgDmq1cn",
+        "htmlid": "contact-info",
+        "layout": "Rows",
+        "gap": "lg",
+        "backgroundColor": "#3B0C0D",
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": true,
-        "sectionSeparator": true,
-        "paddingTop": "lg",
-        "paddingBottom": "lg",
+        "sectionSeparator": false,
+        "paddingTop": "xl",
+        "paddingBottom": "xl",
         "fullViewWidth": false,
         "content": [
           {
+            "eyebrow": null,
+            "title": "## __Κλείστε Ραντεβού__",
+            "disclaimer": null,
+            "titleFontSize": "base",
+            "alignment": "center",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": "xs",
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": []
+          },
+          {
             "contentType": "contentlist",
-            "id": "65hfrXOaeKnq9uoe2R4e5a",
+            "id": "4QAvfSOypii9YjGuv1QBaw",
             "gap": "base",
             "layout": "grid",
             "columns": 3,
             "ctas": [],
             "contentItems": [
               {
-                "keyNumber": "1M+",
-                "description": "Customer visits every months",
+                "contentType": "flexiblecontent",
+                "id": "3ZZ6X9gqjZWbpNH0i2DWNO",
                 "alignment": "center",
-                "layout": "vertical",
-                "contentType": "statistics",
-                "id": "4Xg1CiTXOzmdxCUCR9XmV9"
+                "title": "Ραντεβού",
+                "titleFontSize": "xl",
+                "body": "+30 210 99 00 000 \n\n+30 697 40 00 000",
+                "media": [
+                  {
+                    "type": "svg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/1H9EuhZJkpwbu8Dswr3cbm/7439a01ac8239e68428a964c61031651/phone.svg",
+                    "width": 56,
+                    "height": 56,
+                    "description": "Phone icon"
+                  }
+                ],
+                "buttons": []
               },
               {
-                "keyNumber": "93%",
-                "description": "Satisfaction rate from our customers.",
-                "alignment": "start",
-                "layout": "vertical",
-                "contentType": "statistics",
-                "id": "1fDHw3l1niEN4sWphcmwhV"
+                "contentType": "flexiblecontent",
+                "id": "3ZZ6X9gqjZWbpNH0i2DWNO",
+                "alignment": "center",
+                "title": "Email",
+                "body": "contact@example.com",
+                "media": [
+                  {
+                    "type": "svg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/4ASDODdyWDwLzKiRmFaq8m/2c0dc493235d05eb763fc872352d8147/email.svg",
+                    "width": 56,
+                    "height": 56,
+                    "description": "Email icon"
+                  }
+                ],
+                "buttons": []
               },
               {
-                "keyNumber": "4.9",
-                "description": "Average customer ratings out of 5.00!",
-                "alignment": "start",
-                "layout": "vertical",
-                "contentType": "statistics",
-                "id": "2iSfAdQ4EzD9bBAe04dikO"
+                "contentType": "flexiblecontent",
+                "id": "3ZZ6X9gqjZWbpNH0i2DWNO",
+                "alignment": "center",
+                "gap": "base",
+                "title": "Ιατρείο",
+                "body": "Σοφοκλή Βενιζέλου 101 (πλησίον Δημαρχείου Ηλιούπολης), \n\n Ηλιούπολη, 16343",
+                "media": [
+                  {
+                    "type": "svg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/7HhUxmdNiaR6bGhpCwm30I/5c37751acbfa75eebfd50bdf4d07d07b/location.svg",
+                    "width": 56,
+                    "height": 56,
+                    "description": "Location icon"
+                  }
+                ],
+                "buttons": []
+              }
+            ]
+          },
+          {
+            "eyebrow": null,
+            "disclaimer": null,
+            "titleFontSize": "base",
+            "alignment": "center",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": "none",
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": [
+              {
+                "href": "/contact",
+                "label": "Επικοινωνία",
+                "openNewTab": false,
+                "variant": "primary",
+                "withArrow": true,
+                "icon": null,
+                "id": null
               }
             ]
           }
@@ -368,22 +598,22 @@
     ]
   },
   {
-    "title": "NovaJAM | FAQ",
+    "title": "Agapitou | Services",
     "url": "/services",
     "seo": null,
     "fontMain": "Roboto",
     "fontHeading": null,
-    "colorPrimary": "indigo",
-    "colorSecondary": "fuchsia",
-    "borderRadius": "large",
+    "colorPrimary": "brand",
+    "colorSecondary": "brand",
+    "borderRadius": "medium",
     "content": [
       {
         "contentType": "smartsection",
         "id": "3rEt8vWsKMieYuIssJS3PJ",
-        "htmlid": "novajam-faq",
-        "layout": "Banner",
+        "htmlid": "cardio-services",
+        "layout": "Rows",
         "gap": "lg",
-        "backgroundColor": "#f1f5f9",
+        "backgroundColor": "#F4F5F9",
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": false,
@@ -394,7 +624,7 @@
         "content": [
           {
             "eyebrow": null,
-            "title": "# __Frequently Asked Questions__",
+            "title": "# __Υπηρεσίες Ιατρείου__",
             "body": null,
             "disclaimer": null,
             "titleFontSize": "lg",
@@ -415,53 +645,119 @@
             "ctas": [],
             "contentItems": [
               {
-                "heading": "What is NovaJAM, and why should you choose it?",
-                "body": "NovaJAM is a multi-purpose Next.js template integrated with headless CMS for landing pages, blog, custom forms, and more. It's built with a focus on ease of use, scalability, and practical functionality, making it unique for fast deployment.",
+                "heading": "Συνταγογράφηση",
+                "body": "Συνταγογράφηση φαρμάκων & εξετάσεων μέσω Ε.Ο.Π.Υ.Υ.",
                 "isCollapsed": false,
                 "contentType": "qa",
                 "id": "4INRC6VubZJ38c7QV5lRmo"
               },
               {
-                "heading": "Is there a PRO version of NovaJAM, and what are the benefits?",
-                "body": "Yes, NovaJAM PRO includes additional features and components, available as a private repository. It’s designed for advanced use cases and offers exclusive functionalities for complex projects.",
+                "heading": "Ηλεκτροκαρδιογράφημα",
+                "body": "Απαραίτητο μέρος της βασικής καρδιολογικής εξέτασης. Μέσω της καταγραφής της ηλεκτρικής δραστηριότητας της καρδιάς μας δίνει ουσιώδεις πληροφορίες οι οποίες σε συνδυασμό με το ιστορικό και την κλινική εξέταση διαμορφώνουν την αρχική εκτίμηση της καρδιακής λειτουργίας.",
                 "isCollapsed": true,
                 "contentType": "qa",
                 "id": "18b9kaQhWYHzM3Y5RBlNao"
               },
               {
-                "heading": "Can I customize the design of each section in NovaJAM?",
-                "body": "Absolutely! NovaJAM offers customizable section layouts and styling options, including flexible layout configurations, so you can adjust each section's appearance based on your needs.",
+                "heading": "Υπερηχογράφημα (triplex) καρδίας & αορτής",
+                "body": "Υπερηχογράφημα (triplex) καρδίας & αορτής είναι η βασικότερη εξέταση που εκτιμά τη δομή και λειτουργία της καρδιάς καθώς και της αορτής για τυχόν ανευρύσματα.",
                 "isCollapsed": true,
                 "contentType": "qa",
                 "id": "2FD9hWooUADvxgB8uFiymE"
               },
               {
-                "heading": "What kind of support does NovaJAM offer for dynamic content?",
-                "body": "NovaJAM provides rich integration with dynamic content sources like Contentful or Strapi. You can configure it to fetch data dynamically from your CMS or use static JSON files for enhanced performance.",
+                "heading": "Holter ρυθμού (24ώρου & 48ώρου)",
+                "body": "Συνεχόμενη καταγραφή ηλεκτροκαρδιογραφήματος για 24 ή 48 ώρες, μέσω μιας ειδικής μικρής συσκευής. Χρησιμοποιείται για διερεύνηση συμπτωμάτων όπως αίσθημα παλμών, ζάλη λιποθυμία κ.α.",
                 "isCollapsed": true,
                 "contentType": "qa",
                 "id": "6K0dDeOocdGIhEjHqGgIzP"
               },
               {
-                "heading": "Does NovaJAM support multiple CMS platforms?",
-                "body": "Yes, NovaJAM currently supports [Contentful](https://www.contentful.com/), [Directus](https://directus.io/) and plans to expand compatibility to additional platforms like Sanity and Strapi for flexibility in content management.",
+                "heading": "Holter πίεσης",
+                "body": "Παρακολούθηση της αρτηριακής πίεσης για 24 ώρες. Πραγματοποιείται με ειδική μικρή συσκευή με περιχειρίδα που μετρά την αρτηριακή πίεση σε τακτά χρονικά διαστήματα κατά τη διάρκεια της ημέρας, ενώ ο ασθενής εκτελεί κανονικά τις καθημερινές του δραστηριότητες, αλλά και κατά τη διάρκεια της νύχτας. Χρησιμοποείται για τη διάγνωση της αρτηρικής υπέρτασης αλλά και για παρακολούθηση της αποτελεσματικότητας της θεραπείας σε ασθενείς υπό φαρμακευτική αγωγή.",
                 "isCollapsed": true,
                 "contentType": "qa",
                 "id": "AFanPV5njQiSvUBxwEitf"
               },
               {
-                "heading": "Is NovaJAM open-source, and are there licensing options?",
-                "body": "NovaJAM’s core is open-source, with a range of licenses available depending on the intended use. For commercial purposes, a Standard Commercial License is recommended.",
+                "heading": "Διερεύνηση συμπτωμάτων",
+                "body": "Διερεύνηση διάφορων συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.",
                 "isCollapsed": true,
                 "contentType": "qa",
                 "id": "1JBbAcOYiVGPG576skXDVs"
               },
               {
-                "heading": "How frequently is NovaJAM updated, and can I expect new features?",
-                "body": "NovaJAM is actively maintained, with regular updates and new features based on community feedback. You can look forward to improvements and integrations over time!",
+                "heading": "Προληπτικός έλεγχος",
+                "body": "Προληπτικός έλεγχος ενηλίκων και παιδιών.",
                 "isCollapsed": true,
                 "contentType": "qa",
                 "id": "3gjVlrG5IBpjbrgULeUVlc"
+              },
+              {
+                "heading": "Προεγχειρητικός έλεγχος",
+                "body": "Προεγχειρητικός καρδιολογικός έλεγχος για την εκτίμηση της καρδιακής λειτουργίας πριν από χειρουργικές επεμβάσεις.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": ""
+              },
+              {
+                "heading": "Πιστοποιητικά υγείας / βεβαιώσεις / ΚΕΠΑ",
+                "body": "Έκδοση πιστοποιητικών υγείας, βεβαιώσεων για εργασία, αθλητικές δραστηριότητες ή ΚΕΠΑ, σύμφωνα με τις ισχύουσες ιατρικές προδιαγραφές.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": ""
+              },
+              {
+                "heading": "Διαχείριση παθήσεων",
+                "body": "Διαχείριση παθήσεων όπως υπέρταση, δυσλιπιδαιμία, στεφανιαία νόσο, αρρυθμίες, ανεύρυσμα αορτής, καρδιακή ανεπάρκεια, βαλβιδοπάθειες, μυοκαρδιοπάθειες κ.α.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": ""
+              },
+              {
+                "heading": "Δοκιμάσια κόπωσης με τάπητα",
+                "body": "Παρακολούθηση και καταγραφή του ηλεκτροκαρδιογραφήματος και της αρτηριακής πίεσης κατά τη διάρκεια φυσικής άσκησης (γρήγορο βάδισμα στο διάδρομο). Γίνεται στα πλαίσια διερεύνησης συμπτωμάτων όπως πόνος στο στήθος ή δύσπνοια αλλά και για την εκτίμηση της φυσικής κατάσταση, της αρτηριακής πίεσης και του καρδιακακού ρυθμού του ασθενή κατά την άσκηση. ",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": ""
+              },
+              {
+                "heading": "Ιατρείο διακοπής καπνίσματος",
+                "body": "Στόχος είναι αφενός να εξηγήσουμε στον ασθενή τα πολλαπλά οφέλη από τη διακοπή του καπνίσματος και αφετέρου να τον βοηθήσουμε με ειδική φαρμακευτική αγωγή και παρακολούθηση, εφόσον έχει αποφασίσει να διακόψει το κάπνισμα. Απευθύνεται είτε σε άτομα που επιθυμούν να διακόψουν το κάπνισμα είτε σε ασθενείς με καρδιολογικό ιστορικό που τους συνεστήθη άμεση και οριστική διακοπή του καπνίσματος (πχ μετά από έμφραγμα). Μέσω ειδικής φαρμακευτικής αγωγής που προσαρμόζεται στις ανάγκες του εκάστοτε ασθενή, αυξάνονται σημαντικά τα ποσοστά αποτελεσματικής διακοπής του καπνίσματος.\n\n[Δείτε την Πιστοποίηση(mailto:info@example.com)",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": ""
+              },
+              {
+                "heading": "Επίσκεψη κατ' οίκον",
+                "body": "Δυνατότητα εξέτασης κατ'οίκον όπου μπορεί να διενεργηθεί ηλεκτροκαρδιογράφημα και υπέρηχος καρδιάς με φορητό εξοπλισμό.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": ""
+              }
+            ]
+          },
+          {
+            "eyebrow": null,
+            "title": "",
+            "body": null,
+            "disclaimer": null,
+            "titleFontSize": "lg",
+            "alignment": "center",
+            "paddingTop": null,
+            "paddingLeft": null,
+            "paddingBottom": null,
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": [
+              {
+                "href": "/contact",
+                "label": "'Εχετε απορίες;",
+                "openNewTab": false,
+                "variant": "primary",
+                "withArrow": true,
+                "icon": null,
+                "id": null
               }
             ]
           }
@@ -470,7 +766,132 @@
     ]
   },
   {
-    "title": "NovaJAM | Demo | Contact Us",
+    "title": "Agapitou | Η Καρδιολόγος",
+    "url": "/Agapitou",
+    "seo": {
+      "metaTitle": "Demo | Contact Us",
+      "metaDescription": "Experience NovaJAM, the ultimate platform for creating professional landing pages effortlessly. Try our free demo to explore powerful tools and CMS integration.",
+      "canonicalUrl": "https://novajam.vercel.app/demo/saas",
+      "focusKeywords": [
+        "NovaJAM SaaS demo",
+        "Landing page builder SaaS",
+        "Try NovaJAM SaaS",
+        "CMS integration SaaS"
+      ],
+      "nofollow": false,
+      "noindex": false,
+      "ogImage": {
+        "url": "https://images.ctfassets.net/ehmycbmc25mu/4uwb5J8TNJwyLoJRmhdQ56/9c3b23a015e7942d5c6b993206dcf94b/screenshot_saas.webp",
+        "width": 2880,
+        "height": 3840,
+        "description": null,
+        "contentType": "image/webp"
+      }
+    },
+    "fontMain": "Roboto",
+    "fontHeading": null,
+    "colorPrimary": "brand",
+    "colorSecondary": "brand",
+    "borderRadius": "large",
+    "content": [
+      {
+        "contentType": "smartsection",
+        "id": "6Wc0xMQoZAkg20dWJ0WVHO",
+        "htmlid": "novajam-contact",
+        "layout": "Rows",
+        "gap": "lg",
+        "backgroundColor": "#FAF6F6",
+        "enableParallaxEffect": false,
+        "darkMode": false,
+        "sectionSeparator": true,
+        "paddingTop": "2xl",
+        "paddingBottom": "2xl",
+        "fullViewWidth": false,
+        "backgroundImage": null,
+        "content": [
+          {
+            "eyebrow": null,
+            "title": "## __Γνωρίστε την Έλενα Αγαπητού__",
+            "disclaimer": null,
+            "titleFontSize": "lg",
+            "body": "Μάθετε περισσότερα για την εμπειρία, τις ειδικεύσεις και τη δέσμευσή της στην πρόληψη και την καρδιολογική φροντίδα υψηλού επιπέδου.",
+            "alignment": "center",
+            "paddingTop": "none",
+            "paddingLeft": null,
+            "paddingBottom": "sm",
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": []
+          },
+          {
+            "file": {
+              "url": "https://images.ctfassets.net/n8ip1shnectl/6Mjfeu3Ut000EfvWeYjRtX/25d2c5f190493fffeef8ea728a7e3def/agapitou-hero.png",
+              "title": "Photo of the doctor in her desk, smiling",
+              "description": null,
+              "width": 2220,
+              "height": 1046,
+              "contentType": "image/jpg"
+            },
+            "contentType": "featuredmedia"
+          }
+        ]
+      },
+      {
+        "contentType": "smartsection",
+        "id": "",
+        "htmlid": "office-location",
+        "layout": "Columns",
+        "gap": "lg",
+        "backgroundColor": "#F2F3F8",
+        "backgroundImage": null,
+        "enableParallaxEffect": false,
+        "darkMode": false,
+        "sectionSeparator": true,
+        "paddingTop": "xl",
+        "paddingBottom": "xl",
+        "fullViewWidth": false,
+        "content": [
+          {
+            "eyebrow": null,
+            "title": "## __Βρείτε μας__",
+            "body": "__Διεύθυνση:__ Σοφοκλή Βενιζέλου 101 (πλησίον Δημαρχείου Ηλιούπολης), Ηλιούπολη, 16343\n\n__Parking:__ Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο.",
+            "disclaimer": null,
+            "titleFontSize": "base",
+            "alignment": "start",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": "none",
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": [
+              {
+                "href": "https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7",
+                "label": "Άνοιγμα στο Google Maps",
+                "openNewTab": true,
+                "variant": "secondary",
+                "withArrow": true,
+                "icon": null,
+                "id": ""
+              }
+            ]
+          },
+          {
+            "file": {
+              "url": "https://images.ctfassets.net/n8ip1shnectl/1l9EqI9bS9EbXVa5PBLy72/8386f6bebb56dca3117af2ad30d39304/map2.jpg",
+              "title": "Satelite photo of the office location",
+              "description": null,
+              "width": 771,
+              "height": 731,
+              "contentType": "image/jpg"
+            },
+            "contentType": "featuredmedia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Agapitou | Επικοινωνία",
     "url": "/contact",
     "seo": {
       "metaTitle": "Demo | Contact Us",
@@ -492,93 +913,157 @@
         "contentType": "image/webp"
       }
     },
-    "fontMain": "Inter",
+    "fontMain": "Roboto",
     "fontHeading": null,
-    "colorPrimary": "indigo",
-    "colorSecondary": "fuchsia",
+    "colorPrimary": "brand",
+    "colorSecondary": "brand",
     "borderRadius": "large",
     "content": [
       {
         "contentType": "smartsection",
         "id": "6Wc0xMQoZAkg20dWJ0WVHO",
         "htmlid": "novajam-contact",
-        "layout": "Columns",
-        "gap": "xl",
-        "backgroundColor": "#1e293b",
+        "layout": "Rows",
+        "gap": "lg",
+        "backgroundColor": "#F2F3F8",
         "enableParallaxEffect": false,
-        "darkMode": true,
-        "sectionSeparator": false,
+        "darkMode": false,
+        "sectionSeparator": true,
         "paddingTop": "2xl",
-        "paddingBottom": "xl",
+        "paddingBottom": "2xl",
         "fullViewWidth": false,
-        "backgroundImage": {
-          "url": "https://images.ctfassets.net/ehmycbmc25mu/6yB5yydJlheRmTdugQ6Thx/dffa4885764019cc043e7b1ab6b9f239/spreading_bg.webp",
-          "title": "spreading background",
-          "width": 3200,
-          "height": 1602,
-          "contentType": "image/webp"
-        },
+        "backgroundImage": null,
         "content": [
           {
             "eyebrow": null,
-            "title": "![Chat](//images.ctfassets.net/ehmycbmc25mu/6bMbN31gXbvFMsKnFpHYtx/c91691730a33f74254fba14305eda3be/Chat.svg)\n# __Contact Us__",
-            "body": "With highly flexible blocks, you can easily build a page without coding. Build your next landing page with NovaJAM.",
+            "title": "## __Επικοινωνία__",
             "disclaimer": null,
             "titleFontSize": "lg",
-            "alignment": "start",
-            "paddingTop": null,
+            "body": "Έχετε απορίες ή θέλετε να προγραμματίσετε ραντεβού; Επικοινωνήστε με το Ιατρείο για ό,τι χρειάζεστε.",
+            "alignment": "center",
+            "paddingTop": "none",
             "paddingLeft": null,
-            "paddingBottom": null,
+            "paddingBottom": "sm",
             "paddingRight": null,
             "contentType": "richcontent",
             "ctas": []
           },
           {
-            "contentType": "form",
-            "id": "4GVYOLJAPkiNvA9NV4K64",
-            "internalName": "Contact NovaJAM",
-            "submitButtonLabel": null,
-            "submitButtonVariant": null,
-            "disclaimer": null,
-            "formType": "contact",
-            "dateFormat": "MM/DD/YYYY",
-            "successMessage": "Thank you! Your submission has been sent.",
-            "errorMessage": "Your submission has failed. Please try again.",
-            "fields": [
+            "contentType": "contentlist",
+            "id": "",
+            "gap": "base",
+            "layout": "grid",
+            "paddingLeft": 60,
+            "paddingRight": 60,
+            "columns": 3,
+            "ctas": [],
+            "contentItems": [
               {
-                "label": "Name",
-                "fieldType": "text",
-                "options": null,
-                "required": true,
-                "placeholder": "John Doe",
-                "helpText": null,
-                "uiWidth": "full-size",
-                "hideLabel": null,
-                "id": "7cTsNa2zV2NUQndFxl1sIU"
+                "contentType": "flexiblecontent",
+                "id": "",
+                "alignment": "center",
+                "title": "Ραντεβού",
+                "titleFontSize": "xl",
+                "body": "+30 210 99 00 000 \n\n+30 697 40 00 000",
+                "media": [
+                  {
+                    "type": "svg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/1H9EuhZJkpwbu8Dswr3cbm/7439a01ac8239e68428a964c61031651/phone.svg",
+                    "width": 56,
+                    "height": 56,
+                    "description": "Phone icon"
+                  }
+                ],
+                "buttons": []
               },
               {
-                "label": "Email",
-                "fieldType": "email",
-                "options": null,
-                "required": true,
-                "placeholder": "john@gmail.com",
-                "helpText": null,
-                "uiWidth": "full-size",
-                "hideLabel": null,
-                "id": "5hAc9rRtJjmRCat0jlc7jv"
+                "contentType": "flexiblecontent",
+                "id": "",
+                "alignment": "center",
+                "title": "Email",
+                "body": "contact@example.com",
+                "media": [
+                  {
+                    "type": "svg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/4ASDODdyWDwLzKiRmFaq8m/2c0dc493235d05eb763fc872352d8147/email.svg",
+                    "width": 56,
+                    "height": 56,
+                    "description": "Email icon"
+                  }
+                ],
+                "buttons": []
               },
               {
-                "label": "Message",
-                "fieldType": "textarea",
-                "options": null,
-                "required": true,
-                "placeholder": "How can we help?",
-                "helpText": null,
-                "uiWidth": "full-size",
-                "hideLabel": null,
-                "id": "3QCgDo32jMqQpujwelpzrI"
+                "contentType": "flexiblecontent",
+                "id": "",
+                "alignment": "center",
+                "gap": "base",
+                "title": "Ιατρείο",
+                "body": "Σοφοκλή Βενιζέλου 101 (πλησίον Δημαρχείου Ηλιούπολης), \n\n Ηλιούπολη, 16343",
+                "media": [
+                  {
+                    "type": "svg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/7HhUxmdNiaR6bGhpCwm30I/5c37751acbfa75eebfd50bdf4d07d07b/location.svg",
+                    "width": 56,
+                    "height": 56,
+                    "description": "Location icon"
+                  }
+                ],
+                "buttons": []
               }
             ]
+          }
+        ]
+      },
+      {
+        "contentType": "smartsection",
+        "id": "",
+        "htmlid": "office-location",
+        "layout": "Columns",
+        "gap": "lg",
+        "backgroundColor": "#F2F3F8",
+        "backgroundImage": null,
+        "enableParallaxEffect": false,
+        "darkMode": false,
+        "sectionSeparator": true,
+        "paddingTop": "xl",
+        "paddingBottom": "xl",
+        "fullViewWidth": false,
+        "content": [
+          {
+            "eyebrow": null,
+            "title": "## __Βρείτε μας__",
+            "body": "__Διεύθυνση:__ Σοφοκλή Βενιζέλου 101 (πλησίον Δημαρχείου Ηλιούπολης), Ηλιούπολη, 16343\n\n__Parking:__ Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο.",
+            "disclaimer": null,
+            "titleFontSize": "base",
+            "alignment": "start",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": "none",
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": [
+              {
+                "href": "https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7",
+                "label": "Άνοιγμα στο Google Maps",
+                "openNewTab": true,
+                "variant": "secondary",
+                "withArrow": true,
+                "icon": null,
+                "id": ""
+              }
+            ]
+          },
+          {
+            "file": {
+              "url": "https://images.ctfassets.net/n8ip1shnectl/1l9EqI9bS9EbXVa5PBLy72/8386f6bebb56dca3117af2ad30d39304/map2.jpg",
+              "title": "Satelite photo of the office location",
+              "description": null,
+              "width": 771,
+              "height": 731,
+              "contentType": "image/jpg"
+            },
+            "contentType": "featuredmedia"
           }
         ]
       }

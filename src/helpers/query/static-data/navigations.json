@@ -24,13 +24,6 @@
         "contentType": "link"
       },
       {
-        "id": "services",
-        "label": "Υπηρεσίες",
-        "href": "/services",
-        "openNewTab": false,
-        "contentType": "link"
-      },
-      {
         "id": "doctor",
         "label": "Η Καρδιολόγος",
         "href": "/Agapitou",
@@ -41,6 +34,13 @@
         "id": "office",
         "label": "Το Ιατρείο",
         "href": "/Agapitou-office",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
+        "id": "services",
+        "label": "Υπηρεσίες",
+        "href": "/services",
         "openNewTab": false,
         "contentType": "link"
       },
@@ -69,7 +69,7 @@
     "logoRedirect": "/",
     "showModeSelector": false,
     "layout": "overlay",
-    "darkMode": true,
+    "darkMode": false,
     "logo": {
       "id": "logo",
       "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
@@ -89,13 +89,6 @@
         "contentType": "link"
       },
       {
-        "id": "services",
-        "label": "Υπηρεσίες",
-        "href": "/services",
-        "openNewTab": false,
-        "contentType": "link"
-      },
-      {
         "id": "doctor",
         "label": "Η Καρδιολόγος",
         "href": "/Agapitou",
@@ -106,6 +99,13 @@
         "id": "office",
         "label": "Το Ιατρείο",
         "href": "/Agapitou-office",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
+        "id": "services",
+        "label": "Υπηρεσίες",
+        "href": "/services",
         "openNewTab": false,
         "contentType": "link"
       },
