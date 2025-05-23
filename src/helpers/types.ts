@@ -79,6 +79,7 @@ export interface FooterType {
   description: string | null;
   copyright: string | null;
   menuItems: Array<LinkGroupType>;
+  menuItems2: Array<LinkGroupType>;
   backgroundColor: string | null;
   backgroundImage: MediaType | null;
   darkMode: boolean;

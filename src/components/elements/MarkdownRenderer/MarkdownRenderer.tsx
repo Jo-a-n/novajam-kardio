@@ -69,6 +69,14 @@ export const MarkdownRenderer: React.FC<{
             {children}
           </del>
         ),
+        a: ({ children, ...props }) => (
+          <a
+            className="underline underline-offset-4 decoration-primary-500 transition transform hover:decoration-primary-200"
+            {...props}
+          >
+            {children}
+          </a>
+        ),
       }}
     >
       {children}

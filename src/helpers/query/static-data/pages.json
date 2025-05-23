@@ -60,7 +60,7 @@
             "ctas": [
               {
                 "href": "/contact",
-                "label": "Κλείσε Ραντεβού",
+                "label": "Κλείστε Ραντεβού",
                 "openNewTab": false,
                 "variant": "secondary",
                 "withArrow": false,
@@ -526,7 +526,7 @@
                 "alignment": "center",
                 "title": "Ραντεβού",
                 "titleFontSize": "xl",
-                "body": "+30 210 99 00 000 \n\n+30 697 40 00 000",
+                "body": "[+30 210 993 7962](tel:+302109937962) \n\n[+30 697 4150 899](tel:+306974150899)",
                 "media": [
                   {
                     "type": "svg",
@@ -543,7 +543,7 @@
                 "id": "3ZZ6X9gqjZWbpNH0i2DWNO",
                 "alignment": "center",
                 "title": "Email",
-                "body": "contact@example.com",
+                "body": "info@kardiologos-agapitou.gr",
                 "media": [
                   {
                     "type": "svg",
@@ -561,7 +561,7 @@
                 "alignment": "center",
                 "gap": "base",
                 "title": "Ιατρείο",
-                "body": "Σοφοκλή Βενιζέλου 101 (πλησίον Δημαρχείου Ηλιούπολης), \n\n Ηλιούπολη, 16343",
+                "body": "[Σοφοκλή Βενιζέλου 101,](https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7) \n\n[Ηλιούπολη, 16343 (2ος όροφος)](https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7)",
                 "media": [
                   {
                     "type": "svg",
@@ -755,8 +755,17 @@
             "contentType": "richcontent",
             "ctas": [
               {
+                "href": "/Agapitou-office",
+                "label": "Δείτε το Ιατρείο",
+                "openNewTab": false,
+                "variant": "secondary",
+                "withArrow": false,
+                "icon": null,
+                "id": null
+              },
+              {
                 "href": "/contact",
-                "label": "'Εχετε απορίες;",
+                "label": "Κλείστε Ραντεβού",
                 "openNewTab": false,
                 "variant": "primary",
                 "withArrow": true,
@@ -1124,7 +1133,7 @@
         "htmlid": "office-description",
         "layout": "Columns",
         "verticalAlignment": "bottom",
-        "gap": "base",
+        "gap": "lg",
         "backgroundColor": "#F2F3F8",
         "backgroundImage": null,
         "enableParallaxEffect": false,
@@ -1165,12 +1174,21 @@
             "ctas": [
               {
                 "href": "/contact",
-                "label": "Περισσότερα",
+                "label": "Κλείστε Ραντεβού",
                 "openNewTab": false,
+                "variant": "primary",
+                "withArrow": false,
+                "icon": null,
+                "id": "0733bcbe-95f8-47b1-95a1-49c8bb0da728"
+              },
+              {
+                "href": "https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7",
+                "label": "Άνοιγμα στο Google Maps",
+                "openNewTab": true,
                 "variant": "secondary",
                 "withArrow": true,
                 "icon": null,
-                "id": null
+                "id": "5dd4f2dd-8ea4-40f7-90aa-9be8b801fff6"
               }
             ]
           }
@@ -1252,7 +1270,7 @@
                 "alignment": "center",
                 "title": "Ραντεβού",
                 "titleFontSize": "xl",
-                "body": "+30 210 99 00 000 \n\n+30 697 40 00 000",
+                "body": "[+30 210 993 7962](tel:+302109937962) \n\n[+30 697 4150 899](tel:+306974150899)",
                 "media": [
                   {
                     "type": "svg",
@@ -1269,7 +1287,7 @@
                 "id": "8d667d76-1eb7-4e57-93cc-2053c1d2bffd",
                 "alignment": "center",
                 "title": "Email",
-                "body": "contact@example.com",
+                "body": "info@kardiologos-agapitou.gr",
                 "media": [
                   {
                     "type": "svg",
@@ -1287,7 +1305,7 @@
                 "alignment": "center",
                 "gap": "base",
                 "title": "Ιατρείο",
-                "body": "Σοφοκλή Βενιζέλου 101 (πλησίον Δημαρχείου Ηλιούπολης), \n\n Ηλιούπολη, 16343",
+                "body": "[Σοφοκλή Βενιζέλου 101,](https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7) \n\n[Ηλιούπολη, 16343 (2ος όροφος)](https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7)",
                 "media": [
                   {
                     "type": "svg",
@@ -1321,7 +1339,7 @@
           {
             "eyebrow": null,
             "title": "## __Βρείτε μας__",
-            "body": "__Διεύθυνση:__ Σοφοκλή Βενιζέλου 101 (πλησίον Δημαρχείου Ηλιούπολης), Ηλιούπολη, 16343\n\n__Parking:__ Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο.",
+            "body": "__Διεύθυνση:__ Σοφοκλή Βενιζέλου 101 (πλησίον Δημαρχείου Ηλιούπολης), Ηλιούπολη, 16343\n\n__Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο__.",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",

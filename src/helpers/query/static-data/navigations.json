@@ -55,7 +55,7 @@
     "buttons": [
       {
         "id": "5ch7AWS9JLFOzlZ2HA35H5",
-        "label": "Κλείσε Ραντεβού",
+        "label": "Κλείστε Ραντεβού",
         "href": "/contact",
         "openNewTab": false,
         "variant": "primary",
@@ -120,7 +120,7 @@
     "buttons": [
       {
         "id": "5ch7AWS9JLFOzlZ2HA35H5",
-        "label": "Κλείσε Ραντεβού",
+        "label": "Κλείστε Ραντεβού",
         "href": "/contact",
         "openNewTab": false,
         "variant": "outline",

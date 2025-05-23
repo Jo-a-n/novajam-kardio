@@ -15,6 +15,7 @@ export const Footer: React.FC<Props> = ({ data }) => {
     description,
     copyright,
     menuItems,
+    menuItems2,
     backgroundColor,
     backgroundImage,
     darkMode,
@@ -43,7 +44,7 @@ export const Footer: React.FC<Props> = ({ data }) => {
       }}
     >
       <div className="container py-20 flex flex-wrap gap-x-5 gap-y-10">
-        <div className="w-full lg:w-1/2 xl:w-1/3 flex flex-col gap-4 lg:gap-8 items-center lg:items-start">
+        <div className="w-full lg:w-1/2 2xl:w-1/3 flex flex-col gap-4 lg:gap-8 items-center lg:items-start">
           {logo?.url && (
             <Link
               href={logoRedirect ?? '/'}
@@ -59,7 +60,7 @@ export const Footer: React.FC<Props> = ({ data }) => {
             </Link>
           )}
           {description && (
-            <div className="prose text-slate-600 dark:text-white/80 dark:prose-invert">
+            <div className="prose text-slate-600 dark:text-white/80 dark:prose-invert pt-4">
               <MarkdownRenderer>{description}</MarkdownRenderer>
             </div>
           )}
@@ -69,13 +70,13 @@ export const Footer: React.FC<Props> = ({ data }) => {
             </p>
           )}
         </div>
-        <div className="grow flex flex-wrap gap-8 justify-center lg:justify-end">
+        <div className="grow flex sm:flex-1 flex-wrap gap-8 px-4 sm:px-10 justify-center lg:justify-end">
           {menuItems.map((item, idx) => (
             <div
               key={idx}
               className={classNames(
-                'basis-40 flex flex-col gap-2 dark:text-slate-100',
-                { 'xl:col-start-10': menuItems.length === 1 },
+                'basis-64 items-center sm:items-start flex flex-col gap-2 dark:text-slate-100',
+                { 'md:col-start-10': menuItems.length === 1 },
               )}
             >
               <div
@@ -88,7 +89,36 @@ export const Footer: React.FC<Props> = ({ data }) => {
                   key={link.label}
                   href={link.href}
                   className={classNames(
-                    'self-start select-none text-slate-600 dark:text-white/80 before:bg-primary-500 dark:before:bg-white underline-hover-effect',
+                    'self-center sm:self-start select-none text-slate-600 dark:text-white/80 before:bg-primary-500 dark:before:bg-white underline-hover-effect',
+                  )}
+                  target={link.openNewTab ? '_blank' : '_self'}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          ))}
+        </div>
+        <div className="grow flex sm:flex-1 flex-wrap gap-8 px-4 sm:px-10 justify-center lg:justify-end">
+          {menuItems2.map((item, idx) => (
+            <div
+              key={idx}
+              className={classNames(
+                'basis-64 items-center sm:items-start flex flex-col gap-2 dark:text-slate-100',
+                { 'md:col-start-10': menuItems2.length === 1 },
+              )}
+            >
+              <div
+                className={classNames('font-semibold mb-1 dark:text-slate-100')}
+              >
+                {item.label}
+              </div>
+              {item.links.map((link) => (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className={classNames(
+                    'self-center sm:self-start text-center sm:text-start select-none text-slate-600 dark:text-white/80 before:bg-primary-500 dark:before:bg-white underline-hover-effect',
                   )}
                   target={link.openNewTab ? '_blank' : '_self'}
                 >

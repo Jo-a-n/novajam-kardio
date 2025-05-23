@@ -3,52 +3,73 @@
     "url": "/",
     "logo": {
       "id": "logo",
-      "url": "https://images.ctfassets.net/ehmycbmc25mu/7vvCItsTwfA8tl0SyqlzWT/b8c89a775becaac933165795be38ef05/novajam_logo_black.webp",
-      "title": "novajam logo black",
+      "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
+      "title": "agapitou logo",
       "description": null,
-      "width": 1055,
+      "width": 459,
       "height": 160,
       "contentType": "image/webp"
     },
     "logoRedirect": "/",
-    "description": "Designed by [Seju](https://www.figma.com/@sejal_ui_ux)",
-    "copyright": "© NovaJAM 2024 | All rights reserved.",
+    "description": "Designed by [jlioliou](https://jlioliou.com/)",
+    "copyright": "© Agapitou 2025 | All rights reserved.",
     "menuItems": [
       {
         "label": "Quick Links",
         "links": [
           {
-            "id": "home",
-            "label": "Home",
-            "href": "/",
+            "id": "agapitou",
+            "label": "Η Καρδιολόγος",
+            "href": "/Agapitou",
+            "openNewTab": false,
+            "contentType": "link"
+          },
+          {
+            "id": "services",
+            "label": "Υπηρεσίες",
+            "href": "/services",
+            "openNewTab": false,
+            "contentType": "link"
+          },
+          {
+            "id": "Agapitou-office",
+            "label": "Το Ιατρείο",
+            "href": "/Agapitou-office",
             "openNewTab": false,
             "contentType": "link"
           },
           {
             "id": "contact",
-            "label": "Contact",
+            "label": "Επικοινωνία",
             "href": "/contact",
             "openNewTab": false,
-            "contentType": "link"
-          },
-          {
-            "id": "faq",
-            "label": "FAQ",
-            "href": "/faq",
-            "openNewTab": false,
-            "contentType": "link"
-          },
-          {
-            "id": "github",
-            "label": "Github",
-            "href": "https://github.com/minhwpm/novajam",
-            "openNewTab": true,
             "contentType": "link"
           }
         ]
       }
     ],
-    "backgroundColor": "#0f172a",
+    "menuItems2": [
+      {
+        "label": "Ιατρείο - Επικοινωνία",
+        "links": [
+          {
+            "id": "address",
+            "label": "Σοφοκλή Βενιζέλου 101, Ηλιούπολη, 16343 - 2ος όροφος",
+            "href": "https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7",
+            "openNewTab": true,
+            "contentType": "link"
+          },
+          {
+            "id": "telephone",
+            "label": "+30 210 993 7962",
+            "href": "tel:+302109937962",
+            "openNewTab": true,
+            "contentType": "tel"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#271111",
     "backgroundImage": null,
     "darkMode": true
   }
