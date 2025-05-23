@@ -83,7 +83,7 @@ export const Button: React.FC<ButtonProps> = ({
         {
           'text-sm': size === 'sm',
           'text-base': size === 'base',
-          'xl:text-lg': size === 'lg',
+          'xl:text-lg px-2': size === 'lg',
           'opacity-20 pointer-events-none cursor-not-allowed': disabled,
         },
         className,
@@ -107,11 +107,11 @@ export const Button: React.FC<ButtonProps> = ({
           variant === 'outline-black',
         'border-white text-slate-100 hover:bg-white hover:text-inherit drop-shadow-lg':
           variant === 'outline-white',
-        'px-4 py-2 min-w-[100px] lg:min-w-[120px] text-sm font-medium':
+        'px-2 py-2 min-w-[100px] lg:min-w-[120px] text-sm font-medium':
           size === 'sm',
-        'px-6 py-3 min-w-[100px] lg:min-w-[120px] text-base font-medium':
+        'px-4 py-2 min-w-[100px] lg:min-w-[120px] text-base font-medium':
           size === 'base',
-        'px-8 py-4 min-w-[130px] lg:min-w-[160px] xl:text-lg font-medium':
+        'px-6 py-3.5 min-w-[130px] lg:min-w-[160px] xl:text-lg font-medium':
           size === 'lg',
         'opacity-20 pointer-events-none cursor-not-allowed': disabled,
       },
