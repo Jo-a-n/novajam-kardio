@@ -7,6 +7,7 @@ import {
   RichContentType,
   FeaturedMediaType,
   SmartSectionLayoutType,
+  VerticalAlignmentType,
 } from '@/helpers/types';
 import { SectionSeparator } from '@/components/elements/SectionSeparator/SectionSeparator';
 import { Form } from '@/components/compartments/Form/Form';
@@ -17,6 +18,7 @@ import { FeaturedMedia } from '@/components/compartments/FeaturedMedia/FeaturedM
 interface SmartSectionProps {
   className?: string;
   layout?: SmartSectionLayoutType;
+  verticalAligment?: VerticalAlignmentType;
   data: SmartSectionType;
 }
 
@@ -28,6 +30,7 @@ export const SmartSection: React.FC<SmartSectionProps> = ({
     htmlid,
     content,
     layout,
+    verticalAlignment,
     gap,
     backgroundColor,
     backgroundImage,
@@ -103,7 +106,16 @@ export const SmartSection: React.FC<SmartSectionProps> = ({
                 (layout === 'Classic' || layout === 'Classic R') &&
                 content.length > 2,
               [`grid-rows-${content.length} items-center`]: layout === 'Rows',
+              // NOTE: Original is bellow:
+              // [`lg:grid-cols-${content.length} items-start`]:
+              //   layout === 'Columns',
+              [`lg:grid-cols-${content.length} items-start`]:
+                verticalAlignment === 'top' && layout === 'Columns',
+              [`lg:grid-cols-${content.length} items-end`]:
+                verticalAlignment === 'bottom' && layout === 'Columns',
               [`lg:grid-cols-${content.length} items-center`]:
+                verticalAlignment !== 'top' &&
+                verticalAlignment !== 'bottom' &&
                 layout === 'Columns',
               [`lg:grid-cols-${content.length - 1} lg:grid-rows-[auto,auto] items-center`]:
                 layout === 'Banner',
