@@ -33,7 +33,7 @@
         "id": "1qnUbh4OB4yNo3LJJ1ADp0",
         "htmlid": "agapitou-hero",
         "layout": "Columns",
-        "gap": "2xl",
+        "gap": "lg",
         "backgroundColor": "#FAF6F6",
         "backgroundImage": {
           "url": "https://images.ctfassets.net/n8ip1shnectl/241MjUWeR4YfMk8b2aMORn/3a49a05bf18e72b4f1ed360fe3bcaf8f/hero.png"
@@ -261,8 +261,8 @@
         "enableParallaxEffect": false,
         "darkMode": false,
         "sectionSeparator": true,
-        "paddingTop": "xl",
-        "paddingBottom": "xl",
+        "paddingTop": "lg",
+        "paddingBottom": "lg",
         "fullViewWidth": false,
         "content": [
           {
@@ -417,8 +417,8 @@
         "enableParallaxEffect": false,
         "darkMode": false,
         "sectionSeparator": true,
-        "paddingTop": "2xl",
-        "paddingBottom": "2xl",
+        "paddingTop": "lg",
+        "paddingBottom": "lg",
         "fullViewWidth": false,
         "content": [
           {
@@ -818,7 +818,7 @@
         "darkMode": false,
         "sectionSeparator": false,
         "paddingTop": "2xl",
-        "paddingBottom": "2xl",
+        "paddingBottom": "lg",
         "fullViewWidth": false,
         "backgroundImage": null,
         "content": [
@@ -984,7 +984,7 @@
         "darkMode": false,
         "sectionSeparator": false,
         "paddingTop": "2xl",
-        "paddingBottom": "xl",
+        "paddingBottom": "lg",
         "fullViewWidth": false,
         "backgroundImage": null,
         "content": [
@@ -1236,7 +1236,7 @@
         "darkMode": false,
         "sectionSeparator": true,
         "paddingTop": "2xl",
-        "paddingBottom": "2xl",
+        "paddingBottom": "xl",
         "fullViewWidth": false,
         "backgroundImage": null,
         "content": [
