@@ -8,7 +8,7 @@ export const Body: React.FC<{
 }> = ({ content, alignment }) => (
   <div
     className={classNames(
-      'prose lg:prose-xl 2xl:prose-xl tracking-wide text-slate-700 dark:prose-invert dark:text-slate-100/80',
+      'prose-lg lg:prose-xl 2xl:prose-xl text-slate-700 dark:prose-invert dark:text-slate-100/80',
       {
         'text-center': alignment === 'center',
         'text-end': alignment === 'end',

@@ -57,7 +57,7 @@
         "id": "5ch7AWS9JLFOzlZ2HA35H5",
         "label": "Κλείσε Ραντεβού",
         "href": "/contact",
-        "openNewTab": true,
+        "openNewTab": false,
         "variant": "primary",
         "withArrow": false,
         "icon": null
@@ -122,8 +122,8 @@
         "id": "5ch7AWS9JLFOzlZ2HA35H5",
         "label": "Κλείσε Ραντεβού",
         "href": "/contact",
-        "openNewTab": true,
-        "variant": "primary",
+        "openNewTab": false,
+        "variant": "outline",
         "withArrow": false,
         "icon": null
       }

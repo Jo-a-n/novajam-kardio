@@ -166,6 +166,8 @@ export type SmartSectionLayoutType =
   | 'Rows'
   | 'Banner';
 
+export type VerticalAlignmentType = 'top' | 'bottom' | null;
+
 export type PaddingType =
   | 'none'
   | 'xs'
@@ -183,6 +185,7 @@ export type SmartSectionType = {
     RichContentType | FeaturedMediaType | ContentListType | FormType
   >;
   layout: SmartSectionLayoutType;
+  verticalAlignment: VerticalAlignmentType;
   gap: GapType;
   backgroundColor: string | null;
   backgroundImage: MediaType | null;
