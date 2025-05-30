@@ -95,7 +95,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
           )}
         >
           <div className="w-full max-w-screen-2xl mx-auto px-4 md:px-6 lg:px-8 xl:px-10 flex items-center gap-x-4 ">
-            <div className="shrink-0 py-4">
+            <div className=" py-4">
               <Logo redirectUrl={logoRedirect ?? ''} logo={logo} />
             </div>
             <div className="flex-1 lg:text-lg">
@@ -104,7 +104,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
             {showFontControl && <FontSizeControl />}
             {showModeSelector && <DarkModeToggle />}
             {buttons && buttons.length > 0 && (
-              <div className="shrink-0 hidden lg:block">
+              <div className="shrink-0 hidden xl:block">
                 <ButtonGroup data={buttons} size="sm" />
               </div>
             )}

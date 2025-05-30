@@ -38,18 +38,18 @@ export function FontSizeControl() {
 
   return (
     <>
-      <span className="mx-2 text-xs">{fontSize}px</span>
+      <span className="text-xs">{fontSize}px</span>
       <button
         onClick={increaseFontSize}
         aria-label="Increase Font Size"
-        className="w-8 h-10 py-2 flex justify-center items-center rounded-full hover:bg-slate-100/80 dark:hover:bg-slate-100/20 dark:text-slate-100"
+        className="w-8 h-10 py-0.5 flex justify-center items-center rounded-full hover:bg-slate-100/80 dark:hover:bg-slate-100/20 dark:text-slate-100"
       >
         <GoArrowUp />
       </button>
       <button
         onClick={decreaseFontSize}
         aria-label="Decrease Font Size"
-        className="w-8 h-10 py-2 flex justify-center items-center rounded-full hover:bg-slate-100/80 dark:hover:bg-slate-100/20 dark:text-slate-100"
+        className="w-8 h-10 py-0.5 flex justify-center items-center rounded-full hover:bg-slate-100/80 dark:hover:bg-slate-100/20 dark:text-slate-100"
       >
         <GoArrowDown />
       </button>
