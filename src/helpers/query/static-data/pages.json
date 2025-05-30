@@ -80,17 +80,18 @@
           }
         ]
       },
+
       {
         "contentType": "smartsection",
         "id": "a490adf1-3038-407f-bf32-fb64ed355969",
         "htmlid": "services-offered",
         "layout": "Rows",
-        "gap": "lg",
+        "gap": "base",
         "backgroundColor": "#F8F9FB",
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": false,
-        "sectionSeparator": false,
+        "sectionSeparator": true,
         "paddingTop": "xl",
         "paddingBottom": "xl",
         "fullViewWidth": false,
@@ -231,7 +232,7 @@
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "center",
-            "paddingTop": "none",
+            "paddingTop": "xs",
             "paddingLeft": "none",
             "paddingBottom": "none",
             "paddingRight": null,
@@ -250,6 +251,7 @@
           }
         ]
       },
+
       {
         "contentType": "smartsection",
         "id": "7GnfgfMwy4Zp7cKQgx3OXs",
@@ -261,8 +263,8 @@
         "enableParallaxEffect": false,
         "darkMode": false,
         "sectionSeparator": true,
-        "paddingTop": "lg",
-        "paddingBottom": "lg",
+        "paddingTop": "xl",
+        "paddingBottom": "xl",
         "fullViewWidth": false,
         "content": [
           {
@@ -302,10 +304,11 @@
           }
         ]
       },
+
       {
         "contentType": "smartsection",
         "id": "3HYjwddRnZKK894uA498Oj",
-        "htmlid": "doctor-statistics",
+        "htmlid": "statistics-reviews",
         "layout": "Classic L",
         "gap": null,
         "backgroundColor": "#F8F9FB",
@@ -353,10 +356,11 @@
           }
         ]
       },
+
       {
         "contentType": "smartsection",
         "id": null,
-        "htmlid": "learn-more-about-the-doctor",
+        "htmlid": "the-office-clinic",
         "layout": "Columns",
         "gap": "xl",
         "backgroundColor": "#F8F9FB",
@@ -411,20 +415,20 @@
         "id": "4jCYEQTHOSTC7SJl1VSwq2",
         "htmlid": "patient-testimonials",
         "layout": "Columns",
-        "gap": "xl",
+        "gap": "lg",
         "backgroundColor": "#F8F9FB",
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": false,
         "sectionSeparator": true,
-        "paddingTop": "lg",
+        "paddingTop": "xl",
         "paddingBottom": "lg",
         "fullViewWidth": false,
         "content": [
           {
             "eyebrow": null,
             "title": "## __Συστάσεις & Αξιολογήσεις Ασθενών__",
-            "body": "Οι αξιολογήσεις προέρχονται από άτομα που έχουν επισκεφθεί το ιατρείο και επιθυμούν να μοιραστούν την εμπειρία τους.",
+            "body": "Οι αξιολογήσεις προέρχονται από άτομα που έχουν επισκεφθεί το ιατρείο μέσω doctoranytime",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",
@@ -456,7 +460,7 @@
                 "id": "1GV2wbtNig8qwHoExp7mz1"
               },
               {
-                "content": "### Άριστη επαγγελματίας\n\"Εξαιρετική!!!!!Την συνιστούμε ανεπιφύλακτα!!!!!! Της μεταβίβασαμε τα συγχαρητήρια για την διάγνωση από τους καρδιολογους της ΜΕΘ του Ευαγγελισμου για το επείγον καρδιολογικο πρόβλημα που αντιμετωπισαμε .Την ευχαριστούμε και την συστήνουμε για μια ακόμη φορα\"",
+                "content": "### Άριστη επαγγελματίας\n\"Την συνιστούμε ανεπιφύλακτα! Της μεταβίβασαμε τα συγχαρητήρια για την διάγνωση από τους καρδιολογους της ΜΕΘ του Ευαγγελισμου για το επείγον καρδιολογικο πρόβλημα που αντιμετωπισαμε. Την ευχαριστούμε και την συστήνουμε για μια ακόμη φορα\"",
                 "authorName": "ΟΛΓΑ",
                 "authorTitle": null,
                 "authorImage": null,
@@ -601,6 +605,7 @@
       }
     ]
   },
+
   {
     "title": "Dr Agapitou | Services",
     "url": "/services",
@@ -633,9 +638,9 @@
             "disclaimer": null,
             "titleFontSize": "lg",
             "alignment": "center",
-            "paddingTop": null,
+            "paddingTop": "lg",
             "paddingLeft": null,
-            "paddingBottom": null,
+            "paddingBottom": "sm",
             "paddingRight": null,
             "contentType": "richcontent",
             "ctas": []
@@ -778,6 +783,7 @@
       }
     ]
   },
+
   {
     "title": "Dr Agapitou | Η Καρδιολόγος",
     "url": "/dr-Agapitou",
@@ -829,7 +835,7 @@
             "titleFontSize": "lg",
             "body": "Μάθετε περισσότερα για την εμπειρία, τις ειδικεύσεις και τη δέσμευσή της στην πρόληψη και την καρδιολογική φροντίδα υψηλού επιπέδου.",
             "alignment": "center",
-            "paddingTop": "none",
+            "paddingTop": "lg",
             "paddingLeft": null,
             "paddingBottom": "sm",
             "paddingRight": null,
@@ -862,7 +868,7 @@
         "enableParallaxEffect": false,
         "darkMode": false,
         "sectionSeparator": true,
-        "paddingTop": null,
+        "paddingTop": "sm",
         "paddingBottom": "xl",
         "fullViewWidth": false,
         "content": [
@@ -898,6 +904,7 @@
           }
         ]
       },
+
       {
         "contentType": "smartsection",
         "id": "09ca349b-dd54-461e-baa1-8a01c18e9132",
@@ -995,7 +1002,7 @@
             "titleFontSize": "lg",
             "body": "Μάθετε περισσότερα για το ιατρείο και τις παροχές του.",
             "alignment": "center",
-            "paddingTop": "none",
+            "paddingTop": "lg",
             "paddingLeft": null,
             "paddingBottom": "sm",
             "paddingRight": null,
@@ -1015,6 +1022,7 @@
           }
         ]
       },
+
       {
         "contentType": "smartsection",
         "id": "4dafb784-c818-4ca1-afc9-a159033a1b84",
@@ -1027,7 +1035,7 @@
         "darkMode": false,
         "sectionSeparator": true,
         "paddingTop": "sm",
-        "paddingBottom": "lg",
+        "paddingBottom": "xl",
         "fullViewWidth": false,
         "content": [
           {
@@ -1127,6 +1135,7 @@
           }
         ]
       },
+
       {
         "contentType": "smartsection",
         "id": "f6d6cb5f-6a4f-44f6-b256-f1638edb2923",
@@ -1196,6 +1205,7 @@
       }
     ]
   },
+
   {
     "title": "Dr Agapitou | Επικοινωνία",
     "url": "/contact",
@@ -1247,7 +1257,7 @@
             "titleFontSize": "lg",
             "body": "Έχετε απορίες ή θέλετε να προγραμματίσετε ραντεβού; Επικοινωνήστε με το Ιατρείο για ό,τι χρειάζεστε.",
             "alignment": "center",
-            "paddingTop": "none",
+            "paddingTop": "lg",
             "paddingLeft": null,
             "paddingBottom": "sm",
             "paddingRight": null,
