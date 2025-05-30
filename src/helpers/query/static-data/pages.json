@@ -8,7 +8,7 @@
     "colorSecondary": "brand",
     "borderRadius": "medium",
     "seo": {
-      "metaTitle": "Build Faster with NovaJAM SaaS Demo",
+      "metaTitle": "Έλενα Αγαπητού - Καρδιολόγος",
       "metaDescription": "Experience NovaJAM SaaS, the ultimate platform for creating professional landing pages effortlessly. Try our free demo to explore powerful tools and CMS integration.",
       "canonicalUrl": "https://novajam.vercel.app/demo/saas",
       "focusKeywords": [
@@ -20,7 +20,7 @@
       "nofollow": false,
       "noindex": false,
       "ogImage": {
-        "url": "https://images.ctfassets.net/ehmycbmc25mu/4uwb5J8TNJwyLoJRmhdQ56/9c3b23a015e7942d5c6b993206dcf94b/screenshot_saas.webp",
+        "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
         "width": 2880,
         "height": 3840,
         "description": null,
@@ -31,7 +31,7 @@
       {
         "contentType": "smartsection",
         "id": "1qnUbh4OB4yNo3LJJ1ADp0",
-        "htmlid": "agapitou-hero",
+        "htmlid": "dr-agapitou-hero",
         "layout": "Columns",
         "gap": "lg",
         "backgroundColor": "#FAF6F6",
@@ -279,7 +279,7 @@
             "contentType": "richcontent",
             "ctas": [
               {
-                "href": "/contact",
+                "href": "/dr-Agapitou",
                 "label": "Η Καρδιολόγος",
                 "openNewTab": false,
                 "variant": "secondary",
@@ -393,7 +393,7 @@
             "contentType": "richcontent",
             "ctas": [
               {
-                "href": "/Agapitou-office",
+                "href": "/office-clinic",
                 "label": "Το Ιατρείο",
                 "openNewTab": false,
                 "variant": "secondary",
@@ -602,7 +602,7 @@
     ]
   },
   {
-    "title": "Agapitou | Services",
+    "title": "Dr Agapitou | Services",
     "url": "/services",
     "seo": null,
     "fontMain": "Roboto",
@@ -755,7 +755,7 @@
             "contentType": "richcontent",
             "ctas": [
               {
-                "href": "/Agapitou-office",
+                "href": "/office-clinic",
                 "label": "Δείτε το Ιατρείο",
                 "openNewTab": false,
                 "variant": "secondary",
@@ -768,7 +768,7 @@
                 "label": "Κλείστε Ραντεβού",
                 "openNewTab": false,
                 "variant": "primary",
-                "withArrow": true,
+                "withArrow": false,
                 "icon": null,
                 "id": null
               }
@@ -779,8 +779,8 @@
     ]
   },
   {
-    "title": "Agapitou | Η Καρδιολόγος",
-    "url": "/Agapitou",
+    "title": "Dr Agapitou | Η Καρδιολόγος",
+    "url": "/dr-Agapitou",
     "seo": {
       "metaTitle": "Demo | Contact Us",
       "metaDescription": "Experience NovaJAM, the ultimate platform for creating professional landing pages effortlessly. Try our free demo to explore powerful tools and CMS integration.",
@@ -945,8 +945,8 @@
   },
 
   {
-    "title": "Agapitou | Το Ιατρείο",
-    "url": "/Agapitou-office",
+    "title": "Dr Agapitou | Το Ιατρείο",
+    "url": "/office-clinic",
     "seo": {
       "metaTitle": "Demo | Contact Us",
       "metaDescription": "Experience NovaJAM, the ultimate platform for creating professional landing pages effortlessly. Try our free demo to explore powerful tools and CMS integration.",
@@ -1197,7 +1197,7 @@
     ]
   },
   {
-    "title": "Agapitou | Επικοινωνία",
+    "title": "Dr Agapitou | Επικοινωνία",
     "url": "/contact",
     "seo": {
       "metaTitle": "Demo | Contact Us",

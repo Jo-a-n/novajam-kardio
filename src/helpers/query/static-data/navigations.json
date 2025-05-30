@@ -9,7 +9,7 @@
     "logo": {
       "id": "logo",
       "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
-      "title": "agapitou logo",
+      "title": "dr Agapitou logo",
       "description": null,
       "width": 459,
       "height": 160,
@@ -27,14 +27,14 @@
       {
         "id": "doctor",
         "label": "Η Καρδιολόγος",
-        "href": "/Agapitou",
+        "href": "/dr-Agapitou",
         "openNewTab": false,
         "contentType": "link"
       },
       {
-        "id": "office",
+        "id": "office-clinic",
         "label": "Το Ιατρείο",
-        "href": "/Agapitou-office",
+        "href": "/office-clinic",
         "openNewTab": false,
         "contentType": "link"
       },
@@ -67,8 +67,8 @@
   },
   {
     "url": [
-      { "url": "/Agapitou" },
-      { "url": "/Agapitou-office" },
+      { "url": "/dr-Agapitou" },
+      { "url": "/office-clinic" },
       { "url": "/services" }
     ],
     "logoRedirect": "/",
@@ -79,7 +79,7 @@
     "logo": {
       "id": "logo",
       "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
-      "title": "agapitou logo",
+      "title": "dr Agapitou logo",
       "description": null,
       "width": 459,
       "height": 160,
@@ -97,14 +97,14 @@
       {
         "id": "doctor",
         "label": "Η Καρδιολόγος",
-        "href": "/Agapitou",
+        "href": "/dr-Agapitou",
         "openNewTab": false,
         "contentType": "link"
       },
       {
         "id": "office",
         "label": "Το Ιατρείο",
-        "href": "/Agapitou-office",
+        "href": "/office-clinic",
         "openNewTab": false,
         "contentType": "link"
       },
@@ -145,7 +145,7 @@
     "logo": {
       "id": "logo",
       "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
-      "title": "agapitou logo black",
+      "title": "dr Agapitou logo black",
       "description": null,
       "width": 1055,
       "height": 160,
@@ -163,14 +163,14 @@
       {
         "id": "doctor",
         "label": "Η Καρδιολόγος",
-        "href": "/Agapitou",
+        "href": "/dr-Agapitou",
         "openNewTab": false,
         "contentType": "link"
       },
       {
         "id": "office",
         "label": "Το Ιατρείο",
-        "href": "/Agapitou-office",
+        "href": "/office-clinic",
         "openNewTab": false,
         "contentType": "link"
       },

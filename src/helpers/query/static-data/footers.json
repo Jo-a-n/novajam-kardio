@@ -4,7 +4,7 @@
     "logo": {
       "id": "logo",
       "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
-      "title": "agapitou logo",
+      "title": "dr Agapitou logo",
       "description": null,
       "width": 459,
       "height": 160,
@@ -12,15 +12,15 @@
     },
     "logoRedirect": "/",
     "description": "Designed by [jlioliou](https://jlioliou.com/)",
-    "copyright": "© Agapitou 2025 | All rights reserved.",
+    "copyright": "© Dr Agapitou 2025 | All rights reserved.",
     "menuItems": [
       {
         "label": "Quick Links",
         "links": [
           {
-            "id": "agapitou",
+            "id": "dr-agapitou",
             "label": "Η Καρδιολόγος",
-            "href": "/Agapitou",
+            "href": "/dr-Agapitou",
             "openNewTab": false,
             "contentType": "link"
           },
@@ -32,9 +32,9 @@
             "contentType": "link"
           },
           {
-            "id": "Agapitou-office",
+            "id": "office-clinic",
             "label": "Το Ιατρείο",
-            "href": "/Agapitou-office",
+            "href": "/office-clinic",
             "openNewTab": false,
             "contentType": "link"
           },
