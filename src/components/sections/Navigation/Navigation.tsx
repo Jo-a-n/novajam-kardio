@@ -40,6 +40,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
     buttons,
     layout,
     darkMode,
+    startsInDarkMode,
   } = data;
   const sticky = useStickyHeaderOnScrollUp();
 
@@ -79,10 +80,14 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
       >
         <div
           className={classNames(
-            'absolute top-0 left-0 right-0 flex justify-center text-slate-950 dark:text-slate-100 transition-all duration-500 bg-slate-50/90 backdrop-blur-2xl dark:bg-slate-900/80',
+            'absolute top-0 left-0 right-0 flex justify-center text-slate-950 dark:text-slate-100 transition-all duration-500',
             {
-              'bg-white/50 backdrop-blur-2xl dark:bg-slate-900/80 shadow':
+              'dark !text-slate-100': startsInDarkMode && !sticky,
+            },
+            {
+              'bg-slate-50/70 backdrop-blur-2xl dark:bg-slate-900/80 shadow':
                 sticky,
+              dark: darkMode,
             },
           )}
         >

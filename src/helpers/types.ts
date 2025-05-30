@@ -61,7 +61,7 @@ export interface SubmenuType {
 
 export type NavigationLayout = 'standard' | 'minimal' | 'overlay';
 export interface NavigationType {
-  url: string;
+  url: Array<{ url: string }>;
   logo: MediaType;
   logoRedirect: string | null;
   menuItems: Array<LinkType | SubmenuType>;
@@ -70,6 +70,7 @@ export interface NavigationType {
   hotButtons: Array<ButtonType>;
   layout: 'standard' | 'minimal' | 'overlay';
   darkMode: boolean;
+  startsInDarkMode?: boolean;
 }
 
 export interface FooterType {

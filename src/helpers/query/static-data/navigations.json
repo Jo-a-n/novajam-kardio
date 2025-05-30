@@ -1,10 +1,11 @@
 [
   {
-    "url": "/",
+    "url": [{ "url": "/" }],
     "logoRedirect": "/",
     "showModeSelector": true,
     "layout": "overlay",
     "darkMode": false,
+    "startsInDarkMode": true,
     "logo": {
       "id": "logo",
       "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
@@ -65,11 +66,82 @@
     ]
   },
   {
-    "url": "/contact",
+    "url": [
+      { "url": "/Agapitou" },
+      { "url": "/Agapitou-office" },
+      { "url": "/services" }
+    ],
+    "logoRedirect": "/",
+    "showModeSelector": true,
+    "layout": "overlay",
+    "darkMode": false,
+    "startsInDarkMode": false,
+    "logo": {
+      "id": "logo",
+      "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
+      "title": "agapitou logo",
+      "description": null,
+      "width": 459,
+      "height": 160,
+      "contentType": "image/webp"
+    },
+    "hotButtons": [],
+    "menuItems": [
+      {
+        "id": "home",
+        "label": "Αρχική",
+        "href": "/",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
+        "id": "doctor",
+        "label": "Η Καρδιολόγος",
+        "href": "/Agapitou",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
+        "id": "office",
+        "label": "Το Ιατρείο",
+        "href": "/Agapitou-office",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
+        "id": "services",
+        "label": "Υπηρεσίες",
+        "href": "/services",
+        "openNewTab": false,
+        "contentType": "link"
+      },
+      {
+        "id": "contact",
+        "label": "Επικοινωνία",
+        "href": "/contact",
+        "openNewTab": false,
+        "contentType": "link"
+      }
+    ],
+    "buttons": [
+      {
+        "id": "5ch7AWS9JLFOzlZ2HA35H5",
+        "label": "Κλείστε Ραντεβού",
+        "href": "/contact",
+        "openNewTab": false,
+        "variant": "primary",
+        "withArrow": false,
+        "icon": null
+      }
+    ]
+  },
+  {
+    "url": [{ "url": "/contact" }],
     "logoRedirect": "/",
     "showModeSelector": false,
     "layout": "overlay",
     "darkMode": false,
+    "startsInDarkMode": false,
     "logo": {
       "id": "logo",
       "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
