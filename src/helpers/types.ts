@@ -66,6 +66,7 @@ export interface NavigationType {
   logoRedirect: string | null;
   menuItems: Array<LinkType | SubmenuType>;
   showModeSelector: boolean;
+  showFontControl?: boolean;
   buttons: Array<ButtonType>;
   hotButtons: Array<ButtonType>;
   layout: 'standard' | 'minimal' | 'overlay';

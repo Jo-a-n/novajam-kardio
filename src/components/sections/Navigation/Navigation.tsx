@@ -11,6 +11,7 @@ import { MediaType, NavigationType } from '@/helpers/types';
 import { ButtonGroup } from '@/components/elements/ButtonGroup/ButtonGroup';
 import { Image } from '@/components/elements/Image/Image';
 import { DarkModeToggle } from '@/components/elements/DarkModeToggle/DarkModeToggle';
+import { FontSizeControl } from '@/components/elements/FontSizeControl/FontSizeControl';
 
 const Logo: React.FC<{ redirectUrl?: string; logo: MediaType }> = ({
   redirectUrl,
@@ -37,6 +38,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
     logoRedirect,
     menuItems,
     showModeSelector,
+    showFontControl,
     buttons,
     layout,
     darkMode,
@@ -62,6 +64,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
                   <ButtonGroup data={buttons} />
                 </div>
               )}
+              {showFontControl && <FontSizeControl />}
               {showModeSelector && <DarkModeToggle />}
               <NavMenuMinimal data={data} />
             </div>
@@ -98,6 +101,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
             <div className="flex-1 lg:text-lg">
               {menuItems && <NavMenu menuItems={menuItems} layout={layout} />}
             </div>
+            {showFontControl && <FontSizeControl />}
             {showModeSelector && <DarkModeToggle />}
             {buttons && buttons.length > 0 && (
               <div className="shrink-0 hidden lg:block">
@@ -137,6 +141,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
           <div className="flex-1">
             {menuItems && <NavMenu menuItems={menuItems} layout={layout} />}
           </div>
+          {showFontControl && <FontSizeControl />}
           {showModeSelector && <DarkModeToggle />}
           {buttons && buttons.length > 0 && (
             <div className="shrink-0 hidden lg:block">
