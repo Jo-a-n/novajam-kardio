@@ -61,5 +61,8 @@
       "yarn format",
       "git add"
     ]
+  },
+  "engines": {
+    "node": "22.14.0"
   }
 }
