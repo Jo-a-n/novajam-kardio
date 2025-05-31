@@ -53,7 +53,7 @@
             "titleFontSize": "xl",
             "alignment": "left",
             "paddingTop": "2xl",
-            "paddingLeft": "none",
+            "paddingLeft": "xs",
             "paddingBottom": "base",
             "paddingRight": "lg",
             "contentType": "richcontent",
