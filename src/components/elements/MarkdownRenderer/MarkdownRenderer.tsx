@@ -1,4 +1,4 @@
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdown, { defaultUrlTransform } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { IoCheckmarkSharp } from 'react-icons/io5';
 
@@ -11,6 +11,9 @@ export const MarkdownRenderer: React.FC<{
     <ReactMarkdown
       className={className}
       remarkPlugins={[remarkGfm]}
+      urlTransform={(url) =>
+        url.startsWith('tel:') ? url : defaultUrlTransform(url)
+      }
       components={{
         h1: ({ children, ...props }) => (
           <h1 className="font-heading" {...props}>
