@@ -989,7 +989,7 @@
         "backgroundColor": "#F8F9FB",
         "enableParallaxEffect": false,
         "darkMode": false,
-        "sectionSeparator": false,
+        "sectionSeparator": true,
         "paddingTop": "2xl",
         "paddingBottom": "lg",
         "fullViewWidth": false,
@@ -1010,123 +1010,94 @@
             "ctas": []
           },
           {
-            "file": {
-              "url": "https://images.ctfassets.net/n8ip1shnectl/3EdYHzoyFBy63Dg3YULUBq/2c4cd099303657c0e5385ac677d60d49/agapitou-12.jpg",
-              "title": "Photo of the office",
-              "description": null,
-              "width": 2220,
-              "height": 1046,
-              "contentType": "image/png"
-            },
-            "contentType": "featuredmedia"
-          }
-        ]
-      },
-
-      {
-        "contentType": "smartsection",
-        "id": "4dafb784-c818-4ca1-afc9-a159033a1b84",
-        "htmlid": "office-photos",
-        "layout": "Rows",
-        "gap": "lg",
-        "backgroundColor": "#F8F9FB",
-        "backgroundImage": null,
-        "enableParallaxEffect": false,
-        "darkMode": false,
-        "sectionSeparator": true,
-        "paddingTop": "sm",
-        "paddingBottom": "xl",
-        "fullViewWidth": false,
-        "content": [
-          {
             "contentType": "contentlist",
             "id": "a7971eda-3d94-4686-8da8-86f424fd5c7d",
             "gap": "base",
             "layout": "carousel",
-            "columns": 3,
+            "columns": 1,
             "ctas": [],
             "contentItems": [
               {
                 "contentType": "flexiblecontent",
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
-                "title": null,
-                "body": null,
+                "title": "Τίτλος",
+                "body": "Περιγραφή εικόνας",
                 "media": [
                   {
                     "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
-                    "description": "Service image"
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/3EdYHzoyFBy63Dg3YULUBq/2c4cd099303657c0e5385ac677d60d49/agapitou-12.jpg",
+                    "width": 1408,
+                    "height": 939,
+                    "description": "Clinic equipment photo"
                   }
                 ],
                 "buttons": []
               },
               {
                 "contentType": "flexiblecontent",
-                "id": "25335612-3167-4c3a-ab91-b348ad7c7ed4",
+                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
-                "title": null,
-                "body": null,
+                "title": "Τίτλος",
+                "body": "Περιγραφή εικόνας",
                 "media": [
                   {
                     "type": "image",
                     "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
-                    "description": "Service image"
+                    "width": 1408,
+                    "height": 939,
+                    "description": "Clinic equipment photo"
                   }
                 ],
                 "buttons": []
               },
               {
                 "contentType": "flexiblecontent",
-                "id": "66d6ed0d-36d1-41b1-95f8-009227570061",
+                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
-                "title": null,
-                "body": null,
+                "title": "Τίτλος",
+                "body": "Περιγραφή εικόνας",
                 "media": [
                   {
                     "type": "image",
                     "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
-                    "description": "Service image"
+                    "width": 1408,
+                    "height": 939,
+                    "description": "Clinic equipment photo"
                   }
                 ],
                 "buttons": []
               },
               {
                 "contentType": "flexiblecontent",
-                "id": "db093996-bfd0-4023-b5c1-b8ba1f3bfd0e",
+                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
-                "title": null,
-                "body": null,
+                "title": "Τίτλος",
+                "body": "Περιγραφή εικόνας",
                 "media": [
                   {
                     "type": "image",
                     "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
-                    "description": "Service image"
+                    "width": 1408,
+                    "height": 939,
+                    "description": "Clinic equipment photo"
                   }
                 ],
                 "buttons": []
               },
               {
                 "contentType": "flexiblecontent",
-                "id": "fa97fb4d-18f7-490a-89ec-c4c975c87289",
+                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
-                "title": null,
-                "body": null,
+                "title": "Τίτλος",
+                "body": "Περιγραφή εικόνας",
                 "media": [
                   {
                     "type": "image",
                     "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
-                    "description": "Service image"
+                    "width": 1408,
+                    "height": 939,
+                    "description": "Clinic equipment photo"
                   }
                 ],
                 "buttons": []
