@@ -1014,7 +1014,7 @@
             "id": "a7971eda-3d94-4686-8da8-86f424fd5c7d",
             "gap": "base",
             "layout": "carousel",
-            "columns": 1,
+            "columns": 2,
             "ctas": [],
             "contentItems": [
               {
