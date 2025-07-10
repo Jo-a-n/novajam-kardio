@@ -8,7 +8,7 @@
     "colorSecondary": "brand",
     "borderRadius": "medium",
     "seo": {
-      "metaTitle": "Έλενα Αγαπητού - Καρδιολόγος",
+      "metaTitle": "Έλενα Αγαπητού Καρδιολόγος",
       "metaDescription": "Experience NovaJAM SaaS, the ultimate platform for creating professional landing pages effortlessly. Try our free demo to explore powerful tools and CMS integration.",
       "canonicalUrl": "https://novajam.vercel.app/demo/saas",
       "focusKeywords": [
@@ -36,7 +36,7 @@
         "gap": "lg",
         "backgroundColor": "#F8F9FB",
         "backgroundImage": {
-          "url": "https://images.ctfassets.net/n8ip1shnectl/241MjUWeR4YfMk8b2aMORn/3a49a05bf18e72b4f1ed360fe3bcaf8f/hero.png"
+          "url": "https://images.ctfassets.net/n8ip1shnectl/241MjUWeR4YfMk8b2aMORn/82a9f90e5b9287627fd29272622440ad/hero.jpg"
         },
         "enableParallaxEffect": false,
         "darkMode": true,
@@ -47,8 +47,8 @@
         "content": [
           {
             "eyebrow": null,
-            "title": "# __Έλενα Αγαπητού - Καρδιολόγος__",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "# __Έλενα Αγαπητού Καρδιολόγος__",
+            "body": "Αριστούχος Ιατρικής Αθηνών",
             "disclaimer": null,
             "titleFontSize": "xl",
             "alignment": "left",
@@ -190,7 +190,7 @@
                   {
                     "id": "93b6ede0-e42d-4afb-91ce-dd8ee850e52d",
                     "href": "/services",
-                    "label": "Υπερηχογράφημα (triplex)",
+                    "label": "Υπέρηχος καρδιάς (triplex)",
                     "openNewTab": false,
                     "variant": "ghost",
                     "withArrow": true,
@@ -270,7 +270,7 @@
           {
             "eyebrow": null,
             "title": "## __Μάθετε περισσότερα για την Καρδιολόγο__",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "body": "Αριστούχος Ιατρικής Αθηνών. Ειδικευθείσα στο Γ.Ν.Α. «Γ. Γεννηματάς». Πρ. Ιατρός Πανεπιστημιακών Νοσοκομείων Λωζάνης (CHUV) και Γενεύης (HUG) Ελβετίας.",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",
@@ -337,7 +337,7 @@
                 "id": "4Xg1CiTXOzmdxCUCR9XmV9"
               },
               {
-                "keyNumber": "13",
+                "keyNumber": "12",
                 "description": "Εξειδικευμένες Υπηρεσίες",
                 "alignment": "start",
                 "layout": "horizontal",
@@ -345,7 +345,7 @@
                 "id": "2iSfAdQ4EzD9bBAe04dikO"
               },
               {
-                "keyNumber": "54+",
+                "keyNumber": "90+",
                 "description": "Συστάσεις Ασθενών",
                 "alignment": "start",
                 "layout": "horizontal",
@@ -428,7 +428,7 @@
           {
             "eyebrow": null,
             "title": "## __Συστάσεις & Αξιολογήσεις Ασθενών__",
-            "body": "Οι αξιολογήσεις προέρχονται από άτομα που έχουν επισκεφθεί το ιατρείο μέσω doctoranytime",
+            "body": "Οι αξιολογήσεις προέρχονται από άτομα που έχουν επισκεφθεί το ιατρείο μέσω doctoranytime.",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",
@@ -668,8 +668,8 @@
                 "id": "18b9kaQhWYHzM3Y5RBlNao"
               },
               {
-                "heading": "Υπερηχογράφημα (triplex) καρδίας & αορτής",
-                "body": "Υπερηχογράφημα (triplex) καρδίας & αορτής είναι η βασικότερη εξέταση που εκτιμά τη δομή και λειτουργία της καρδιάς καθώς και της αορτής για τυχόν ανευρύσματα.",
+                "heading": "Υπέρηχος καρδιάς (triplex) καρδίας & αορτής",
+                "body": "Υπέρηχος καρδιάς (triplex) καρδίας & αορτής είναι η βασικότερη εξέταση που εκτιμά τη δομή και λειτουργία της καρδιάς καθώς και της αορτής για τυχόν ανευρύσματα.",
                 "isCollapsed": true,
                 "contentType": "qa",
                 "id": "2FD9hWooUADvxgB8uFiymE"
@@ -696,8 +696,8 @@
                 "id": "1JBbAcOYiVGPG576skXDVs"
               },
               {
-                "heading": "Προληπτικός έλεγχος",
-                "body": "Προληπτικός έλεγχος ενηλίκων και παιδιών.",
+                "heading": "Προαθλητικός έλεγχος",
+                "body": "Προαθλητικός έλεγχος ενηλίκων και παιδιών.",
                 "isCollapsed": true,
                 "contentType": "qa",
                 "id": "3gjVlrG5IBpjbrgULeUVlc"
@@ -891,7 +891,7 @@
             "id": "18327175-cc67-493c-9840-cbd6f32b214b",
             "eyebrow": null,
             "title": null,
-            "body": "\"Στόχος μου να παρέχω τις υπηρεσίες μου βασιζόμενη στις επίσημες ευρωπαϊκές οδηγίες, αξιοποιώντας τον __πλέον σύγχρονο εξοπλισμό__, σε έναν χώρο φιλόξενο, οπού μπορούμε να συζητάμε __όποιο θέμα σας απασχολεί, να πραγματοποιούμε τους απαιτούμενους διαγνωστικούς ελέγχους και να εξηγούμε με τρόπο απλό και κατανοητό, τα πιθανά αίτια, καθώς και τις θεραπευτικές επιλογές.__\n\nΕπιδιώκω μια σχέση ασθενή - ιατρού η οποία βασίζεται στην __εμπιστοσύνη__ και την __αποτελεσματική επικοινωνία__. Με αληθινό ενδιαφέρον, κάθε ζήτημα μπορεί να αντιμετωπισθεί.\"",
+            "body": "\"Στόχος μου να παρέχω τις υπηρεσίες μου, αξιοποιώντας τον __πλέον σύγχρονο εξοπλισμό__, σε έναν χώρο φιλόξενο, οπού μπορούμε να συζητάμε __όποιο θέμα σας απασχολεί, να πραγματοποιούμε τους απαιτούμενους διαγνωστικούς ελέγχους και να εξηγούμε με τρόπο απλό και κατανοητό, τα πιθανά αίτια, καθώς και τις θεραπευτικές επιλογές.__\n\nΕπιδιώκω μια σχέση ασθενή - ιατρού η οποία βασίζεται στην __εμπιστοσύνη__ και την __αποτελεσματική επικοινωνία__. Με αληθινό ενδιαφέρον, κάθε ζήτημα μπορεί να αντιμετωπισθεί.\"",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",
@@ -1000,7 +1000,7 @@
             "title": "## __Το Ιατρείο__",
             "disclaimer": null,
             "titleFontSize": "lg",
-            "body": "Μάθετε περισσότερα για το ιατρείο και τις παροχές του.",
+            "body": "Το Ιατρείο διαθέτει τελευταίας τεχνολογίας εξοπλισμό ώστε να διενεργείται με ασφάλεια και αξιοπιστία ένας πλήρης καρδιολογικός έλεγχος.",
             "alignment": "center",
             "paddingTop": "lg",
             "paddingLeft": null,
@@ -1127,7 +1127,7 @@
             "id": "1114b658-64cf-4897-8912-e25bd9753c5f",
             "eyebrow": null,
             "title": "## __Επισκεφτείτε το Ιατρείο__",
-            "body": "Το Ιατρείο διαθέτει τελευταίας τεχνολογίας εξοπλισμό ώστε να διενεργείται με ασφάλεια και αξιοπιστία ένας πλήρης καρδιολογικός έλεγχος.\n\nΤο Ιατρείο βρίσκεται στην __κεντρική πλατεία της Ηλιούπολης (πλατεία Εθνικής Αντιστάσεως) επί της οδού Σοφοκλή Βενιζέλου 101, πλησίον του Δημαρχείου, οπού υπάρχει ελεύθερο δημοτικό parking.__",
+            "body": "Το Ιατρείο βρίσκεται στην __κεντρική πλατεία της Ηλιούπολης__ (πλατεία Εθνικής Αντιστάσεως), επί της οδού Σοφοκλή Βενιζέλου 101.\n\n__Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο (πλησίον Δημαρχείου Ηλιούπολης)__.",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",
@@ -1320,7 +1320,7 @@
           {
             "eyebrow": null,
             "title": "## __Βρείτε μας__",
-            "body": "__Διεύθυνση:__ Σοφοκλή Βενιζέλου 101 (πλησίον Δημαρχείου Ηλιούπολης), Ηλιούπολη, 16343\n\n__Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο__.",
+            "body": "__Διεύθυνση:__ Σοφοκλή Βενιζέλου 101, Ηλιούπολη, 16343\n\n__Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο (πλησίον Δημαρχείου Ηλιούπολης)__.",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",
