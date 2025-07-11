@@ -8,7 +8,7 @@ export const Title: React.FC<{
   alignment?: AlignmentType;
 }> = ({ content, titleFontSize, alignment }) => (
   <div
-    className={classNames('font-heading leading-snug dark:text-slate-100', {
+    className={classNames('font-heading leading-snug dark:text-slate-50', {
       'text-center': alignment === 'center',
       'text-end': alignment === 'end',
       'text-sm-heading': titleFontSize === 'sm',
