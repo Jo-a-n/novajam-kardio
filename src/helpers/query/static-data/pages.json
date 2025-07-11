@@ -833,7 +833,7 @@
             "title": "## __Γνωρίστε την Έλενα Αγαπητού__",
             "disclaimer": null,
             "titleFontSize": "lg",
-            "body": "Μάθετε περισσότερα για την εμπειρία, τις ειδικεύσεις και τη δέσμευσή της στην πρόληψη και την καρδιολογική φροντίδα υψηλού επιπέδου.",
+            "body": "Μάθετε περισσότερα για την εμπειρία, τις ειδικεύσεις και τη δέσμευση στην πρόληψη και την καρδιολογική φροντίδα υψηλού επιπέδου.",
             "alignment": "center",
             "paddingTop": "lg",
             "paddingLeft": null,
@@ -1217,7 +1217,7 @@
         "darkMode": false,
         "sectionSeparator": true,
         "paddingTop": "2xl",
-        "paddingBottom": "xl",
+        "paddingBottom": "lg",
         "fullViewWidth": false,
         "backgroundImage": null,
         "content": [
@@ -1297,6 +1297,29 @@
                   }
                 ],
                 "buttons": []
+              }
+            ]
+          },
+          {
+            "eyebrow": null,
+            "disclaimer": null,
+            "titleFontSize": "base",
+            "alignment": "center",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": "none",
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": [
+              {
+                "href": "https://www.doctoranytime.gr/d/Kardiologos/agapitou-elena",
+                "target": "_blank",
+                "label": "Ραντεβού Doctoranytime",
+                "openNewTab": true,
+                "variant": "secondary",
+                "withArrow": false,
+                "icon": null,
+                "id": null
               }
             ]
           }
