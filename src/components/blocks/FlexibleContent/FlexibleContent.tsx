@@ -116,7 +116,7 @@ export const FlexibleContent: React.FC<{
           {body && (
             <MarkdownRenderer
               className={classNames(
-                'text-lg xl:text-xl font-normal tracking-wide leading-relaxed text-slate-800 dark:text-white/70',
+                'text-lg xl:text-xl font-normal tracking-wide leading-relaxed text-slate-800 dark:text-white/80 dark:hover:text-white/95',
                 {
                   'mt-1 lg:mt-2': title || !!tags?.length,
                   'mb-3 lg:mb-5': buttons.length > 0,

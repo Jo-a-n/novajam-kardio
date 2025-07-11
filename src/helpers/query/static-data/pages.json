@@ -494,7 +494,7 @@
         "htmlid": "contact-info",
         "layout": "Rows",
         "gap": "lg",
-        "backgroundColor": "#3B0C0D",
+        "backgroundColor": "#7D1C1E",
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": true,
@@ -594,7 +594,7 @@
                 "href": "/contact",
                 "label": "Επικοινωνία",
                 "openNewTab": false,
-                "variant": "primary",
+                "variant": "secondary",
                 "withArrow": true,
                 "icon": null,
                 "id": null
