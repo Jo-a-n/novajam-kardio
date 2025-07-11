@@ -72,8 +72,15 @@ export const MarkdownRenderer: React.FC<{
             {children}
           </del>
         ),
-        a: ({ children, ...props }) => (
+        a: ({ children, href, ...props }) => (
           <a
+            href={href}
+            target={href && href.startsWith('tel:') ? undefined : '_blank'}
+            rel={
+              href && href.startsWith('tel:')
+                ? undefined
+                : 'noopener noreferrer'
+            }
             className="underline underline-offset-4 decoration-primary-500 transition transform hover:decoration-primary-200"
             {...props}
           >
