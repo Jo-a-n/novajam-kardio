@@ -85,7 +85,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
           className={classNames(
             'absolute top-0 left-0 right-0 flex justify-center text-slate-950 dark:text-slate-100 transition-all duration-500',
             {
-              'dark !text-slate-100': startsInDarkMode && !sticky,
+              'dark !text-white': startsInDarkMode && !sticky,
             },
             {
               'bg-slate-50/70 backdrop-blur-2xl dark:bg-slate-900/80 shadow':
@@ -94,7 +94,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
             },
           )}
         >
-          <div className="w-full max-w-screen-2xl mx-auto px-4 md:px-6 lg:px-8 xl:px-10 flex items-center gap-x-4 ">
+          <div className="w-full max-w-screen-2xl mx-auto px-4 md:px-6 lg:px-8 xl:px-10 flex items-center gap-x-3 ">
             <div className=" py-4">
               <Logo redirectUrl={logoRedirect ?? ''} logo={logo} />
             </div>
