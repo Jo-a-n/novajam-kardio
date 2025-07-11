@@ -17,5 +17,7 @@ export const generateFontClassnames = (
 ) =>
   classNames({
     [Roboto_Font.className]: fontMain === 'Roboto',
+    [Roboto_Font.className]: fontHeading === 'Roboto',
+    [Inter_Font.className]: fontMain === 'Inter',
     [Inter_Font.className]: fontHeading === 'Inter',
   });
