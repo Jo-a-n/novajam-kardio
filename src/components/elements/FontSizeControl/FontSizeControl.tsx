@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
-import { GoArrowUp, GoArrowDown } from 'react-icons/go';
+import { MdTextIncrease, MdTextDecrease } from 'react-icons/md';
 
 export function FontSizeControl() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [fontSize, setFontSize] = useState(16);
 
   // On mount, read from localStorage and set the root font size
@@ -16,7 +17,7 @@ export function FontSizeControl() {
 
   function increaseFontSize() {
     setFontSize((prev) => {
-      const next = prev < 22 ? prev + 2 : prev;
+      const next = prev < 20 ? prev + 2 : prev;
       if (typeof window !== 'undefined') {
         document.documentElement.style.fontSize = `${next}px`;
         localStorage.setItem('fontSize', next.toString());
@@ -27,7 +28,7 @@ export function FontSizeControl() {
 
   function decreaseFontSize() {
     setFontSize((prev) => {
-      const next = prev > 14 ? prev - 2 : prev;
+      const next = prev > 16 ? prev - 2 : prev;
       if (typeof window !== 'undefined') {
         document.documentElement.style.fontSize = `${next}px`;
         localStorage.setItem('fontSize', next.toString());
@@ -38,20 +39,20 @@ export function FontSizeControl() {
 
   return (
     <>
-      <span className="text-xs">{fontSize}px</span>
+      {/* <span className="text-xs">{fontSize}px</span> */}
       <button
         onClick={increaseFontSize}
         aria-label="Increase Font Size"
-        className="w-8 h-10 py-0.5 flex justify-center items-center rounded-full hover:bg-slate-100/80 dark:hover:bg-slate-100/20 dark:text-slate-100"
+        className="w-10 h-10 py-0.5 text-xl flex justify-center items-center rounded-full hover:bg-slate-100/80 dark:hover:bg-red-950/25 dark:text-slate-100"
       >
-        <GoArrowUp />
+        <MdTextIncrease />
       </button>
       <button
         onClick={decreaseFontSize}
         aria-label="Decrease Font Size"
-        className="w-8 h-10 py-0.5 flex justify-center items-center rounded-full hover:bg-slate-100/80 dark:hover:bg-slate-100/20 dark:text-slate-100"
+        className="w-10 h-10 py-0.5 text-xl flex justify-center items-center rounded-full hover:bg-slate-100/80 dark:hover:bg-red-950/25 dark:text-slate-100"
       >
-        <GoArrowDown />
+        <MdTextDecrease />
       </button>
     </>
   );
