@@ -37,9 +37,9 @@ export const Button: React.FC<ButtonProps> = ({
   const renderIcon = () =>
     icon && (
       <Image
-        className={classNames('object-contain inline-block', {
-          'w-5 h-5 mr-2': size === 'sm' || size === 'base',
-          'w-7 h-7 mr-2.5': size === 'lg',
+        className={classNames('object-contain inline-block opacity-80', {
+          'w-5 h-5 ml-2': size === 'sm' || size === 'base',
+          'w-7 h-7 m-2.5': size === 'lg',
           'group-hover/btn:brightness-100 group-hover/btn:invert transition-all duration-500 ease':
             variant === 'outline-white',
         })}
@@ -68,18 +68,31 @@ export const Button: React.FC<ButtonProps> = ({
       />
     );
 
-  const renderButtonContent = () => (
-    <>
-      {renderIcon()}
-      {children || label}
-      {renderArrow()}
-    </>
-  );
+  const renderButtonContent = () => {
+    if (variant === 'ghost') {
+      return (
+        <>
+          <div className="flex flex-col items-center gap-2 text-left">
+            <span className="line-clamp-2 break-all">{children || label}</span>
+            {renderIcon()}
+          </div>
+          {renderArrow()}
+        </>
+      );
+    }
+    return (
+      <>
+        {renderIcon()}
+        {children || label}
+        {renderArrow()}
+      </>
+    );
+  };
 
   const getVariantClasses = () => {
     if (variant === 'ghost') {
       return classNames(
-        'w-full relative left-0 font-medium hover:left-1 transition-all duration-500 ease dark:text-slate-100',
+        'w-full py-1.5 flex relative left-0 font-normal text-base hover:left-1 hover:text-red-800 transition-all duration-500 ease text-slate-600 dark:text-slate-100',
         {
           'text-sm': size === 'sm',
           'text-base': size === 'base',
