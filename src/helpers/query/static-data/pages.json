@@ -36,7 +36,7 @@
         "gap": "lg",
         "backgroundColor": "#FCFCFD",
         "backgroundImage": {
-          "url": "https://images.ctfassets.net/n8ip1shnectl/1q2iZ6xx4Q9qrOnpmtfmWk/99d2a0c7dbdfe6696d7c7da08076d69c/hero2.png"
+          "url": "https://images.ctfassets.net/n8ip1shnectl/IHgIpR5Surmew2LG5SPOT/0eb987c1c34ebb8a9786c0518030af69/homepage-hero.png"
         },
         "enableParallaxEffect": false,
         "darkMode": true,
@@ -115,7 +115,17 @@
             "gap": "base",
             "layout": "grid",
             "columns": 4,
-            "ctas": [],
+            "ctas": [
+              {
+                "href": "/clinic-services",
+                "label": "Όλες οι Υπηρεσίες",
+                "openNewTab": false,
+                "variant": "secondary",
+                "withArrow": true,
+                "icon": null,
+                "id": "c24a3e46-e2ae-4876-b8c7-711726274fb9"
+              }
+            ],
             "contentItems": [
               {
                 "contentType": "flexiblecontent",
@@ -125,10 +135,10 @@
                 "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/6fURLBcNnF1ezjndFsJ0QR/c1745b0ce1bdf9e9c5a5bdeacc0b6b37/agapitou-hlektrokardiografhma.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -152,10 +162,10 @@
                 "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/306r6q4itavlR5Qz5bNmtq/8ec1adf2a24846aa9c318b40c241272e/agapitou-uperhxos.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -179,10 +189,10 @@
                 "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/ZYrGaUAUtOoHyxaeEZP77/9b1dd8b1c630b9aea97aa822d24f1ab6/agapitou-10.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -206,10 +216,10 @@
                 "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/4za8XaU3ZkhUAI3gIyu7Om/26041f922d3d75348501ffe7cf1455bc/agapitou-12.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -224,28 +234,6 @@
                     "icon": null
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "eyebrow": null,
-            "disclaimer": null,
-            "titleFontSize": "base",
-            "alignment": "center",
-            "paddingTop": "xs",
-            "paddingLeft": "none",
-            "paddingBottom": "none",
-            "paddingRight": null,
-            "contentType": "richcontent",
-            "ctas": [
-              {
-                "href": "/clinic-services",
-                "label": "Δείτε Όλες τις Υπηρεσίες",
-                "openNewTab": false,
-                "variant": "secondary",
-                "withArrow": true,
-                "icon": null,
-                "id": "c24a3e46-e2ae-4876-b8c7-711726274fb9"
               }
             ]
           }
@@ -293,11 +281,11 @@
           },
           {
             "file": {
-              "url": "https://images.ctfassets.net/n8ip1shnectl/3OYa1kEKHv5X01KXCtm48w/830a41d8179d8bbdcffc9188c335462f/agapitou-15.jpg",
+              "url": "https://images.ctfassets.net/n8ip1shnectl/6SIz3QQjBG9PP3QD2WdLxI/cf5fb0913fec092fe031901de7a8b625/agapitou-3.jpg",
               "title": "Photo of the doctor smiling",
               "description": null,
-              "width": 771,
-              "height": 731,
+              "width": 1843,
+              "height": 1216,
               "contentType": "image/jpg"
             },
             "contentType": "featuredmedia"
@@ -374,11 +362,11 @@
         "content": [
           {
             "file": {
-              "url": "https://images.ctfassets.net/n8ip1shnectl/56oSVm9cfihFDNaP6COvgL/f22cb3db8ff1409d8104ae5bd3b9eaf0/agapitou-7.jpg",
+              "url": "https://images.ctfassets.net/n8ip1shnectl/25j0yQpjUm2fwLrZILmbJM/c251f05dccefa6ef290d460148c6c135/agapitou-22.jpg",
               "title": "Photo of the the doctor's desk and the office",
               "description": null,
-              "width": 771,
-              "height": 731,
+              "width": 1920,
+              "height": 1280,
               "contentType": "image/jpg"
             },
             "contentType": "featuredmedia"
@@ -622,11 +610,11 @@
       "nofollow": false,
       "noindex": false,
       "ogImage": {
-        "url": "https://images.ctfassets.net/ehmycbmc25mu/4uwb5J8TNJwyLoJRmhdQ56/9c3b23a015e7942d5c6b993206dcf94b/screenshot_saas.webp",
-        "width": 2880,
-        "height": 3840,
+        "url": "https://images.ctfassets.net/n8ip1shnectl/20qTtmRRPnZD6IbueJp0TR/2d460b6fd00d5fbc59a5b64ca849c647/hero-clinic-services.png",
+        "width": 2048,
+        "height": 1267,
         "description": null,
-        "contentType": "image/webp"
+        "contentType": "image/jpg"
       }
     },
     "fontMain": "Roboto",
@@ -666,11 +654,11 @@
           },
           {
             "file": {
-              "url": "https://images.ctfassets.net/n8ip1shnectl/6Mjfeu3Ut000EfvWeYjRtX/25d2c5f190493fffeef8ea728a7e3def/agapitou-hero.png",
-              "title": "Photo of the doctor in her desk, smiling",
+              "url": "https://images.ctfassets.net/n8ip1shnectl/20qTtmRRPnZD6IbueJp0TR/2d460b6fd00d5fbc59a5b64ca849c647/hero-clinic-services.png",
+              "title": "Photo of the doctor in her desk in a suit, looking in the camera, smiling",
               "description": null,
-              "width": 2220,
-              "height": 1046,
+              "width": 2048,
+              "height": 1015,
               "contentType": "image/png"
             },
             "contentType": "featuredmedia"
@@ -744,11 +732,11 @@
         "content": [
           {
             "file": {
-              "url": "https://images.ctfassets.net/n8ip1shnectl/4e2GbC2pmQlAHLNz7q5UWh/6cd7fc844e6b89de93e7b8e43a304b4c/collage.png",
-              "title": "4 photos collage of certifications",
+              "url": "https://images.ctfassets.net/n8ip1shnectl/2P4nl5ae2cxJoUDYLifUzZ/8ac2d9aca0279e78570785dce299167f/collage2.png",
+              "title": "6 photos collage of certifications",
               "description": null,
-              "width": 713,
-              "height": 324,
+              "width": 991,
+              "height": 1918,
               "contentType": "image/png"
             },
             "contentType": "featuredmedia"
@@ -847,9 +835,10 @@
                 "body": null,
                 "media": [
                   {
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/6Va6zOhPsb7sSxvbqdIqDn/b96380b459d866b733f770bc39ec5232/agapitou-suntagografhsh.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -881,10 +870,10 @@
                 "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/6fURLBcNnF1ezjndFsJ0QR/c1745b0ce1bdf9e9c5a5bdeacc0b6b37/agapitou-hlektrokardiografhma.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -914,10 +903,10 @@
                 "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/306r6q4itavlR5Qz5bNmtq/8ec1adf2a24846aa9c318b40c241272e/agapitou-uperhxos.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -947,10 +936,10 @@
                 "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/svePsfnqkZmh54i9rBazT/ba5f69c6226dd1b115d33d87ea774e90/agapitou-holter-ruthmou.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -980,10 +969,10 @@
                 "alignment": "left",
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/48R3zBVOZuTxvfTIwAaYjA/e85c9a2f752ff0d133d867bfe48dd9a4/agapitou-holter-pieshs.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -1013,10 +1002,10 @@
                 "alignment": "left",
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/4f20e8c3b2794f8adff4c14a3febf8ff/agapitou-13.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -1046,10 +1035,10 @@
                 "alignment": "left",
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/tPkyMiG9xaDymT1H2Buha/7bb30b0d66a3fcd93040d235c14c79ae/agapitou-11.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -1079,10 +1068,10 @@
                 "alignment": "left",
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/2vwFwmxMBYBdsLjjZvwBC7/6e446b29958c49794480ee2603c75cd0/agapitou-6.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -1112,10 +1101,10 @@
                 "alignment": "left",
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/24LGAoBqoixY41rYKwRhDs/fe23270aec5a06427b8b0dcf2fd53a1f/agapitou-9.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -1140,15 +1129,15 @@
               {
                 "contentType": "flexiblecontent",
                 "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
-                "title": "Δοκιμάσια κόπωσης με τάπητα",
+                "title": "Δοκιμασία κόπωσης με τάπητα",
                 "body": null,
                 "alignment": "left",
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/4za8XaU3ZkhUAI3gIyu7Om/26041f922d3d75348501ffe7cf1455bc/agapitou-12.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -1178,10 +1167,10 @@
                 "alignment": "left",
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/cAmxOoxCLurVQcolMLnih/33362f03304808bb8b7e42023fab5037/agapitou-5.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -1211,10 +1200,10 @@
                 "alignment": "left",
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/7e238Rx8WlnJyuqcqNB8Fh/38868fd4abda33621f193f7e0457f963/agapitou-19.jpg",
+                    "width": 1000,
+                    "height": 667,
                     "description": "Service image"
                   }
                 ],
@@ -1317,7 +1306,7 @@
               },
               {
                 "heading": "Ιατρείο διακοπής καπνίσματος",
-                "body": "Στόχος είναι αφενός να εξηγήσουμε στον ασθενή τα πολλαπλά οφέλη από τη διακοπή του καπνίσματος και αφετέρου να τον βοηθήσουμε με ειδική φαρμακευτική αγωγή και παρακολούθηση, εφόσον έχει αποφασίσει να διακόψει το κάπνισμα. Απευθύνεται είτε σε άτομα που επιθυμούν να διακόψουν το κάπνισμα είτε σε ασθενείς με καρδιολογικό ιστορικό που τους συνεστήθη άμεση και οριστική διακοπή του καπνίσματος (πχ μετά από έμφραγμα). Μέσω ειδικής φαρμακευτικής αγωγής που προσαρμόζεται στις ανάγκες του εκάστοτε ασθενή, αυξάνονται σημαντικά τα ποσοστά αποτελεσματικής διακοπής του καπνίσματος.\n\n[Δείτε την Πιστοποίηση](https://assets.ctfassets.net/n8ip1shnectl/4Gw5nKpX0VYmkwwf70FgBu/2395f6fca2bf5dd862a7a6bc62029f45/Tambela_eisodou.pdf)",
+                "body": "Στόχος είναι αφενός να εξηγήσουμε στον ασθενή τα πολλαπλά οφέλη από τη διακοπή του καπνίσματος και αφετέρου να τον βοηθήσουμε με ειδική φαρμακευτική αγωγή και παρακολούθηση, εφόσον έχει αποφασίσει να διακόψει το κάπνισμα. Απευθύνεται είτε σε άτομα που επιθυμούν να διακόψουν το κάπνισμα είτε σε ασθενείς με καρδιολογικό ιστορικό που τους συνεστήθη άμεση και οριστική διακοπή του καπνίσματος (πχ μετά από έμφραγμα). Μέσω ειδικής φαρμακευτικής αγωγής που προσαρμόζεται στις ανάγκες του εκάστοτε ασθενή, αυξάνονται σημαντικά τα ποσοστά αποτελεσματικής διακοπής του καπνίσματος.\n\n[Δείτε την Πιστοποίηση](https://assets.ctfassets.net/n8ip1shnectl/1Zfj25NWqPVDLtEy85oArV/ee4366cf15241a46bff229dd4345e2fb/Pistopoihtiko-Ekpaideushs-Agaphtou-Elena.pdf)",
                 "isCollapsed": true,
                 "contentType": "qa",
                 "id": "dde6f722-d0cb-450c-8aa4-3abcaa3c245b"
@@ -1517,23 +1506,6 @@
             "columns": 3,
             "ctas": [],
             "contentItems": [
-              {
-                "contentType": "flexiblecontent",
-                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
-                "alignment": "center",
-                "title": "Τίτλος",
-                "body": "Περιγραφή εικόνας",
-                "media": [
-                  {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/17fJAc6KhcY4PBJ46gQKEu/28e01f096604058898d7f8bd7443fdfd/agapitou-4.jpg",
-                    "width": 2048,
-                    "height": 970,
-                    "description": "Clinic equipment photo"
-                  }
-                ],
-                "buttons": []
-              },
               {
                 "contentType": "flexiblecontent",
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",

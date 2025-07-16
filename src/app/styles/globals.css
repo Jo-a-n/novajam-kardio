@@ -16,13 +16,12 @@
 
 @layer base {
   :root {
-    
     /* THEME CONFIG STYLING VARIABLES */
     --foreground-rgb: 30 41 59; /* Default text color text-slate-800 */
     --font-heading: unset;
     --border-radius-theme: 0.375rem; /* 0.125rem / 0.375rem / 1rem */
     --border-radius-theme-button: 0.375rem; /* 0.125rem / 0.375rem / 1.75rem */
-    
+
     --primary-color-500: var(--foreground-rgb);
     --primary-color-600: var(--foreground-rgb);
     --secondary-color-500: var(--foreground-rgb);
