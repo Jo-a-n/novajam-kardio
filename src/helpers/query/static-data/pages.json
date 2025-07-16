@@ -112,7 +112,7 @@
           {
             "contentType": "contentlist",
             "id": "a621bf4f-c54d-4fa3-9e50-55b62ffa83b9",
-            "gap": "base",
+            "gap": "sm",
             "layout": "grid",
             "columns": 4,
             "ctas": [
@@ -797,9 +797,9 @@
         "layout": "Rows",
         "gap": "lg",
         "backgroundColor": "#FCFCFD",
-        "enableParallaxEffect": false,
+        "enableParallaxEffect": true,
         "darkMode": false,
-        "sectionSeparator": true,
+        "sectionSeparator": false,
         "paddingTop": "2xl",
         "paddingBottom": "lg",
         "fullViewWidth": false,
@@ -807,7 +807,7 @@
         "content": [
           {
             "eyebrow": null,
-            "title": "# __Υπηρεσίες του Ιατρείου__",
+            "title": "# __Υπηρεσίες Ιατρείου__",
             "disclaimer": null,
             "titleFontSize": "lg",
             "body": "Το Ιατρείο διαθέτει τελευταίας τεχνολογίας εξοπλισμό ώστε να διενεργείται με ασφάλεια και αξιοπιστία ένας πλήρης καρδιολογικός έλεγχος.",
@@ -815,6 +815,47 @@
             "paddingTop": "lg",
             "paddingLeft": null,
             "paddingBottom": "sm",
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": []
+          },
+          {
+            "file": {
+              "url": "https://images.ctfassets.net/n8ip1shnectl/6Jw11H9b1QIvig0rmAGc3l/4a2485d41bf251635642a8829f74db4a/hero-dr-Agapitou.png",
+              "title": "Photo of the doctor in her desk in a suit, looking in the camera, smiling",
+              "description": null,
+              "width": 2048,
+              "height": 1015,
+              "contentType": "image/png"
+            },
+            "contentType": "featuredmedia"
+          }
+        ]
+      },
+      {
+        "contentType": "smartsection",
+        "id": "6Wc0xMQoZAkg20dWJ0WVHO",
+        "htmlid": "novajam-contact",
+        "layout": "Rows",
+        "gap": "base",
+        "backgroundColor": "#FCFCFD",
+        "enableParallaxEffect": true,
+        "darkMode": false,
+        "sectionSeparator": true,
+        "paddingTop": "lg",
+        "paddingBottom": "lg",
+        "fullViewWidth": false,
+        "backgroundImage": null,
+        "content": [
+          {
+            "eyebrow": null,
+            "title": "## __Υπηρεσίες που προσφέρονται:__",
+            "disclaimer": null,
+            "titleFontSize": "sm",
+            "alignment": "center",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": null,
             "paddingRight": null,
             "contentType": "richcontent",
             "ctas": []
@@ -1361,31 +1402,6 @@
         "fullViewWidth": false,
         "content": [
           {
-            "id": "1114b658-64cf-4897-8912-e25bd9753c5f",
-            "eyebrow": null,
-            "title": "## __Επισκεφτείτε το Ιατρείο__",
-            "body": "Το Ιατρείο βρίσκεται στην κεντρική πλατεία της Ηλιούπολης, πλατεία Εθνικής Αντιστάσεως, επί της οδού __Σοφοκλή Βενιζέλου 101__.\n\n__Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο (πλησίον Δημαρχείου Ηλιούπολης)__.",
-            "disclaimer": null,
-            "titleFontSize": "base",
-            "alignment": "start",
-            "paddingTop": "none",
-            "paddingLeft": "none",
-            "paddingBottom": null,
-            "paddingRight": null,
-            "contentType": "richcontent",
-            "ctas": [
-              {
-                "href": "https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7",
-                "label": "Άνοιγμα στο Google Maps",
-                "openNewTab": true,
-                "variant": "primary",
-                "withArrow": false,
-                "icon": null,
-                "id": "5dd4f2dd-8ea4-40f7-90aa-9be8b801fff6"
-              }
-            ]
-          },
-          {
             "contentType": "contentlist",
             "id": "a621bf4f-c54d-4fa3-9e50-55b62ffa83b9",
             "gap": "base",
@@ -1479,100 +1495,29 @@
                 "buttons": []
               }
             ]
-          }
-        ]
-      },
-
-      {
-        "contentType": "smartsection",
-        "id": "6Wc0xMQoZAkg20dWJ0WVHO",
-        "htmlid": "novajam-contact",
-        "layout": "Rows",
-        "gap": "lg",
-        "backgroundColor": "#FCFCFD",
-        "enableParallaxEffect": false,
-        "darkMode": false,
-        "sectionSeparator": true,
-        "paddingTop": "xl",
-        "paddingBottom": "lg",
-        "fullViewWidth": false,
-        "backgroundImage": null,
-        "content": [
+          },
           {
-            "contentType": "contentlist",
-            "id": "a7971eda-3d94-4686-8da8-86f424fd5c7d",
-            "gap": "base",
-            "layout": "carousel",
-            "columns": 3,
-            "ctas": [],
-            "contentItems": [
+            "id": "1114b658-64cf-4897-8912-e25bd9753c5f",
+            "eyebrow": null,
+            "title": "## __Επισκεφτείτε το Ιατρείο__",
+            "body": "Το Ιατρείο βρίσκεται στην κεντρική πλατεία της Ηλιούπολης, πλατεία Εθνικής Αντιστάσεως, επί της οδού __Σοφοκλή Βενιζέλου 101__.\n\n__Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο (πλησίον Δημαρχείου Ηλιούπολης)__.",
+            "disclaimer": null,
+            "titleFontSize": "base",
+            "alignment": "start",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": null,
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": [
               {
-                "contentType": "flexiblecontent",
-                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
-                "alignment": "center",
-                "title": "Τίτλος",
-                "body": "Περιγραφή εικόνας",
-                "media": [
-                  {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 1408,
-                    "height": 939,
-                    "description": "Clinic equipment photo"
-                  }
-                ],
-                "buttons": []
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
-                "alignment": "center",
-                "title": "Τίτλος",
-                "body": "Περιγραφή εικόνας",
-                "media": [
-                  {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 1408,
-                    "height": 939,
-                    "description": "Clinic equipment photo"
-                  }
-                ],
-                "buttons": []
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
-                "alignment": "center",
-                "title": "Τίτλος",
-                "body": "Περιγραφή εικόνας",
-                "media": [
-                  {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 1408,
-                    "height": 939,
-                    "description": "Clinic equipment photo"
-                  }
-                ],
-                "buttons": []
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
-                "alignment": "center",
-                "title": "Τίτλος",
-                "body": "Περιγραφή εικόνας",
-                "media": [
-                  {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 1408,
-                    "height": 939,
-                    "description": "Clinic equipment photo"
-                  }
-                ],
-                "buttons": []
+                "href": "https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7",
+                "label": "Άνοιγμα στο Google Maps",
+                "openNewTab": true,
+                "variant": "primary",
+                "withArrow": false,
+                "icon": null,
+                "id": "5dd4f2dd-8ea4-40f7-90aa-9be8b801fff6"
               }
             ]
           }
