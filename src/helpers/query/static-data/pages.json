@@ -69,7 +69,7 @@
               },
               {
                 "href": "/clinic-services",
-                "label": "Υπηρεσίες Ιατρείου",
+                "label": "Υπηρεσίες του Ιατρείου",
                 "openNewTab": false,
                 "variant": "ghost",
                 "withArrow": false,
@@ -98,7 +98,7 @@
         "content": [
           {
             "eyebrow": null,
-            "title": "## __Συχνές Υπηρεσίες__",
+            "title": "## __Γνωστές Υπηρεσίες__",
             "disclaimer": null,
             "titleFontSize": "sm",
             "alignment": "center",
@@ -807,7 +807,7 @@
         "content": [
           {
             "eyebrow": null,
-            "title": "# __Υπηρεσίες Ιατρείου__",
+            "title": "# __Υπηρεσίες του Ιατρείου__",
             "disclaimer": null,
             "titleFontSize": "lg",
             "body": "Το Ιατρείο διαθέτει τελευταίας τεχνολογίας εξοπλισμό ώστε να διενεργείται με ασφάλεια και αξιοπιστία ένας πλήρης καρδιολογικός έλεγχος.",
