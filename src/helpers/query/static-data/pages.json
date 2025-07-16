@@ -68,7 +68,7 @@
                 "id": "4jw1KgKF0C9vHH3Zym3m6w"
               },
               {
-                "href": "/services",
+                "href": "/clinic-services",
                 "label": "Υπηρεσίες Ιατρείου",
                 "openNewTab": false,
                 "variant": "ghost",
@@ -98,7 +98,7 @@
         "content": [
           {
             "eyebrow": null,
-            "title": "## __Υπηρεσίες του Ιατρείου__",
+            "title": "## __Συχνές Υπηρεσίες__",
             "disclaimer": null,
             "titleFontSize": "sm",
             "alignment": "center",
@@ -119,33 +119,6 @@
             "contentItems": [
               {
                 "contentType": "flexiblecontent",
-                "id": "bd327c05-5e38-4a30-958e-611c3f1daddf",
-                "alignment": "center",
-                "title": null,
-                "body": null,
-                "media": [
-                  {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 510,
-                    "height": 335,
-                    "description": "Service image"
-                  }
-                ],
-                "buttons": [
-                  {
-                    "id": "9ecbaad6-373d-4381-b121-7fc40c27f20b",
-                    "href": "/services",
-                    "label": "Συνταγογράφηση",
-                    "openNewTab": false,
-                    "variant": "ghost",
-                    "withArrow": true,
-                    "icon": null
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
                 "id": "bfb7ed87-deeb-44f9-b9c1-ada88038982d",
                 "alignment": "center",
                 "title": null,
@@ -162,8 +135,35 @@
                 "buttons": [
                   {
                     "id": "dbd89a60-5da4-41a0-91d6-9f2e32f754ee",
-                    "href": "/services",
+                    "href": "/clinic-services",
                     "label": "Ηλεκτροκαρδιογράφημα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": null
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "bd327c05-5e38-4a30-958e-611c3f1daddf",
+                "alignment": "center",
+                "title": null,
+                "body": null,
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "9ecbaad6-373d-4381-b121-7fc40c27f20b",
+                    "href": "/clinic-services",
+                    "label": "Υπέρηχος (triplex) καρδίας & αορτής",
                     "openNewTab": false,
                     "variant": "ghost",
                     "withArrow": true,
@@ -189,8 +189,8 @@
                 "buttons": [
                   {
                     "id": "93b6ede0-e42d-4afb-91ce-dd8ee850e52d",
-                    "href": "/services",
-                    "label": "Υπέρηχος καρδιάς (triplex)",
+                    "href": "/clinic-services",
+                    "label": "Holter ρυθμού & πίεσης",
                     "openNewTab": false,
                     "variant": "ghost",
                     "withArrow": true,
@@ -216,8 +216,8 @@
                 "buttons": [
                   {
                     "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "/services",
-                    "label": "Holter ρυθμού & πίεσης",
+                    "href": "/clinic-services",
+                    "label": "Δοκιμασία κόπωσης με τάπητα",
                     "openNewTab": false,
                     "variant": "ghost",
                     "withArrow": true,
@@ -239,13 +239,13 @@
             "contentType": "richcontent",
             "ctas": [
               {
-                "href": "/services",
+                "href": "/clinic-services",
                 "label": "Δείτε Όλες τις Υπηρεσίες",
                 "openNewTab": false,
                 "variant": "secondary",
                 "withArrow": true,
                 "icon": null,
-                "id": null
+                "id": "c24a3e46-e2ae-4876-b8c7-711726274fb9"
               }
             ]
           }
@@ -359,7 +359,7 @@
 
       {
         "contentType": "smartsection",
-        "id": null,
+        "id": "6Wc0xMQoZAkg20dWJ0WVHO",
         "htmlid": "the-office-clinic",
         "layout": "Columns",
         "gap": "xl",
@@ -403,7 +403,7 @@
                 "variant": "secondary",
                 "withArrow": true,
                 "icon": null,
-                "id": null
+                "id": "3jY1d4g5H8K9L0M1N2O3P4"
               }
             ]
           }
@@ -597,185 +597,7 @@
                 "variant": "secondary",
                 "withArrow": true,
                 "icon": null,
-                "id": null
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-
-  {
-    "title": "Dr Agapitou | Services",
-    "url": "/services",
-    "seo": null,
-    "fontMain": "Roboto",
-    "fontHeading": null,
-    "colorPrimary": "brand",
-    "colorSecondary": "brand",
-    "borderRadius": "medium",
-    "content": [
-      {
-        "contentType": "smartsection",
-        "id": "3rEt8vWsKMieYuIssJS3PJ",
-        "htmlid": "cardio-services",
-        "layout": "Rows",
-        "gap": "lg",
-        "backgroundColor": "#FCFCFD",
-        "backgroundImage": null,
-        "enableParallaxEffect": false,
-        "darkMode": false,
-        "sectionSeparator": false,
-        "paddingTop": "2xl",
-        "paddingBottom": "xl",
-        "fullViewWidth": null,
-        "content": [
-          {
-            "eyebrow": null,
-            "title": "# __Υπηρεσίες Ιατρείου__",
-            "body": null,
-            "disclaimer": null,
-            "titleFontSize": "lg",
-            "alignment": "center",
-            "paddingTop": "lg",
-            "paddingLeft": null,
-            "paddingBottom": "sm",
-            "paddingRight": null,
-            "contentType": "richcontent",
-            "ctas": []
-          },
-          {
-            "contentType": "contentlist",
-            "id": "4Av7ggiCB7fPTx19DMk2Jz",
-            "gap": "base",
-            "layout": "grid",
-            "columns": 1,
-            "ctas": [],
-            "contentItems": [
-              {
-                "heading": "Συνταγογράφηση",
-                "body": "Συνταγογράφηση φαρμάκων & εξετάσεων μέσω Ε.Ο.Π.Υ.Υ.",
-                "isCollapsed": false,
-                "contentType": "qa",
-                "id": "4INRC6VubZJ38c7QV5lRmo"
-              },
-              {
-                "heading": "Ηλεκτροκαρδιογράφημα",
-                "body": "Απαραίτητο μέρος της βασικής καρδιολογικής εξέτασης. Μέσω της καταγραφής της ηλεκτρικής δραστηριότητας της καρδιάς μας δίνει ουσιώδεις πληροφορίες οι οποίες σε συνδυασμό με το ιστορικό και την κλινική εξέταση διαμορφώνουν την αρχική εκτίμηση της καρδιακής λειτουργίας.",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "18b9kaQhWYHzM3Y5RBlNao"
-              },
-              {
-                "heading": "Υπέρηχος καρδιάς (triplex) καρδίας & αορτής",
-                "body": "Υπέρηχος καρδιάς (triplex) καρδίας & αορτής είναι η βασικότερη εξέταση που εκτιμά τη δομή και λειτουργία της καρδιάς καθώς και της αορτής για τυχόν ανευρύσματα.",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "2FD9hWooUADvxgB8uFiymE"
-              },
-              {
-                "heading": "Holter ρυθμού (24ώρου & 48ώρου)",
-                "body": "Συνεχόμενη καταγραφή ηλεκτροκαρδιογραφήματος για 24 ή 48 ώρες, μέσω μιας ειδικής μικρής συσκευής. Χρησιμοποιείται για διερεύνηση συμπτωμάτων όπως αίσθημα παλμών, ζάλη λιποθυμία κ.α.",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "6K0dDeOocdGIhEjHqGgIzP"
-              },
-              {
-                "heading": "Holter πίεσης",
-                "body": "Παρακολούθηση της αρτηριακής πίεσης για 24 ώρες. Πραγματοποιείται με ειδική μικρή συσκευή με περιχειρίδα που μετρά την αρτηριακή πίεση σε τακτά χρονικά διαστήματα κατά τη διάρκεια της ημέρας, ενώ ο ασθενής εκτελεί κανονικά τις καθημερινές του δραστηριότητες, αλλά και κατά τη διάρκεια της νύχτας. Χρησιμοποείται για τη διάγνωση της αρτηρικής υπέρτασης αλλά και για παρακολούθηση της αποτελεσματικότητας της θεραπείας σε ασθενείς υπό φαρμακευτική αγωγή.",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "AFanPV5njQiSvUBxwEitf"
-              },
-              {
-                "heading": "Διερεύνηση συμπτωμάτων",
-                "body": "Διερεύνηση διάφορων συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "1JBbAcOYiVGPG576skXDVs"
-              },
-              {
-                "heading": "Προαθλητικός έλεγχος",
-                "body": "Προαθλητικός έλεγχος ενηλίκων και παιδιών.",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "3gjVlrG5IBpjbrgULeUVlc"
-              },
-              {
-                "heading": "Προεγχειρητικός έλεγχος",
-                "body": "Προεγχειρητικός καρδιολογικός έλεγχος για την εκτίμηση της καρδιακής λειτουργίας πριν από χειρουργικές επεμβάσεις.",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "1accf847-69e0-4e1d-a31f-c53b4f3fd2b9"
-              },
-              {
-                "heading": "Πιστοποιητικά υγείας / βεβαιώσεις / ΚΕΠΑ",
-                "body": "Έκδοση πιστοποιητικών υγείας, βεβαιώσεων για εργασία, αθλητικές δραστηριότητες ή ΚΕΠΑ, σύμφωνα με τις ισχύουσες ιατρικές προδιαγραφές.",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "bf33e750-0aff-4b2e-ac69-b2c2bcfa43e9"
-              },
-              {
-                "heading": "Διαχείριση παθήσεων",
-                "body": "Διαχείριση παθήσεων όπως υπέρταση, δυσλιπιδαιμία, στεφανιαία νόσο, αρρυθμίες, ανεύρυσμα αορτής, καρδιακή ανεπάρκεια, βαλβιδοπάθειες, μυοκαρδιοπάθειες κ.α.",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "16c8579e-ff33-4a4f-bb21-4accb41f45fa"
-              },
-              {
-                "heading": "Δοκιμάσια κόπωσης με τάπητα",
-                "body": "Παρακολούθηση και καταγραφή του ηλεκτροκαρδιογραφήματος και της αρτηριακής πίεσης κατά τη διάρκεια φυσικής άσκησης (γρήγορο βάδισμα στο διάδρομο). Γίνεται στα πλαίσια διερεύνησης συμπτωμάτων όπως πόνος στο στήθος ή δύσπνοια αλλά και για την εκτίμηση της φυσικής κατάσταση, της αρτηριακής πίεσης και του καρδιακακού ρυθμού του ασθενή κατά την άσκηση. ",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "7b6585a9-4ba6-4132-8591-07ae78f40d20"
-              },
-              {
-                "heading": "Ιατρείο διακοπής καπνίσματος",
-                "body": "Στόχος είναι αφενός να εξηγήσουμε στον ασθενή τα πολλαπλά οφέλη από τη διακοπή του καπνίσματος και αφετέρου να τον βοηθήσουμε με ειδική φαρμακευτική αγωγή και παρακολούθηση, εφόσον έχει αποφασίσει να διακόψει το κάπνισμα. Απευθύνεται είτε σε άτομα που επιθυμούν να διακόψουν το κάπνισμα είτε σε ασθενείς με καρδιολογικό ιστορικό που τους συνεστήθη άμεση και οριστική διακοπή του καπνίσματος (πχ μετά από έμφραγμα). Μέσω ειδικής φαρμακευτικής αγωγής που προσαρμόζεται στις ανάγκες του εκάστοτε ασθενή, αυξάνονται σημαντικά τα ποσοστά αποτελεσματικής διακοπής του καπνίσματος.\n\n[Δείτε την Πιστοποίηση](https://assets.ctfassets.net/n8ip1shnectl/4Gw5nKpX0VYmkwwf70FgBu/2395f6fca2bf5dd862a7a6bc62029f45/Tambela_eisodou.pdf)",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "dde6f722-d0cb-450c-8aa4-3abcaa3c245b"
-              },
-              {
-                "heading": "Επίσκεψη κατ' οίκον",
-                "body": "Δυνατότητα εξέτασης κατ'οίκον όπου μπορεί να διενεργηθεί ηλεκτροκαρδιογράφημα και υπέρηχος καρδιάς με φορητό εξοπλισμό.",
-                "isCollapsed": true,
-                "contentType": "qa",
-                "id": "c24a3e46-e2ae-4876-b8c7-711726274fb9"
-              }
-            ]
-          },
-          {
-            "eyebrow": null,
-            "title": "",
-            "body": null,
-            "disclaimer": null,
-            "titleFontSize": "lg",
-            "alignment": "center",
-            "paddingTop": null,
-            "paddingLeft": null,
-            "paddingBottom": null,
-            "paddingRight": null,
-            "contentType": "richcontent",
-            "ctas": [
-              {
-                "href": "/office-clinic",
-                "label": "Δείτε το Ιατρείο",
-                "openNewTab": false,
-                "variant": "secondary",
-                "withArrow": false,
-                "icon": null,
-                "id": null
-              },
-              {
-                "href": "/contact",
-                "label": "Κλείστε Ραντεβού",
-                "openNewTab": false,
-                "variant": "primary",
-                "withArrow": false,
-                "icon": null,
-                "id": null
+                "id": "5jY1d4g5H8K9L0M1N2O3P4"
               }
             ]
           }
@@ -952,8 +774,8 @@
   },
 
   {
-    "title": "Dr Agapitou | Το Ιατρείο",
-    "url": "/office-clinic",
+    "title": "Dr Agapitou | Υπηρεσίες Ιατρείου",
+    "url": "/clinic-services",
     "seo": {
       "metaTitle": "Demo | Contact Us",
       "metaDescription": "Experience NovaJAM, the ultimate platform for creating professional landing pages effortlessly. Try our free demo to explore powerful tools and CMS integration.",
@@ -997,7 +819,7 @@
         "content": [
           {
             "eyebrow": null,
-            "title": "## __Το Ιατρείο__",
+            "title": "# __Υπηρεσίες του Ιατρείου__",
             "disclaimer": null,
             "titleFontSize": "lg",
             "body": "Το Ιατρείο διαθέτει τελευταίας τεχνολογίας εξοπλισμό ώστε να διενεργείται με ασφάλεια και αξιοπιστία ένας πλήρης καρδιολογικός έλεγχος.",
@@ -1011,17 +833,582 @@
           },
           {
             "contentType": "contentlist",
-            "id": "a7971eda-3d94-4686-8da8-86f424fd5c7d",
+            "id": "a621bf4f-c54d-4fa3-9e50-55b62ffa83b9",
             "gap": "base",
             "layout": "carousel",
-            "columns": 2,
+            "columns": 3,
+            "ctas": [],
+            "contentItems": [
+              {
+                "contentType": "flexiblecontent",
+                "id": "bd327c05-5e38-4a30-958e-611c3f1daddf",
+                "alignment": "left",
+                "title": "Συνταγογράφηση",
+                "body": null,
+                "media": [
+                  {
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "9ecbaad6-373d-4381-b121-7fc40c27f20b",
+                    "href": "/clinic-services",
+                    "label": "Συνταγογράφηση φαρμάκων & εξετάσεων με βάση τις ανάγκες του ασθενούς.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "size": "base",
+                    "onClick": null,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "bfb7ed87-deeb-44f9-b9c1-ada88038982d",
+                "alignment": "left",
+                "title": "Ηλεκτροκαρδιογράφημα",
+                "body": null,
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "dbd89a60-5da4-41a0-91d6-9f2e32f754ee",
+                    "href": "/clinic-services",
+                    "label": "Απαραίτητο μέρος της βασικής καρδιολογικής εξέτασης. Μέσω της καταγραφής της ηλεκτρικής δραστηριότητας της καρδιάς μας δίνει ουσιώδεις πληροφορίες οι οποίες σε συνδυασμό με το ιστορικό και την κλινική εξέταση διαμορφώνουν την αρχική εκτίμηση της καρδιακής λειτουργίας.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "bfb7ed87-deeb-44f9-b9c1-ada88038982d",
+                "alignment": "left",
+                "title": "Υπέρηχος (triplex) καρδίας & αορτής",
+                "body": null,
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "dbd89a60-5da4-41a0-91d6-9f2e32f754ee",
+                    "href": "/clinic-services",
+                    "label": "Υπέρηχος (triplex) καρδίας & αορτής είναι η βασικότερη εξέταση που εκτιμά τη δομή και λειτουργία της καρδιάς καθώς και της αορτής για τυχόν ανευρύσματα.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "96a764c1-e6aa-46f5-95b4-e3a012ee368d",
+                "alignment": "left",
+                "title": "Holter ρυθμού (24ώρου & 48ώρου)",
+                "body": null,
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "93b6ede0-e42d-4afb-91ce-dd8ee850e52d",
+                    "href": "/clinic-services",
+                    "label": "Συνεχόμενη καταγραφή ηλεκτροκαρδιογραφήματος για 24 ή 48 ώρες, μέσω μιας ειδικής μικρής συσκευής.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Holter πίεσης",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services",
+                    "label": "Παρακολούθηση της αρτηριακής πίεσης για 24 ώρες. Πραγματοποιείται με ειδική μικρή συσκευή με περιχειρίδα που μετρά την αρτηριακή πίεση σε τακτά χρονικά διαστήματα κατά τη διάρκεια της ημέρας, ενώ ο ασθενής εκτελεί κανονικά τις καθημερινές του δραστηριότητες, αλλά και κατά τη διάρκεια της νύχτας. Χρησιμοποείται για τη διάγνωση της αρτηριακής υπέρτασης αλλά και για παρακολούθηση της αποτελεσματικότητας της θεραπείας σε ασθενείς υπό φαρμακευτική αγωγή.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Προαθλητικός έλεγχος",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services",
+                    "label": "Προαθλητικός έλεγχος ενηλίκων και παιδιών.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Προεγχειρητικός έλεγχος",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services",
+                    "label": "Προεγχειρητικός καρδιολογικός έλεγχος για την εκτίμηση της καρδιακής λειτουργίας πριν από χειρουργικές επεμβάσεις.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Πιστοποιητικά υγείας / βεβαιώσεις / ΚΕΠΑ",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services",
+                    "label": "Έκδοση πιστοποιητικών υγείας, βεβαιώσεων για εργασία, αθλητικές δραστηριότητες ή ΚΕΠΑ, σύμφωνα με τις ισχύουσες ιατρικές προδιαγραφές.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Διαχείριση παθήσεων & Διερεύνηση συμπτωμάτων",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services",
+                    "label": "Διαχείριση παθήσεων όπως υπέρταση, δυσλιπιδαιμία, στεφανιαία νόσο, αρρυθμίες, ανεύρυσμα αορτής, καρδιακή ανεπάρκεια, βαλβιδοπάθειες, μυοκαρδιοπάθειες κ.α.\n\nΔιερεύνηση συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.Διερεύνηση διάφορων συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Δοκιμάσια κόπωσης με τάπητα",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services",
+                    "label": "Παρακολούθηση και καταγραφή του ηλεκτροκαρδιογραφήματος και της αρτηριακής πίεσης κατά τη διάρκεια φυσικής άσκησης (γρήγορο βάδισμα στο διάδρομο). Γίνεται στα πλαίσια διερεύνησης συμπτωμάτων όπως πόνος στο στήθος ή δύσπνοια αλλά και για την εκτίμηση της φυσικής κατάσταση, της αρτηριακής πίεσης και του καρδιακακού ρυθμού του ασθενή κατά την άσκηση. ",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "d6e1e7c2-9b2a-4f7a-8c2e-1e7b2a9c3d4e",
+                "title": "Ιατρείο διακοπής καπνίσματος",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services",
+                    "label": "Στόχος είναι αφενός να εξηγήσουμε στον ασθενή τα πολλαπλά οφέλη από τη διακοπή του καπνίσματος και αφετέρου να τον βοηθήσουμε με ειδική φαρμακευτική αγωγή και παρακολούθηση, εφόσον έχει αποφασίσει να διακόψει το κάπνισμα.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "e7b8c2a1-4d5f-4e9a-8c2e-7a1b6d3c4e5f",
+                "title": "Επίσκεψη κατ' οίκον",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 510,
+                    "height": 335,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services",
+                    "label": "Δυνατότητα εξέτασης κατ'οίκον όπου μπορεί να διενεργηθεί ηλεκτροκαρδιογράφημα και υπέρηχος καρδιάς με φορητό εξοπλισμό.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": true,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "contentType": "contentlist",
+            "id": "Q&A-4Av7ggiCB7fPTx19DMk2Jz",
+            "gap": "sm",
+            "layout": "grid",
+            "columns": 1,
+            "contentItems": [
+              {
+                "heading": "Συνταγογράφηση",
+                "body": "Συνταγογράφηση φαρμάκων & εξετάσεων μέσω Ε.Ο.Π.Υ.Υ.",
+                "isCollapsed": false,
+                "contentType": "qa",
+                "id": "4INRC6VubZJ38c7QV5lRmo"
+              },
+              {
+                "heading": "Ηλεκτροκαρδιογράφημα",
+                "body": "Απαραίτητο μέρος της βασικής καρδιολογικής εξέτασης. Μέσω της καταγραφής της ηλεκτρικής δραστηριότητας της καρδιάς μας δίνει ουσιώδεις πληροφορίες οι οποίες σε συνδυασμό με το ιστορικό και την κλινική εξέταση διαμορφώνουν την αρχική εκτίμηση της καρδιακής λειτουργίας.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "18b9kaQhWYHzM3Y5RBlNao"
+              },
+              {
+                "heading": "Υπέρηχος (triplex) καρδίας & αορτής",
+                "body": "Υπέρηχος (triplex) καρδίας & αορτής είναι η βασικότερη εξέταση που εκτιμά τη δομή και λειτουργία της καρδιάς καθώς και της αορτής για τυχόν ανευρύσματα.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "2FD9hWooUADvxgB8uFiymE"
+              },
+              {
+                "heading": "Holter ρυθμού (24ώρου & 48ώρου)",
+                "body": "Συνεχόμενη καταγραφή ηλεκτροκαρδιογραφήματος για 24 ή 48 ώρες, μέσω μιας ειδικής μικρής συσκευής. Χρησιμοποιείται για διερεύνηση συμπτωμάτων όπως αίσθημα παλμών, ζάλη λιποθυμία κ.α.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "6K0dDeOocdGIhEjHqGgIzP"
+              },
+              {
+                "heading": "Holter πίεσης",
+                "body": "Παρακολούθηση της αρτηριακής πίεσης για 24 ώρες. Πραγματοποιείται με ειδική μικρή συσκευή με περιχειρίδα που μετρά την αρτηριακή πίεση σε τακτά χρονικά διαστήματα κατά τη διάρκεια της ημέρας, ενώ ο ασθενής εκτελεί κανονικά τις καθημερινές του δραστηριότητες, αλλά και κατά τη διάρκεια της νύχτας. Χρησιμοποείται για τη διάγνωση της αρτηρικής υπέρτασης αλλά και για παρακολούθηση της αποτελεσματικότητας της θεραπείας σε ασθενείς υπό φαρμακευτική αγωγή.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "AFanPV5njQiSvUBxwEitf"
+              },
+              {
+                "heading": "Προαθλητικός έλεγχος",
+                "body": "Προαθλητικός έλεγχος ενηλίκων και παιδιών.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "3gjVlrG5IBpjbrgULeUVlc"
+              },
+              {
+                "heading": "Προεγχειρητικός έλεγχος",
+                "body": "Προεγχειρητικός καρδιολογικός έλεγχος για την εκτίμηση της καρδιακής λειτουργίας πριν από χειρουργικές επεμβάσεις.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "1accf847-69e0-4e1d-a31f-c53b4f3fd2b9"
+              },
+              {
+                "heading": "Πιστοποιητικά υγείας / βεβαιώσεις / ΚΕΠΑ",
+                "body": "Έκδοση πιστοποιητικών υγείας, βεβαιώσεων για εργασία, αθλητικές δραστηριότητες ή ΚΕΠΑ, σύμφωνα με τις ισχύουσες ιατρικές προδιαγραφές.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "bf33e750-0aff-4b2e-ac69-b2c2bcfa43e9"
+              },
+              {
+                "heading": "Διαχείριση παθήσεων & Διερεύνηση συμπτωμάτων",
+                "body": "Διαχείριση παθήσεων όπως υπέρταση, δυσλιπιδαιμία, στεφανιαία νόσο, αρρυθμίες, ανεύρυσμα αορτής, καρδιακή ανεπάρκεια, βαλβιδοπάθειες, μυοκαρδιοπάθειες κ.α.\n\nΔιερεύνηση συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.Διερεύνηση διάφορων συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "16c8579e-ff33-4a4f-bb21-4accb41f45fa"
+              },
+              {
+                "heading": "Δοκιμάσια κόπωσης με τάπητα",
+                "body": "Παρακολούθηση και καταγραφή του ηλεκτροκαρδιογραφήματος και της αρτηριακής πίεσης κατά τη διάρκεια φυσικής άσκησης (γρήγορο βάδισμα στο διάδρομο). Γίνεται στα πλαίσια διερεύνησης συμπτωμάτων όπως πόνος στο στήθος ή δύσπνοια αλλά και για την εκτίμηση της φυσικής κατάσταση, της αρτηριακής πίεσης και του καρδιακακού ρυθμού του ασθενή κατά την άσκηση. ",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "7b6585a9-4ba6-4132-8591-07ae78f40d20"
+              },
+              {
+                "heading": "Ιατρείο διακοπής καπνίσματος",
+                "body": "Στόχος είναι αφενός να εξηγήσουμε στον ασθενή τα πολλαπλά οφέλη από τη διακοπή του καπνίσματος και αφετέρου να τον βοηθήσουμε με ειδική φαρμακευτική αγωγή και παρακολούθηση, εφόσον έχει αποφασίσει να διακόψει το κάπνισμα. Απευθύνεται είτε σε άτομα που επιθυμούν να διακόψουν το κάπνισμα είτε σε ασθενείς με καρδιολογικό ιστορικό που τους συνεστήθη άμεση και οριστική διακοπή του καπνίσματος (πχ μετά από έμφραγμα). Μέσω ειδικής φαρμακευτικής αγωγής που προσαρμόζεται στις ανάγκες του εκάστοτε ασθενή, αυξάνονται σημαντικά τα ποσοστά αποτελεσματικής διακοπής του καπνίσματος.\n\n[Δείτε την Πιστοποίηση](https://assets.ctfassets.net/n8ip1shnectl/4Gw5nKpX0VYmkwwf70FgBu/2395f6fca2bf5dd862a7a6bc62029f45/Tambela_eisodou.pdf)",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "dde6f722-d0cb-450c-8aa4-3abcaa3c245b"
+              },
+              {
+                "heading": "Επίσκεψη κατ' οίκον",
+                "body": "Δυνατότητα εξέτασης κατ'οίκον όπου μπορεί να διενεργηθεί ηλεκτροκαρδιογράφημα και υπέρηχος καρδιάς με φορητό εξοπλισμό.",
+                "isCollapsed": true,
+                "contentType": "qa",
+                "id": "e3c1b2a4-7f8d-4b6a-9c2e-5d7f8a1b2c3d"
+              }
+            ],
+            "ctas": [
+              {
+                "href": "/contact",
+                "label": "Επικοινωνία",
+                "openNewTab": false,
+                "variant": "primary",
+                "withArrow": true,
+                "icon": null,
+                "id": "e5b7c8a2-9f4d-4e3a-8c1b-7a2f6d3c4b1a"
+              },
+              {
+                "href": "https://www.doctoranytime.gr/d/Kardiologos/agapitou-elena",
+                "target": "_blank",
+                "label": "Ραντεβού Doctoranytime",
+                "openNewTab": true,
+                "variant": "secondary",
+                "withArrow": false,
+                "icon": null,
+                "id": "b7e2d9a3-4c5f-4e8a-9d2f-7c1a6e3b2d4f"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "contentType": "smartsection",
+        "id": "7GnfgfMwy4Zp7cKQgx3OXs",
+        "htmlid": "learn-more-about-the-doctor",
+        "layout": "Columns",
+        "gap": "xl",
+        "backgroundColor": "#FCFCFD",
+        "backgroundImage": null,
+        "enableParallaxEffect": false,
+        "darkMode": false,
+        "sectionSeparator": true,
+        "paddingTop": "xl",
+        "paddingBottom": "lg",
+        "verticalAlignment": null,
+        "paddingLeft": null,
+        "fullViewWidth": false,
+        "content": [
+          {
+            "id": "1114b658-64cf-4897-8912-e25bd9753c5f",
+            "eyebrow": null,
+            "title": "## __Επισκεφτείτε το Ιατρείο__",
+            "body": "Το Ιατρείο βρίσκεται στην κεντρική πλατεία της Ηλιούπολης, πλατεία Εθνικής Αντιστάσεως, επί της οδού __Σοφοκλή Βενιζέλου 101__.\n\n__Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο (πλησίον Δημαρχείου Ηλιούπολης)__.",
+            "disclaimer": null,
+            "titleFontSize": "base",
+            "alignment": "start",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": null,
+            "paddingRight": null,
+            "contentType": "richcontent",
+            "ctas": [
+              {
+                "href": "https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7",
+                "label": "Άνοιγμα στο Google Maps",
+                "openNewTab": true,
+                "variant": "primary",
+                "withArrow": false,
+                "icon": null,
+                "id": "5dd4f2dd-8ea4-40f7-90aa-9be8b801fff6"
+              }
+            ]
+          },
+          {
+            "contentType": "contentlist",
+            "id": "a621bf4f-c54d-4fa3-9e50-55b62ffa83b9",
+            "gap": "base",
+            "layout": "carousel",
+            "columns": 1,
             "ctas": [],
             "contentItems": [
               {
                 "contentType": "flexiblecontent",
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
-                "title": "Τίτλος",
+                "title": null,
                 "body": "Περιγραφή εικόνας",
                 "media": [
                   {
@@ -1038,7 +1425,7 @@
                 "contentType": "flexiblecontent",
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
-                "title": "Τίτλος",
+                "title": null,
                 "body": "Περιγραφή εικόνας",
                 "media": [
                   {
@@ -1055,7 +1442,7 @@
                 "contentType": "flexiblecontent",
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
-                "title": "Τίτλος",
+                "title": null,
                 "body": "Περιγραφή εικόνας",
                 "media": [
                   {
@@ -1072,7 +1459,7 @@
                 "contentType": "flexiblecontent",
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
-                "title": "Τίτλος",
+                "title": null,
                 "body": "Περιγραφή εικόνας",
                 "media": [
                   {
@@ -1089,7 +1476,7 @@
                 "contentType": "flexiblecontent",
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
-                "title": "Τίτλος",
+                "title": null,
                 "body": "Περιγραφή εικόνας",
                 "media": [
                   {
@@ -1109,66 +1496,111 @@
 
       {
         "contentType": "smartsection",
-        "id": "f6d6cb5f-6a4f-44f6-b256-f1638edb2923",
-        "htmlid": "office-description",
-        "layout": "Columns",
-        "verticalAlignment": "bottom",
+        "id": "6Wc0xMQoZAkg20dWJ0WVHO",
+        "htmlid": "novajam-contact",
+        "layout": "Rows",
         "gap": "lg",
         "backgroundColor": "#FCFCFD",
-        "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": false,
-        "sectionSeparator": false,
+        "sectionSeparator": true,
         "paddingTop": "xl",
-        "paddingBottom": "xl",
+        "paddingBottom": "lg",
         "fullViewWidth": false,
+        "backgroundImage": null,
         "content": [
           {
-            "id": "1114b658-64cf-4897-8912-e25bd9753c5f",
-            "eyebrow": null,
-            "title": "## __Επισκεφτείτε το Ιατρείο__",
-            "body": "Το Ιατρείο βρίσκεται στην κεντρική πλατεία της Ηλιούπολης, πλατεία Εθνικής Αντιστάσεως, επί της οδού __Σοφοκλή Βενιζέλου 101__.\n\n__Ελεύθερο δημοτικό parking σε απόσταση 2-3 λεπτών από το ιατρείο (πλησίον Δημαρχείου Ηλιούπολης)__.",
-            "disclaimer": null,
-            "titleFontSize": "base",
-            "alignment": "start",
-            "paddingTop": "none",
-            "paddingLeft": "none",
-            "paddingBottom": null,
-            "paddingRight": null,
-            "contentType": "richcontent",
-            "ctas": []
-          },
-          {
-            "id": "a89e603f-db60-4a3d-ba82-50d1a05651d4",
-            "eyebrow": null,
-            "title": null,
-            "body": "",
-            "disclaimer": null,
-            "titleFontSize": "base",
-            "alignment": "end",
-            "paddingTop": "none",
-            "paddingLeft": "none",
-            "paddingBottom": null,
-            "paddingRight": null,
-            "contentType": "richcontent",
-            "ctas": [
+            "contentType": "contentlist",
+            "id": "a7971eda-3d94-4686-8da8-86f424fd5c7d",
+            "gap": "base",
+            "layout": "carousel",
+            "columns": 3,
+            "ctas": [],
+            "contentItems": [
               {
-                "href": "/contact",
-                "label": "Κλείστε Ραντεβού",
-                "openNewTab": false,
-                "variant": "primary",
-                "withArrow": false,
-                "icon": null,
-                "id": "0733bcbe-95f8-47b1-95a1-49c8bb0da728"
+                "contentType": "flexiblecontent",
+                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
+                "alignment": "center",
+                "title": "Τίτλος",
+                "body": "Περιγραφή εικόνας",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/17fJAc6KhcY4PBJ46gQKEu/28e01f096604058898d7f8bd7443fdfd/agapitou-4.jpg",
+                    "width": 2048,
+                    "height": 970,
+                    "description": "Clinic equipment photo"
+                  }
+                ],
+                "buttons": []
               },
               {
-                "href": "https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7",
-                "label": "Άνοιγμα στο Google Maps",
-                "openNewTab": true,
-                "variant": "secondary",
-                "withArrow": true,
-                "icon": null,
-                "id": "5dd4f2dd-8ea4-40f7-90aa-9be8b801fff6"
+                "contentType": "flexiblecontent",
+                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
+                "alignment": "center",
+                "title": "Τίτλος",
+                "body": "Περιγραφή εικόνας",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 1408,
+                    "height": 939,
+                    "description": "Clinic equipment photo"
+                  }
+                ],
+                "buttons": []
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
+                "alignment": "center",
+                "title": "Τίτλος",
+                "body": "Περιγραφή εικόνας",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 1408,
+                    "height": 939,
+                    "description": "Clinic equipment photo"
+                  }
+                ],
+                "buttons": []
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
+                "alignment": "center",
+                "title": "Τίτλος",
+                "body": "Περιγραφή εικόνας",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 1408,
+                    "height": 939,
+                    "description": "Clinic equipment photo"
+                  }
+                ],
+                "buttons": []
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
+                "alignment": "center",
+                "title": "Τίτλος",
+                "body": "Περιγραφή εικόνας",
+                "media": [
+                  {
+                    "type": "image",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
+                    "width": 1408,
+                    "height": 939,
+                    "description": "Clinic equipment photo"
+                  }
+                ],
+                "buttons": []
               }
             ]
           }
@@ -1319,7 +1751,7 @@
                 "variant": "secondary",
                 "withArrow": false,
                 "icon": null,
-                "id": null
+                "id": "e2e2e2a1-7b9a-4c5d-9f3e-2c7f8b1a6d4c"
               }
             ]
           }

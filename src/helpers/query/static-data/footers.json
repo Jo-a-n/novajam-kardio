@@ -25,9 +25,9 @@
             "contentType": "link"
           },
           {
-            "id": "services",
+            "id": "clinic-services",
             "label": "Υπηρεσίες",
-            "href": "/services",
+            "href": "/clinic-services",
             "openNewTab": false,
             "contentType": "link"
           },
