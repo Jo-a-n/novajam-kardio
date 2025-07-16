@@ -147,6 +147,20 @@ export const Button: React.FC<ButtonProps> = ({
     );
 
     if (href) {
+      if (href.startsWith('#')) {
+        return (
+          <a
+            className={classNames(
+              'group/btn flex justify-center items-center text-center',
+              getVariantClasses(),
+            )}
+            href={href}
+            target={openNewTab ? '_blank' : '_self'}
+          >
+            {renderButtonContent()}
+          </a>
+        );
+      }
       return (
         <Link
           className={classNames(

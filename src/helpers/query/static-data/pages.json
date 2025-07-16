@@ -856,7 +856,7 @@
                 "buttons": [
                   {
                     "id": "9ecbaad6-373d-4381-b121-7fc40c27f20b",
-                    "href": "/clinic-services",
+                    "href": "#e3c1b2a4-7f8d-4b6a-9c2e-5d7f8a1b2c3d",
                     "label": "Συνταγογράφηση φαρμάκων & εξετάσεων με βάση τις ανάγκες του ασθενούς.",
                     "openNewTab": false,
                     "variant": "ghost",
@@ -1248,7 +1248,7 @@
               {
                 "heading": "Συνταγογράφηση",
                 "body": "Συνταγογράφηση φαρμάκων & εξετάσεων μέσω Ε.Ο.Π.Υ.Υ.",
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "contentType": "qa",
                 "id": "4INRC6VubZJ38c7QV5lRmo"
               },

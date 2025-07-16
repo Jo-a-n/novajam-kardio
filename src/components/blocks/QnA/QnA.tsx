@@ -6,7 +6,7 @@ import { MarkdownRenderer } from '@/components/elements/MarkdownRenderer/Markdow
 import { FaChevronRight } from 'react-icons/fa';
 
 export const QnA: React.FC<{ data: QAType }> = ({ data }) => {
-  const { heading, body, isCollapsed } = data;
+  const { id, heading, body, isCollapsed } = data;
   const [collapsed, setCollapsed] = useState(isCollapsed);
   const [height, setHeight] = useState(0);
   const bodyRef = useRef<HTMLDivElement>(null);
@@ -25,7 +25,8 @@ export const QnA: React.FC<{ data: QAType }> = ({ data }) => {
   return (
     <div className="w-full max-w-3xl rounded-theme bg-white">
       <button
-        className="p-4 lg:p-6 w-full flex justify-between items-baseline gap-10"
+        id={id}
+        className="p-4 lg:p-6 w-full flex justify-between items-baseline gap-10 scroll-mt-20"
         onClick={toggleCollapsed}
       >
         <span className="text-lg xl:text-xl text-start font-heading font-semibold text-slate-800 max-w-none">
