@@ -29,6 +29,7 @@
     "react-markdown": "^9.0.1",
     "react-responsive-masonry": "^2.1.7",
     "react-select": "^5.7.7",
+    "react-use": "^17.6.0",
     "remark-gfm": "^4.0.0",
     "swiper": "^10.0.0"
   },

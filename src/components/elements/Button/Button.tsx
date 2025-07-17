@@ -73,7 +73,7 @@ export const Button: React.FC<ButtonProps> = ({
       return (
         <>
           <div className="flex flex-col items-center gap-2 text-left">
-            <span className="line-clamp-2 break-all">{children || label}</span>
+            <span className="line-clamp-2">{children || label}</span>
             {renderIcon()}
           </div>
           {renderArrow()}
@@ -92,7 +92,7 @@ export const Button: React.FC<ButtonProps> = ({
   const getVariantClasses = () => {
     if (variant === 'ghost') {
       return classNames(
-        'w-full py-1.5 flex relative left-0 font-normal text-base hover:left-1 hover:text-red-800 transition-all duration-500 ease text-slate-600 dark:text-slate-100',
+        'w-full py-1.5 border-b-3 border-dotted border-red-500/0 flex relative left-0 font-normal text-base hover:left-1 hover:text-red-800 hover:border-b-3 hover:border-red-500/50 transition-all duration-500 ease text-slate-600 dark:text-slate-200',
         {
           'text-sm': size === 'sm',
           'text-base': size === 'base',
@@ -147,20 +147,6 @@ export const Button: React.FC<ButtonProps> = ({
     );
 
     if (href) {
-      if (href.startsWith('#')) {
-        return (
-          <a
-            className={classNames(
-              'group/btn flex justify-center items-center text-center',
-              getVariantClasses(),
-            )}
-            href={href}
-            target={openNewTab ? '_blank' : '_self'}
-          >
-            {renderButtonContent()}
-          </a>
-        );
-      }
       return (
         <Link
           className={classNames(
@@ -169,6 +155,7 @@ export const Button: React.FC<ButtonProps> = ({
           )}
           href={href}
           target={openNewTab ? '_blank' : '_self'}
+          scroll
         >
           {renderButtonContent()}
         </Link>

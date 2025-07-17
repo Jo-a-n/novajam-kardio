@@ -36,6 +36,59 @@
         "gap": "lg",
         "backgroundColor": "#FCFCFD",
         "backgroundImage": {
+          "url": "https://images.ctfassets.net/n8ip1shnectl/3yqN9lZ2UO6ckiBFxM4oj7/9a0d5c1e9d525a181b58ccf3cf08f2e1/hero-homepage-v2.png"
+        },
+        "enableParallaxEffect": false,
+        "darkMode": false,
+        "sectionSeparator": false,
+        "paddingTop": "xl",
+        "paddingBottom": "xl",
+        "fullViewWidth": false,
+        "content": [
+          {
+            "eyebrow": null,
+            "title": "# __Έλενα Αγαπητού Καρδιολόγος__",
+            "body": "Αριστούχος Ιατρικής Αθηνών με 15+ χρόνια κλινικής εμπειρίας",
+            "disclaimer": null,
+            "titleFontSize": "xl",
+            "alignment": "left",
+            "paddingTop": "2xl",
+            "paddingLeft": "xs",
+            "paddingBottom": "lg",
+            "paddingRight": "lg",
+            "contentType": "richcontent",
+            "ctas": [
+              {
+                "href": "/contact",
+                "label": "Κλείστε Ραντεβού",
+                "openNewTab": false,
+                "variant": "secondary",
+                "withArrow": false,
+                "icon": null,
+                "id": "4jw1KgKF0C9vHH3Zym3m6w"
+              },
+              {
+                "href": "/clinic-services",
+                "label": "Υπηρεσίες του Ιατρείου",
+                "openNewTab": false,
+                "variant": "ghost",
+                "withArrow": false,
+                "icon": null,
+                "id": "6qJNP6mum4yxzvYD6kaBEN"
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "contentType": "smartsection",
+        "id": "1qnUbh4OB4yNo3LJJ1ADp0",
+        "htmlid": "dr-agapitou-hero",
+        "layout": "Columns",
+        "gap": "lg",
+        "backgroundColor": "#FCFCFD",
+        "backgroundImage": {
           "url": "https://images.ctfassets.net/n8ip1shnectl/IHgIpR5Surmew2LG5SPOT/0eb987c1c34ebb8a9786c0518030af69/homepage-hero.png"
         },
         "enableParallaxEffect": false,
@@ -385,8 +438,8 @@
             "contentType": "richcontent",
             "ctas": [
               {
-                "href": "/office-clinic",
-                "label": "Το Ιατρείο",
+                "href": "/clinic-services",
+                "label": "Ιατρείο & Υπηρεσίες",
                 "openNewTab": false,
                 "variant": "secondary",
                 "withArrow": true,
@@ -886,7 +939,7 @@
                 "buttons": [
                   {
                     "id": "9ecbaad6-373d-4381-b121-7fc40c27f20b",
-                    "href": "#e3c1b2a4-7f8d-4b6a-9c2e-5d7f8a1b2c3d",
+                    "href": "#suntagografhsh",
                     "label": "Συνταγογράφηση φαρμάκων & εξετάσεων με βάση τις ανάγκες του ασθενούς.",
                     "openNewTab": false,
                     "variant": "ghost",
@@ -921,7 +974,7 @@
                 "buttons": [
                   {
                     "id": "dbd89a60-5da4-41a0-91d6-9f2e32f754ee",
-                    "href": "/clinic-services",
+                    "href": "#hlektrokardiografhma",
                     "label": "Απαραίτητο μέρος της βασικής καρδιολογικής εξέτασης. Μέσω της καταγραφής της ηλεκτρικής δραστηριότητας της καρδιάς μας δίνει ουσιώδεις πληροφορίες οι οποίες σε συνδυασμό με το ιστορικό και την κλινική εξέταση διαμορφώνουν την αρχική εκτίμηση της καρδιακής λειτουργίας.",
                     "openNewTab": false,
                     "variant": "ghost",
@@ -954,11 +1007,11 @@
                 "buttons": [
                   {
                     "id": "dbd89a60-5da4-41a0-91d6-9f2e32f754ee",
-                    "href": "/clinic-services",
+                    "href": "#uperhxos-kardias-aortis",
                     "label": "Υπέρηχος (triplex) καρδίας & αορτής είναι η βασικότερη εξέταση που εκτιμά τη δομή και λειτουργία της καρδιάς καθώς και της αορτής για τυχόν ανευρύσματα.",
                     "openNewTab": false,
                     "variant": "ghost",
-                    "withArrow": true,
+                    "withArrow": false,
                     "icon": {
                       "type": "svg",
                       "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
@@ -987,11 +1040,11 @@
                 "buttons": [
                   {
                     "id": "93b6ede0-e42d-4afb-91ce-dd8ee850e52d",
-                    "href": "/clinic-services",
+                    "href": "#holter-ruthmou",
                     "label": "Συνεχόμενη καταγραφή ηλεκτροκαρδιογραφήματος για 24 ή 48 ώρες, μέσω μιας ειδικής μικρής συσκευής.",
                     "openNewTab": false,
                     "variant": "ghost",
-                    "withArrow": true,
+                    "withArrow": false,
                     "icon": {
                       "type": "svg",
                       "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
@@ -1020,11 +1073,11 @@
                 "buttons": [
                   {
                     "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "/clinic-services",
+                    "href": "#holter-pieshs",
                     "label": "Παρακολούθηση της αρτηριακής πίεσης για 24 ώρες. Πραγματοποιείται με ειδική μικρή συσκευή με περιχειρίδα που μετρά την αρτηριακή πίεση σε τακτά χρονικά διαστήματα κατά τη διάρκεια της ημέρας, ενώ ο ασθενής εκτελεί κανονικά τις καθημερινές του δραστηριότητες, αλλά και κατά τη διάρκεια της νύχτας. Χρησιμοποείται για τη διάγνωση της αρτηριακής υπέρτασης αλλά και για παρακολούθηση της αποτελεσματικότητας της θεραπείας σε ασθενείς υπό φαρμακευτική αγωγή.",
                     "openNewTab": false,
                     "variant": "ghost",
-                    "withArrow": true,
+                    "withArrow": false,
                     "icon": {
                       "type": "svg",
                       "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
@@ -1053,11 +1106,11 @@
                 "buttons": [
                   {
                     "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "/clinic-services",
+                    "href": "#proathlitikos-elegxos",
                     "label": "Προαθλητικός έλεγχος ενηλίκων και παιδιών.",
                     "openNewTab": false,
                     "variant": "ghost",
-                    "withArrow": true,
+                    "withArrow": false,
                     "icon": {
                       "type": "svg",
                       "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
@@ -1086,11 +1139,11 @@
                 "buttons": [
                   {
                     "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "/clinic-services",
+                    "href": "#proegcheirhtikos-elegxos",
                     "label": "Προεγχειρητικός καρδιολογικός έλεγχος για την εκτίμηση της καρδιακής λειτουργίας πριν από χειρουργικές επεμβάσεις.",
                     "openNewTab": false,
                     "variant": "ghost",
-                    "withArrow": true,
+                    "withArrow": false,
                     "icon": {
                       "type": "svg",
                       "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
@@ -1119,7 +1172,7 @@
                 "buttons": [
                   {
                     "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "/clinic-services",
+                    "href": "#pistopoihtika-ygeias-bebaioseis-kepa",
                     "label": "Έκδοση πιστοποιητικών υγείας, βεβαιώσεων για εργασία, αθλητικές δραστηριότητες ή ΚΕΠΑ, σύμφωνα με τις ισχύουσες ιατρικές προδιαγραφές.",
                     "openNewTab": false,
                     "variant": "ghost",
@@ -1152,11 +1205,11 @@
                 "buttons": [
                   {
                     "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "/clinic-services",
+                    "href": "#pathhseis-kai-symptwmata",
                     "label": "Διαχείριση παθήσεων όπως υπέρταση, δυσλιπιδαιμία, στεφανιαία νόσο, αρρυθμίες, ανεύρυσμα αορτής, καρδιακή ανεπάρκεια, βαλβιδοπάθειες, μυοκαρδιοπάθειες κ.α.\n\nΔιερεύνηση συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.Διερεύνηση διάφορων συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.",
                     "openNewTab": false,
                     "variant": "ghost",
-                    "withArrow": true,
+                    "withArrow": false,
                     "icon": {
                       "type": "svg",
                       "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
@@ -1185,11 +1238,11 @@
                 "buttons": [
                   {
                     "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "/clinic-services",
+                    "href": "#dokimasia-kopwshs",
                     "label": "Παρακολούθηση και καταγραφή του ηλεκτροκαρδιογραφήματος και της αρτηριακής πίεσης κατά τη διάρκεια φυσικής άσκησης (γρήγορο βάδισμα στο διάδρομο). Γίνεται στα πλαίσια διερεύνησης συμπτωμάτων όπως πόνος στο στήθος ή δύσπνοια αλλά και για την εκτίμηση της φυσικής κατάσταση, της αρτηριακής πίεσης και του καρδιακακού ρυθμού του ασθενή κατά την άσκηση. ",
                     "openNewTab": false,
                     "variant": "ghost",
-                    "withArrow": true,
+                    "withArrow": false,
                     "icon": {
                       "type": "svg",
                       "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
@@ -1218,11 +1271,11 @@
                 "buttons": [
                   {
                     "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "/clinic-services",
+                    "href": "#iatreio-diakophs-kapnismatos",
                     "label": "Στόχος είναι αφενός να εξηγήσουμε στον ασθενή τα πολλαπλά οφέλη από τη διακοπή του καπνίσματος και αφετέρου να τον βοηθήσουμε με ειδική φαρμακευτική αγωγή και παρακολούθηση, εφόσον έχει αποφασίσει να διακόψει το κάπνισμα.",
                     "openNewTab": false,
                     "variant": "ghost",
-                    "withArrow": true,
+                    "withArrow": false,
                     "icon": {
                       "type": "svg",
                       "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
@@ -1251,11 +1304,11 @@
                 "buttons": [
                   {
                     "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "/clinic-services",
+                    "href": "#episkeyh-kat-oikon",
                     "label": "Δυνατότητα εξέτασης κατ'οίκον όπου μπορεί να διενεργηθεί ηλεκτροκαρδιογράφημα και υπέρηχος καρδιάς με φορητό εξοπλισμό.",
                     "openNewTab": false,
                     "variant": "ghost",
-                    "withArrow": true,
+                    "withArrow": false,
                     "icon": {
                       "type": "svg",
                       "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
@@ -1280,84 +1333,84 @@
                 "body": "Συνταγογράφηση φαρμάκων & εξετάσεων μέσω Ε.Ο.Π.Υ.Υ.",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "4INRC6VubZJ38c7QV5lRmo"
+                "id": "suntagografhsh"
               },
               {
                 "heading": "Ηλεκτροκαρδιογράφημα",
                 "body": "Απαραίτητο μέρος της βασικής καρδιολογικής εξέτασης. Μέσω της καταγραφής της ηλεκτρικής δραστηριότητας της καρδιάς μας δίνει ουσιώδεις πληροφορίες οι οποίες σε συνδυασμό με το ιστορικό και την κλινική εξέταση διαμορφώνουν την αρχική εκτίμηση της καρδιακής λειτουργίας.",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "18b9kaQhWYHzM3Y5RBlNao"
+                "id": "hlektrokardiografhma"
               },
               {
                 "heading": "Υπέρηχος (triplex) καρδίας & αορτής",
                 "body": "Υπέρηχος (triplex) καρδίας & αορτής είναι η βασικότερη εξέταση που εκτιμά τη δομή και λειτουργία της καρδιάς καθώς και της αορτής για τυχόν ανευρύσματα.",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "2FD9hWooUADvxgB8uFiymE"
+                "id": "uperhxos-kardias-aortis"
               },
               {
                 "heading": "Holter ρυθμού (24ώρου & 48ώρου)",
                 "body": "Συνεχόμενη καταγραφή ηλεκτροκαρδιογραφήματος για 24 ή 48 ώρες, μέσω μιας ειδικής μικρής συσκευής. Χρησιμοποιείται για διερεύνηση συμπτωμάτων όπως αίσθημα παλμών, ζάλη λιποθυμία κ.α.",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "6K0dDeOocdGIhEjHqGgIzP"
+                "id": "holter-ruthmou"
               },
               {
                 "heading": "Holter πίεσης",
                 "body": "Παρακολούθηση της αρτηριακής πίεσης για 24 ώρες. Πραγματοποιείται με ειδική μικρή συσκευή με περιχειρίδα που μετρά την αρτηριακή πίεση σε τακτά χρονικά διαστήματα κατά τη διάρκεια της ημέρας, ενώ ο ασθενής εκτελεί κανονικά τις καθημερινές του δραστηριότητες, αλλά και κατά τη διάρκεια της νύχτας. Χρησιμοποείται για τη διάγνωση της αρτηρικής υπέρτασης αλλά και για παρακολούθηση της αποτελεσματικότητας της θεραπείας σε ασθενείς υπό φαρμακευτική αγωγή.",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "AFanPV5njQiSvUBxwEitf"
+                "id": "holter-pieshs"
               },
               {
                 "heading": "Προαθλητικός έλεγχος",
                 "body": "Προαθλητικός έλεγχος ενηλίκων και παιδιών.",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "3gjVlrG5IBpjbrgULeUVlc"
+                "id": "proathlitikos-elegxos"
               },
               {
                 "heading": "Προεγχειρητικός έλεγχος",
                 "body": "Προεγχειρητικός καρδιολογικός έλεγχος για την εκτίμηση της καρδιακής λειτουργίας πριν από χειρουργικές επεμβάσεις.",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "1accf847-69e0-4e1d-a31f-c53b4f3fd2b9"
+                "id": "proegcheirhtikos-elegxos"
               },
               {
                 "heading": "Πιστοποιητικά υγείας / βεβαιώσεις / ΚΕΠΑ",
                 "body": "Έκδοση πιστοποιητικών υγείας, βεβαιώσεων για εργασία, αθλητικές δραστηριότητες ή ΚΕΠΑ, σύμφωνα με τις ισχύουσες ιατρικές προδιαγραφές.",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "bf33e750-0aff-4b2e-ac69-b2c2bcfa43e9"
+                "id": "pistopoihtika-ygeias-bebaioseis-kepa"
               },
               {
                 "heading": "Διαχείριση παθήσεων & Διερεύνηση συμπτωμάτων",
                 "body": "Διαχείριση παθήσεων όπως υπέρταση, δυσλιπιδαιμία, στεφανιαία νόσο, αρρυθμίες, ανεύρυσμα αορτής, καρδιακή ανεπάρκεια, βαλβιδοπάθειες, μυοκαρδιοπάθειες κ.α.\n\nΔιερεύνηση συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.Διερεύνηση διάφορων συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "16c8579e-ff33-4a4f-bb21-4accb41f45fa"
+                "id": "pathhseis-kai-symptwmata"
               },
               {
                 "heading": "Δοκιμάσια κόπωσης με τάπητα",
                 "body": "Παρακολούθηση και καταγραφή του ηλεκτροκαρδιογραφήματος και της αρτηριακής πίεσης κατά τη διάρκεια φυσικής άσκησης (γρήγορο βάδισμα στο διάδρομο). Γίνεται στα πλαίσια διερεύνησης συμπτωμάτων όπως πόνος στο στήθος ή δύσπνοια αλλά και για την εκτίμηση της φυσικής κατάσταση, της αρτηριακής πίεσης και του καρδιακακού ρυθμού του ασθενή κατά την άσκηση. ",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "7b6585a9-4ba6-4132-8591-07ae78f40d20"
+                "id": "dokimasia-kopwshs"
               },
               {
                 "heading": "Ιατρείο διακοπής καπνίσματος",
                 "body": "Στόχος είναι αφενός να εξηγήσουμε στον ασθενή τα πολλαπλά οφέλη από τη διακοπή του καπνίσματος και αφετέρου να τον βοηθήσουμε με ειδική φαρμακευτική αγωγή και παρακολούθηση, εφόσον έχει αποφασίσει να διακόψει το κάπνισμα. Απευθύνεται είτε σε άτομα που επιθυμούν να διακόψουν το κάπνισμα είτε σε ασθενείς με καρδιολογικό ιστορικό που τους συνεστήθη άμεση και οριστική διακοπή του καπνίσματος (πχ μετά από έμφραγμα). Μέσω ειδικής φαρμακευτικής αγωγής που προσαρμόζεται στις ανάγκες του εκάστοτε ασθενή, αυξάνονται σημαντικά τα ποσοστά αποτελεσματικής διακοπής του καπνίσματος.\n\n[Δείτε την Πιστοποίηση](https://assets.ctfassets.net/n8ip1shnectl/1Zfj25NWqPVDLtEy85oArV/ee4366cf15241a46bff229dd4345e2fb/Pistopoihtiko-Ekpaideushs-Agaphtou-Elena.pdf)",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "dde6f722-d0cb-450c-8aa4-3abcaa3c245b"
+                "id": "iatreio-diakophs-kapnismatos"
               },
               {
                 "heading": "Επίσκεψη κατ' οίκον",
                 "body": "Δυνατότητα εξέτασης κατ'οίκον όπου μπορεί να διενεργηθεί ηλεκτροκαρδιογράφημα και υπέρηχος καρδιάς με φορητό εξοπλισμό.",
                 "isCollapsed": true,
                 "contentType": "qa",
-                "id": "e3c1b2a4-7f8d-4b6a-9c2e-5d7f8a1b2c3d"
+                "id": "episkeyh-kat-oikon"
               }
             ],
             "ctas": [

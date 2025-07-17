@@ -53,7 +53,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
