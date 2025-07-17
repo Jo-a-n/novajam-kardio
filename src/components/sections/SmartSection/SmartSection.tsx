@@ -80,7 +80,8 @@ export const SmartSection: React.FC<SmartSectionProps> = ({
       className={classNames(
         'bg-opacity-100', // to set --tw-bg-opacity: 100
         {
-          'bg-center bg-no-repeat bg-cover bg-blend-multiply': backgroundImage,
+          'sm:bg-center bg-no-repeat bg-cover bg-blend-multiply bg-right-custom':
+            backgroundImage,
           'dark:bg-opacity-5': !darkMode && backgroundColor,
           'dark:bg-slate-900/90': !darkMode && backgroundImage,
           dark: darkMode,

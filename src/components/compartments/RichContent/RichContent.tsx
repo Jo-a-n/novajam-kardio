@@ -39,7 +39,7 @@ export const RichContent: React.FC<{
         'pb-10 md:pb-12 lg:pb-16': paddingBottom === 'lg',
         'pt-16 md:pt-20 lg:pt-28': paddingTop === 'xl',
         'pb-16 md:pb-20 lg:pb-28': paddingBottom === 'xl',
-        'pt-26 md:pt-32 lg:pt-39': paddingTop === '2xl',
+        'pt-28 md:pt-32 lg:pt-39': paddingTop === '2xl',
         'pb-26 md:pb-32 lg:pb-39': paddingBottom === '2xl',
         'pl-2 md:pl-2.5 lg:pl-3.5': paddingLeft === 'xs',
         'pr-2 md:pr-2.5 lg:pr-3.5': paddingRight === 'xs',

@@ -41,7 +41,7 @@
         "enableParallaxEffect": false,
         "darkMode": false,
         "sectionSeparator": false,
-        "paddingTop": "xl",
+        "paddingTop": "2xl",
         "paddingBottom": "xl",
         "fullViewWidth": false,
         "content": [
@@ -54,7 +54,7 @@
             "alignment": "left",
             "paddingTop": "2xl",
             "paddingLeft": "xs",
-            "paddingBottom": "lg",
+            "paddingBottom": "none",
             "paddingRight": "lg",
             "contentType": "richcontent",
             "ctas": [

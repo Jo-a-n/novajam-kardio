@@ -8,15 +8,18 @@ export const Title: React.FC<{
   alignment?: AlignmentType;
 }> = ({ content, titleFontSize, alignment }) => (
   <div
-    className={classNames('font-heading leading-snug dark:text-slate-50', {
-      'text-center': alignment === 'center',
-      'text-end': alignment === 'end',
-      'text-sm-heading': titleFontSize === 'sm',
-      'text-base-heading': titleFontSize === 'base',
-      'text-lg-heading': titleFontSize === 'lg',
-      'text-xl-heading': titleFontSize === 'xl',
-      'text-2xl-heading': titleFontSize === '2xl',
-    })}
+    className={classNames(
+      'font-heading leading-tight drop-shadow-2xl sm:drop-shadow-none sm:leading-snug dark:text-slate-50',
+      {
+        'text-center': alignment === 'center',
+        'text-end': alignment === 'end',
+        'text-sm-heading': titleFontSize === 'sm',
+        'text-base-heading': titleFontSize === 'base',
+        'text-lg-heading': titleFontSize === 'lg',
+        'text-xl-heading': titleFontSize === 'xl',
+        'text-2xl-heading': titleFontSize === '2xl',
+      },
+    )}
   >
     <MarkdownRenderer>{content}</MarkdownRenderer>
   </div>

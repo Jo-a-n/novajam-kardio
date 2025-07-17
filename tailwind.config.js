@@ -8,6 +8,15 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    backgroundPosition: {
+      center: 'center',
+      bottom: 'bottom',
+      top: 'top',
+      right: 'right',
+      left: 'left',
+      'right-custom': 'top right -450px',
+    },
+
     container: {
       center: true,
       padding: 'var(--container-horizontal-padding)',
