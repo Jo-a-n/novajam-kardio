@@ -126,7 +126,7 @@
   {
     "url": [{ "url": "/contact" }],
     "logoRedirect": "/",
-    "showModeSelector": false,
+    "showModeSelector": true,
     "showFontControl": true,
     "layout": "overlay",
     "darkMode": false,

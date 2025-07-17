@@ -34,7 +34,7 @@
         "htmlid": "dr-agapitou-hero",
         "layout": "Columns",
         "gap": "lg",
-        "backgroundColor": "#FCFCFD",
+        "backgroundColor": "#141414",
         "backgroundImage": {
           "url": "https://images.ctfassets.net/n8ip1shnectl/3yqN9lZ2UO6ckiBFxM4oj7/9a0d5c1e9d525a181b58ccf3cf08f2e1/hero-homepage-v2.png"
         },
