@@ -83,7 +83,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
       >
         <div
           className={classNames(
-            'absolute top-0 left-0 right-0 flex justify-center text-slate-950 dark:text-slate-100 transition-all duration-500',
+            'absolute top-0 left-0 right-0 flex justify-center text-slate-950 dark:text-white transition-all duration-500',
             {
               'dark !text-white': startsInDarkMode && !sticky,
             },
