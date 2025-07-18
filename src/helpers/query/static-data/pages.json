@@ -36,7 +36,7 @@
         "gap": "lg",
         "backgroundColor": "#141414",
         "backgroundImage": {
-          "url": "https://images.ctfassets.net/n8ip1shnectl/3yqN9lZ2UO6ckiBFxM4oj7/9a0d5c1e9d525a181b58ccf3cf08f2e1/hero-homepage-v2.png"
+          "url": "https://images.ctfassets.net/n8ip1shnectl/crycxuaejlWCMeEsVOdoW/ef32f2b57eb6e6e4ee3c030cb0dde173/hero-homepage-v3.png"
         },
         "enableParallaxEffect": false,
         "darkMode": false,
@@ -83,59 +83,6 @@
 
       {
         "contentType": "smartsection",
-        "id": "1qnUbh4OB4yNo3LJJ1ADp0",
-        "htmlid": "dr-agapitou-hero",
-        "layout": "Columns",
-        "gap": "lg",
-        "backgroundColor": "#141414",
-        "backgroundImage": {
-          "url": "https://images.ctfassets.net/n8ip1shnectl/IHgIpR5Surmew2LG5SPOT/0eb987c1c34ebb8a9786c0518030af69/homepage-hero.png"
-        },
-        "enableParallaxEffect": false,
-        "darkMode": true,
-        "sectionSeparator": false,
-        "paddingTop": "xl",
-        "paddingBottom": "xl",
-        "fullViewWidth": false,
-        "content": [
-          {
-            "eyebrow": null,
-            "title": "# __Έλενα Αγαπητού Καρδιολόγος__",
-            "body": "Αριστούχος Ιατρικής Αθηνών με 15+ χρόνια κλινικής εμπειρίας",
-            "disclaimer": null,
-            "titleFontSize": "xl",
-            "alignment": "left",
-            "paddingTop": "2xl",
-            "paddingLeft": "xs",
-            "paddingBottom": "base",
-            "paddingRight": "lg",
-            "contentType": "richcontent",
-            "ctas": [
-              {
-                "href": "/contact",
-                "label": "Κλείστε Ραντεβού",
-                "openNewTab": false,
-                "variant": "secondary",
-                "withArrow": false,
-                "icon": null,
-                "id": "4jw1KgKF0C9vHH3Zym3m6w"
-              },
-              {
-                "href": "/clinic-services",
-                "label": "Υπηρεσίες του Ιατρείου",
-                "openNewTab": false,
-                "variant": "ghost",
-                "withArrow": false,
-                "icon": null,
-                "id": "6qJNP6mum4yxzvYD6kaBEN"
-              }
-            ]
-          }
-        ]
-      },
-
-      {
-        "contentType": "smartsection",
         "id": "a490adf1-3038-407f-bf32-fb64ed355969",
         "htmlid": "services-offered",
         "layout": "Rows",
@@ -151,7 +98,7 @@
         "content": [
           {
             "eyebrow": null,
-            "title": "## __Γνωστές Υπηρεσίες__",
+            "title": "## __Υπηρεσίες__",
             "disclaimer": null,
             "titleFontSize": "sm",
             "alignment": "center",
@@ -875,8 +822,8 @@
           {
             "file": {
               "url": "https://images.ctfassets.net/n8ip1shnectl/6Jw11H9b1QIvig0rmAGc3l/4a2485d41bf251635642a8829f74db4a/hero-dr-Agapitou.png",
-              "title": "Photo of the doctor in her desk in a suit, looking in the camera, smiling",
-              "description": null,
+              "title": "Clinic entrance area with reception desk",
+              "description": "Clinic entrance area. Reception desk with doctor's logo in the center and a plant beside",
               "width": 2048,
               "height": 1015,
               "contentType": "image/png"
@@ -894,7 +841,7 @@
         "backgroundColor": "#FCFCFD",
         "enableParallaxEffect": true,
         "darkMode": false,
-        "sectionSeparator": true,
+        "sectionSeparator": false,
         "paddingTop": "lg",
         "paddingBottom": "lg",
         "fullViewWidth": false,
@@ -919,7 +866,27 @@
             "gap": "base",
             "layout": "carousel",
             "columns": 3,
-            "ctas": [],
+            "ctas": [
+              {
+                "href": "/contact",
+                "label": "Επικοινωνία",
+                "openNewTab": false,
+                "variant": "primary",
+                "withArrow": true,
+                "icon": null,
+                "id": "e5b7c8a2-9f4d-4e3a-8c1b-7a2f6d3c4b1a"
+              },
+              {
+                "href": "https://www.doctoranytime.gr/d/Kardiologos/agapitou-elena",
+                "target": "_blank",
+                "label": "Ραντεβού Doctoranytime",
+                "openNewTab": true,
+                "variant": "secondary",
+                "withArrow": false,
+                "icon": null,
+                "id": "b7e2d9a3-4c5f-4e8a-9d2f-7c1a6e3b2d4f"
+              }
+            ],
             "contentItems": [
               {
                 "contentType": "flexiblecontent",
@@ -946,6 +913,105 @@
                     "withArrow": false,
                     "size": "base",
                     "onClick": null,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Διαχείριση παθήσεων & Διερεύνηση συμπτωμάτων",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/24LGAoBqoixY41rYKwRhDs/fe23270aec5a06427b8b0dcf2fd53a1f/agapitou-9.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "#pathhseis-kai-symptwmata",
+                    "label": "Διαχείριση παθήσεων όπως υπέρταση, δυσλιπιδαιμία, στεφανιαία νόσο, αρρυθμίες, ανεύρυσμα αορτής, καρδιακή ανεπάρκεια, βαλβιδοπάθειες, μυοκαρδιοπάθειες κ.α.\n\nΔιερεύνηση συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.Διερεύνηση διάφορων συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Δοκιμασία κόπωσης με τάπητα",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/4za8XaU3ZkhUAI3gIyu7Om/26041f922d3d75348501ffe7cf1455bc/agapitou-12.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "#dokimasia-kopwshs",
+                    "label": "Παρακολούθηση και καταγραφή του ηλεκτροκαρδιογραφήματος και της αρτηριακής πίεσης κατά τη διάρκεια φυσικής άσκησης (γρήγορο βάδισμα στο διάδρομο). Γίνεται στα πλαίσια διερεύνησης συμπτωμάτων όπως πόνος στο στήθος ή δύσπνοια αλλά και για την εκτίμηση της φυσικής κατάσταση, της αρτηριακής πίεσης και του καρδιακακού ρυθμού του ασθενή κατά την άσκηση. ",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Scroll icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Holter πίεσης",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/2N1pdoYL3hkDD1SglSyZrX/236e914241de4973c6d5d778a86304c8/holter-pieshs.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Service image"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "#holter-pieshs",
+                    "label": "Παρακολούθηση της αρτηριακής πίεσης για 24 ώρες. Πραγματοποιείται με ειδική μικρή συσκευή με περιχειρίδα που μετρά την αρτηριακή πίεση σε τακτά χρονικά διαστήματα κατά τη διάρκεια της ημέρας, ενώ ο ασθενής εκτελεί κανονικά τις καθημερινές του δραστηριότητες, αλλά και κατά τη διάρκεια της νύχτας. Χρησιμοποείται για τη διάγνωση της αρτηριακής υπέρτασης αλλά και για παρακολούθηση της αποτελεσματικότητας της θεραπείας σε ασθενείς υπό φαρμακευτική αγωγή.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
                     "icon": {
                       "type": "svg",
                       "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
@@ -1031,7 +1097,7 @@
                 "media": [
                   {
                     "type": "image/jpg",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/svePsfnqkZmh54i9rBazT/ba5f69c6226dd1b115d33d87ea774e90/agapitou-holter-ruthmou.jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/29eSztdHVGnHjBf3Td4C4e/2ca2d13bc9570353d35beae13e4ef81a/holter-ruthmou.jpg",
                     "width": 1000,
                     "height": 667,
                     "description": "Service image"
@@ -1042,39 +1108,6 @@
                     "id": "93b6ede0-e42d-4afb-91ce-dd8ee850e52d",
                     "href": "#holter-ruthmou",
                     "label": "Συνεχόμενη καταγραφή ηλεκτροκαρδιογραφήματος για 24 ή 48 ώρες, μέσω μιας ειδικής μικρής συσκευής.",
-                    "openNewTab": false,
-                    "variant": "ghost",
-                    "withArrow": false,
-                    "icon": {
-                      "type": "svg",
-                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
-                      "width": 20,
-                      "height": 20,
-                      "description": "Scroll icon"
-                    }
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
-                "title": "Holter πίεσης",
-                "body": null,
-                "alignment": "left",
-                "media": [
-                  {
-                    "type": "image/jpg",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/48R3zBVOZuTxvfTIwAaYjA/e85c9a2f752ff0d133d867bfe48dd9a4/agapitou-holter-pieshs.jpg",
-                    "width": 1000,
-                    "height": 667,
-                    "description": "Service image"
-                  }
-                ],
-                "buttons": [
-                  {
-                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "#holter-pieshs",
-                    "label": "Παρακολούθηση της αρτηριακής πίεσης για 24 ώρες. Πραγματοποιείται με ειδική μικρή συσκευή με περιχειρίδα που μετρά την αρτηριακή πίεση σε τακτά χρονικά διαστήματα κατά τη διάρκεια της ημέρας, ενώ ο ασθενής εκτελεί κανονικά τις καθημερινές του δραστηριότητες, αλλά και κατά τη διάρκεια της νύχτας. Χρησιμοποείται για τη διάγνωση της αρτηριακής υπέρτασης αλλά και για παρακολούθηση της αποτελεσματικότητας της θεραπείας σε ασθενείς υπό φαρμακευτική αγωγή.",
                     "openNewTab": false,
                     "variant": "ghost",
                     "withArrow": false,
@@ -1176,72 +1209,6 @@
                     "label": "Έκδοση πιστοποιητικών υγείας, βεβαιώσεων για εργασία, αθλητικές δραστηριότητες ή ΚΕΠΑ, σύμφωνα με τις ισχύουσες ιατρικές προδιαγραφές.",
                     "openNewTab": false,
                     "variant": "ghost",
-                    "withArrow": true,
-                    "icon": {
-                      "type": "svg",
-                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
-                      "width": 20,
-                      "height": 20,
-                      "description": "Scroll icon"
-                    }
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
-                "title": "Διαχείριση παθήσεων & Διερεύνηση συμπτωμάτων",
-                "body": null,
-                "alignment": "left",
-                "media": [
-                  {
-                    "type": "image/jpg",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/24LGAoBqoixY41rYKwRhDs/fe23270aec5a06427b8b0dcf2fd53a1f/agapitou-9.jpg",
-                    "width": 1000,
-                    "height": 667,
-                    "description": "Service image"
-                  }
-                ],
-                "buttons": [
-                  {
-                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "#pathhseis-kai-symptwmata",
-                    "label": "Διαχείριση παθήσεων όπως υπέρταση, δυσλιπιδαιμία, στεφανιαία νόσο, αρρυθμίες, ανεύρυσμα αορτής, καρδιακή ανεπάρκεια, βαλβιδοπάθειες, μυοκαρδιοπάθειες κ.α.\n\nΔιερεύνηση συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.Διερεύνηση διάφορων συμπτωμάτων όπως θωρακικό άλγος, δύσπνοια, αίσθημα παλμών / αρρυθμίας, λιποθυμικά επεισόδια.",
-                    "openNewTab": false,
-                    "variant": "ghost",
-                    "withArrow": false,
-                    "icon": {
-                      "type": "svg",
-                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
-                      "width": 20,
-                      "height": 20,
-                      "description": "Scroll icon"
-                    }
-                  }
-                ]
-              },
-              {
-                "contentType": "flexiblecontent",
-                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
-                "title": "Δοκιμασία κόπωσης με τάπητα",
-                "body": null,
-                "alignment": "left",
-                "media": [
-                  {
-                    "type": "image/jpg",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/4za8XaU3ZkhUAI3gIyu7Om/26041f922d3d75348501ffe7cf1455bc/agapitou-12.jpg",
-                    "width": 1000,
-                    "height": 667,
-                    "description": "Service image"
-                  }
-                ],
-                "buttons": [
-                  {
-                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
-                    "href": "#dokimasia-kopwshs",
-                    "label": "Παρακολούθηση και καταγραφή του ηλεκτροκαρδιογραφήματος και της αρτηριακής πίεσης κατά τη διάρκεια φυσικής άσκησης (γρήγορο βάδισμα στο διάδρομο). Γίνεται στα πλαίσια διερεύνησης συμπτωμάτων όπως πόνος στο στήθος ή δύσπνοια αλλά και για την εκτίμηση της φυσικής κατάσταση, της αρτηριακής πίεσης και του καρδιακακού ρυθμού του ασθενή κατά την άσκηση. ",
-                    "openNewTab": false,
-                    "variant": "ghost",
                     "withArrow": false,
                     "icon": {
                       "type": "svg",
@@ -1262,9 +1229,9 @@
                 "media": [
                   {
                     "type": "image/jpg",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/cAmxOoxCLurVQcolMLnih/33362f03304808bb8b7e42023fab5037/agapitou-5.jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/cAmxOoxCLurVQcolMLnih/ffdffbd92cb726447951f57cc4b940b7/agapitou-5.jpg",
                     "width": 1000,
-                    "height": 667,
+                    "height": 660,
                     "description": "Service image"
                   }
                 ],
@@ -1320,7 +1287,24 @@
                 ]
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "contentType": "smartsection",
+        "id": "6Wc0xMQoZAkg20dWJ0WVHO",
+        "htmlid": "novajam-contact",
+        "layout": "Rows",
+        "gap": "base",
+        "backgroundColor": "#FCFCFD",
+        "enableParallaxEffect": true,
+        "darkMode": false,
+        "sectionSeparator": true,
+        "paddingTop": "base",
+        "paddingBottom": "xl",
+        "fullViewWidth": false,
+        "backgroundImage": null,
+        "content": [
           {
             "contentType": "contentlist",
             "id": "Q&A-4Av7ggiCB7fPTx19DMk2Jz",
@@ -1413,27 +1397,7 @@
                 "id": "episkeyh-kat-oikon"
               }
             ],
-            "ctas": [
-              {
-                "href": "/contact",
-                "label": "Επικοινωνία",
-                "openNewTab": false,
-                "variant": "primary",
-                "withArrow": true,
-                "icon": null,
-                "id": "e5b7c8a2-9f4d-4e3a-8c1b-7a2f6d3c4b1a"
-              },
-              {
-                "href": "https://www.doctoranytime.gr/d/Kardiologos/agapitou-elena",
-                "target": "_blank",
-                "label": "Ραντεβού Doctoranytime",
-                "openNewTab": true,
-                "variant": "secondary",
-                "withArrow": false,
-                "icon": null,
-                "id": "b7e2d9a3-4c5f-4e8a-9d2f-7c1a6e3b2d4f"
-              }
-            ]
+            "ctas": []
           }
         ]
       },
@@ -1467,14 +1431,14 @@
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
                 "title": null,
-                "body": "Περιγραφή εικόνας",
+                "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/3EdYHzoyFBy63Dg3YULUBq/2c4cd099303657c0e5385ac677d60d49/agapitou-12.jpg",
-                    "width": 1408,
-                    "height": 939,
-                    "description": "Clinic equipment photo"
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/4wpJxuPyELGhcJaXwX78lw/552b392944989afa26223f743b1155a0/agapitou-4.jpg",
+                    "width": 1920,
+                    "height": 1267,
+                    "description": "Clinic entrance area. Reception desk with doctor's logo in the center and a plant beside"
                   }
                 ],
                 "buttons": []
@@ -1484,14 +1448,14 @@
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
                 "title": null,
-                "body": "Περιγραφή εικόνας",
+                "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 1408,
-                    "height": 939,
-                    "description": "Clinic equipment photo"
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/1pucNzPKbUrTNeLpiHWZNC/dc14346e967f1d68d550f2b94154a8ce/agapitou-5.jpg",
+                    "width": 1920,
+                    "height": 1267,
+                    "description": "Clinic entrance area. Waiting area with a couch and artwork on the wall behind."
                   }
                 ],
                 "buttons": []
@@ -1501,14 +1465,14 @@
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
                 "title": null,
-                "body": "Περιγραφή εικόνας",
+                "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 1408,
-                    "height": 939,
-                    "description": "Clinic equipment photo"
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/56oSVm9cfihFDNaP6COvgL/efd7644ed9b0130449b4654260d13f76/agapitou-7.jpg",
+                    "width": 1920,
+                    "height": 1267,
+                    "description": "Doctor's office. Doctor's desk with two chairs in front. The examination room is visible in the background."
                   }
                 ],
                 "buttons": []
@@ -1518,14 +1482,14 @@
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
                 "title": null,
-                "body": "Περιγραφή εικόνας",
+                "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 1408,
-                    "height": 939,
-                    "description": "Clinic equipment photo"
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/6rGd2ndGQqWw74bO1k0G70/875745d9727e48c0b62a3ccd4af55d23/agapitou-1.jpg",
+                    "width": 1920,
+                    "height": 1267,
+                    "description": "Doctor's office. A bookcase with books and vases on the right with a waiting chair and a lamp on the side. The examination room equipment is visible in the background"
                   }
                 ],
                 "buttons": []
@@ -1535,14 +1499,14 @@
                 "id": "854453ed-10f2-4f93-9f3b-5fe856cc3ed4",
                 "alignment": "center",
                 "title": null,
-                "body": "Περιγραφή εικόνας",
+                "body": null,
                 "media": [
                   {
-                    "type": "image",
-                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/17d0f601bfd3cec76c743a5b0493626c/agapitou-13.jpg",
-                    "width": 1408,
-                    "height": 939,
-                    "description": "Clinic equipment photo"
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/0114qSSTO8c4FjYXSI7UHm/8427f03a2c0c1c490f86e87e9543259f/agapitou-8.jpg",
+                    "width": 1920,
+                    "height": 1267,
+                    "description": "Doctor in the examination room, sitted on a chair, looking in the equipment keyboard"
                   }
                 ],
                 "buttons": []
@@ -1567,10 +1531,19 @@
                 "href": "https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7",
                 "label": "Άνοιγμα στο Google Maps",
                 "openNewTab": true,
-                "variant": "primary",
+                "variant": "secondary",
                 "withArrow": false,
                 "icon": null,
                 "id": "5dd4f2dd-8ea4-40f7-90aa-9be8b801fff6"
+              },
+              {
+                "href": "/contact",
+                "label": "Επικοινωνία",
+                "openNewTab": false,
+                "variant": "primary",
+                "withArrow": true,
+                "icon": null,
+                "id": "e5b7c8a2-9f4d-4e3a-8c1b-7a2f6d3c5b1a"
               }
             ]
           }

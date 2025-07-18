@@ -43,7 +43,7 @@ export const Footer: React.FC<Props> = ({ data }) => {
           : 'none',
       }}
     >
-      <div className="container py-20 flex flex-wrap gap-x-5 gap-y-10">
+      <div className="container pt-20 pb-16 flex flex-wrap gap-x-5 gap-y-10">
         <div className="w-full lg:w-1/2 2xl:w-1/3 flex flex-col gap-4 lg:gap-8 items-center lg:items-start">
           {logo?.url && (
             <Link
@@ -65,7 +65,11 @@ export const Footer: React.FC<Props> = ({ data }) => {
             </div>
           )}
           {copyright && (
-            <p className={classNames('text-slate-600 dark:text-white/80')}>
+            <p
+              className={classNames(
+                'text-center text-slate-600 dark:text-white/80',
+              )}
+            >
               {copyright}
             </p>
           )}

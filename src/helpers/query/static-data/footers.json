@@ -26,15 +26,8 @@
           },
           {
             "id": "clinic-services",
-            "label": "Υπηρεσίες",
+            "label": "Υπηρεσίες του Ιατρείου",
             "href": "/clinic-services",
-            "openNewTab": false,
-            "contentType": "link"
-          },
-          {
-            "id": "office-clinic",
-            "label": "Το Ιατρείο",
-            "href": "/office-clinic",
             "openNewTab": false,
             "contentType": "link"
           },
@@ -43,6 +36,13 @@
             "label": "Επικοινωνία",
             "href": "/contact",
             "openNewTab": false,
+            "contentType": "link"
+          },
+          {
+            "id": "contact",
+            "label": "Ραντεβού Doctoranytime↗",
+            "href": "https://www.doctoranytime.gr/d/Kardiologos/agapitou-elena",
+            "openNewTab": true,
             "contentType": "link"
           }
         ]
@@ -54,7 +54,7 @@
         "links": [
           {
             "id": "address",
-            "label": "Σοφοκλή Βενιζέλου 101, Ηλιούπολη, 16343 - 2ος όροφος",
+            "label": "Σοφοκλή Βενιζέλου 101, Ηλιούπολη, 16343 - 2ος\u00A0όροφος",
             "href": "https://maps.app.goo.gl/7Q5sM7bWsysU2yQT7",
             "openNewTab": true,
             "contentType": "link"
@@ -63,8 +63,22 @@
             "id": "telephone",
             "label": "+30 210 993 7962",
             "href": "tel:+302109937962",
-            "openNewTab": true,
+            "openNewTab": false,
             "contentType": "tel"
+          },
+          {
+            "id": "mobile phone",
+            "label": "+30 697 4150 899",
+            "href": "tel:+306974150899",
+            "openNewTab": false,
+            "contentType": "tel"
+          },
+          {
+            "id": "email",
+            "label": "info@kardiologos-agapitou.gr",
+            "href": "mailto:info@kardiologos-agapitou.gr",
+            "openNewTab": false,
+            "contentType": "mail"
           }
         ]
       }
