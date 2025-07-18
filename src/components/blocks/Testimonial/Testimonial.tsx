@@ -61,7 +61,7 @@ export const Testimonial: React.FC<{
         {content && (
           <MarkdownRenderer
             className={classNames(
-              'mb-6 prose text-slate-600 dark:text-white/80 dark:prose-invert',
+              'mb-6 prose text-neutral-600 dark:text-white/80 dark:prose-invert',
               {
                 'prose-lg': fontSize === 'lg',
                 'prose-xl': fontSize === 'xl',
@@ -75,14 +75,16 @@ export const Testimonial: React.FC<{
         <VscQuote className="mb-2 rotate-180 text-primary-500" size={20} />
         <div
           className={classNames(
-            'font-semibold font-heading text-lg dark:text-slate-100',
+            'font-semibold font-heading text-lg dark:text-neutral-100',
           )}
         >
           {authorName}
         </div>
         {authorTitle && (
           <div
-            className={classNames('text-smd text-slate-600 dark:text-white/80')}
+            className={classNames(
+              'text-smd text-neutral-600 dark:text-white/80',
+            )}
           >
             {authorTitle}
           </div>

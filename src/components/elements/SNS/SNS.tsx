@@ -22,7 +22,7 @@ const SocialMediaLink: React.FC<{
     href={url}
     target="_blank"
     className={classNames(
-      'group/sns w-10 h-10 rounded-full flex justify-center items-center bg-slate-100 hover:bg-slate-200 transition-colors duration-300 ease-in-out dark:bg-opacity-10 dark:hover:bg-opacity-5',
+      'group/sns w-10 h-10 rounded-full flex justify-center items-center bg-neutral-100 hover:bg-neutral-200 transition-colors duration-300 ease-in-out dark:bg-opacity-10 dark:hover:bg-opacity-5',
     )}
   >
     {React.cloneElement(icon, {
@@ -52,13 +52,13 @@ const CopyLinkToClipboard: React.FC = () => {
       <button
         onClick={handleCopyLink}
         className={classNames(
-          'group/sns cursor-pointer w-10 h-10 rounded-full flex justify-center items-center bg-slate-100 hover:bg-slate-200 transition-colors duration-300 ease-in-out dark:bg-opacity-10 dark:hover:bg-opacity-5',
+          'group/sns cursor-pointer w-10 h-10 rounded-full flex justify-center items-center bg-neutral-100 hover:bg-neutral-200 transition-colors duration-300 ease-in-out dark:bg-opacity-10 dark:hover:bg-opacity-5',
         )}
       >
         <FiLink size={15} className="rotate-45" />
       </button>
       {copied && (
-        <Toast.Root className="px-6 py-4 rounded-md bg-slate-900/90 text-slate-100">
+        <Toast.Root className="px-6 py-4 rounded-md bg-neutral-900/90 text-neutral-100">
           <Toast.Title className="font-semibold flex items-center">
             <IoMdCheckmark className="mr-2" /> Link copied to clipboard
           </Toast.Title>

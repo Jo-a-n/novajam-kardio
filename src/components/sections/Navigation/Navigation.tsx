@@ -51,7 +51,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
       <header className={classNames('relative z-[99999] tracking-wider')}>
         <div
           className={classNames(
-            'absolute w-screen flex justify-center dark:text-slate-100',
+            'absolute w-screen flex justify-center dark:text-neutral-100',
           )}
         >
           <div className="container pt-6 flex items-center justify-between flex-1">
@@ -83,12 +83,12 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
       >
         <div
           className={classNames(
-            'absolute top-0 left-0 right-0 flex justify-center text-slate-950 dark:text-white transition-all duration-500',
+            'absolute top-0 left-0 right-0 flex justify-center text-neutral-950 dark:text-white transition-all duration-500',
             {
               'dark !text-white': startsInDarkMode && !sticky,
             },
             {
-              'bg-slate-50/70 backdrop-blur-2xl dark:bg-slate-900/80 shadow':
+              'bg-neutral-50/70 backdrop-blur-2xl dark:bg-neutral-900/80 shadow':
                 sticky,
               dark: darkMode,
             },
@@ -126,8 +126,8 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
     >
       <div
         className={classNames(
-          'bg-white/60 dark:text-slate-100 dark:bg-slate-900 transition-all duration-500',
-          { 'backdrop-blur-2xl dark:bg-slate-900/80': sticky },
+          'bg-white/60 dark:text-neutral-100 dark:bg-neutral-900 transition-all duration-500',
+          { 'backdrop-blur-2xl dark:bg-neutral-900/80': sticky },
         )}
       >
         <div

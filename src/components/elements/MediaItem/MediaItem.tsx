@@ -63,7 +63,7 @@ export const MediaItem: React.FC<{
   return shadow || zoomInOverHover ? (
     <div
       className={classNames(
-        `bg-slate-200 dark:bg-slate-700 rounded-${rounded}`,
+        `bg-neutral-200 dark:bg-neutral-700 rounded-${rounded}`,
         {
           'overflow-hidden': zoomInOverHover,
           'shadow-radiant': shadow,

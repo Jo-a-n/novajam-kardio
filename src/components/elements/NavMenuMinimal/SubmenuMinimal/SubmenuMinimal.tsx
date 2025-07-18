@@ -45,7 +45,7 @@ export const SubmenuMinimal: React.FC<{
         </div>
       </NavigationMenu.Trigger>
       <NavigationMenu.Content
-        className="w-full pt-4 pb-10 px-4 lg:px-10 my-4 bg-slate-700/30 rounded-theme"
+        className="w-full pt-4 pb-10 px-4 lg:px-10 my-4 bg-neutral-700/30 rounded-theme"
         onPointerLeave={(e) => e.preventDefault()}
       >
         <NavigationMenu.Root aria-label="Sub" orientation="vertical">

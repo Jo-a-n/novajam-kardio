@@ -17,7 +17,7 @@
 @layer base {
   :root {
     /* THEME CONFIG STYLING VARIABLES */
-    --foreground-rgb: 30 41 59; /* Default text color text-slate-800 */
+    --foreground-rgb: 30 41 59; /* Default text color text-neutral-800 */
     --font-heading: unset;
     --border-radius-theme: 0.375rem; /* 0.125rem / 0.375rem / 1rem */
     --border-radius-theme-button: 0.375rem; /* 0.125rem / 0.375rem / 1.75rem */
@@ -47,7 +47,7 @@
   }
 
   .dark {
-    --foreground-rgb: 241 245 249; /* text-slate-100 */
+    --foreground-rgb: 241 245 249; /* text-neutral-100 */
   }
 }
 
@@ -118,11 +118,11 @@ ul li.custom-bullet {
 .show-scrollbar::-webkit-scrollbar {
   height: 5px; /* for Horizonatal scrollbar */
   width: 5px; /* for Vertical scrollbar */
-  @apply bg-slate-200;
+  @apply bg-neutral-200;
 }
 
 .show-scrollbar::-webkit-scrollbar-thumb {
-  @apply bg-slate-700;
+  @apply bg-neutral-700;
   border-radius: 5px;
 }
 

@@ -49,7 +49,7 @@ export const Expert: React.FC<{
         <div className="w-full sm:w-2/3 md:w-3/4 sm:pl-4 md:pl-6 lg:pl-8">
           <div
             className={classNames(
-              'font-heading font-semibold text-2xl md:text-3xl text-center sm:text-start mb-2 dark:text-slate-100',
+              'font-heading font-semibold text-2xl md:text-3xl text-center sm:text-start mb-2 dark:text-neutral-100',
             )}
           >
             {fullName}
@@ -57,7 +57,7 @@ export const Expert: React.FC<{
           {role && (
             <div
               className={classNames(
-                'font-semibold text-center sm:text-start text-slate-600 dark:text-white/80',
+                'font-semibold text-center sm:text-start text-neutral-600 dark:text-white/80',
               )}
             >
               {role}
@@ -66,7 +66,7 @@ export const Expert: React.FC<{
           {specialization && (
             <div
               className={classNames(
-                'flex flex-wrap items-center gap-2 justify-center sm:justify-start text-slate-600 dark:text-white/80',
+                'flex flex-wrap items-center gap-2 justify-center sm:justify-start text-neutral-600 dark:text-white/80',
               )}
             >
               {specialization.map((item, index) => (
@@ -77,7 +77,7 @@ export const Expert: React.FC<{
           {organization && (
             <div
               className={classNames(
-                'text-center sm:text-start text-slate-600 dark:text-white/80',
+                'text-center sm:text-start text-neutral-600 dark:text-white/80',
               )}
             >
               {organization}
@@ -86,7 +86,7 @@ export const Expert: React.FC<{
           {description && (
             <div
               className={classNames(
-                'my-4 prose 2xl:prose-lg max-w-none dark:text-slate-100',
+                'my-4 prose 2xl:prose-lg max-w-none dark:text-neutral-100',
               )}
             >
               {description}
@@ -117,7 +117,7 @@ export const Expert: React.FC<{
         {description && (
           <div
             className={classNames(
-              'absolute bottom-0 opacity-0 group-hover:opacity-90 transition-opacity duration-500 ease-in-out rounded-b-theme gr p-4 text-slate-100 bg-primary-600 prose',
+              'absolute bottom-0 opacity-0 group-hover:opacity-90 transition-opacity duration-500 ease-in-out rounded-b-theme gr p-4 text-neutral-100 bg-primary-600 prose',
             )}
           >
             <div className="line-clamp-5">{description}</div>
@@ -135,20 +135,20 @@ export const Expert: React.FC<{
       >
         <div
           className={classNames(
-            'font-heading font-semibold text-lg xl:text-xl dark:text-slate-100',
+            'font-heading font-semibold text-lg xl:text-xl dark:text-neutral-100',
           )}
         >
           {fullName}
         </div>
         {role && (
-          <div className={classNames('text-slate-600 dark:text-white/80')}>
+          <div className={classNames('text-neutral-600 dark:text-white/80')}>
             {role}
           </div>
         )}
         {specialization && (
           <div
             className={classNames(
-              'flex flex-wrap gap-2 text-slate-600 dark:text-white/80',
+              'flex flex-wrap gap-2 text-neutral-600 dark:text-white/80',
               {
                 'justify-center': alignment === 'center',
                 'justify-end': alignment === 'end',
@@ -161,7 +161,7 @@ export const Expert: React.FC<{
           </div>
         )}
         {organization && (
-          <div className={classNames('text-slate-600 dark:text-white/80')}>
+          <div className={classNames('text-neutral-600 dark:text-white/80')}>
             {organization}
           </div>
         )}

@@ -84,7 +84,7 @@ export const SmartSection: React.FC<SmartSectionProps> = ({
             backgroundImage,
           'dark:bg-opacity-5 dark:bg-blend-multiply':
             !darkMode && backgroundColor,
-          'dark:bg-slate-900/90': !darkMode && backgroundImage,
+          'dark:bg-neutral-900/90': !darkMode && backgroundImage,
           dark: darkMode,
           'lg:bg-fixed': backgroundImage && enableParallaxEffect,
         },

@@ -35,7 +35,7 @@ export const PagePreview: React.FC<{
         <div className="basis-2/3 flex-1 py-4 pr-4 lg:py-6 lg:pr-6">
           <h4
             className={classNames(
-              'text-lg xl:text-xl font-heading file:font-semibold dark:text-slate-100',
+              'text-lg xl:text-xl font-heading file:font-semibold dark:text-neutral-100',
               {
                 'text-center': alignment === 'center',
                 'text-end': alignment === 'end',
@@ -68,7 +68,7 @@ export const PagePreview: React.FC<{
         />
         <h4
           className={classNames(
-            'mt-4 text-lg xl:text-xl font-heading font-semibold transition-colors duration-300 ease-in-out dark:text-slate-100',
+            'mt-4 text-lg xl:text-xl font-heading font-semibold transition-colors duration-300 ease-in-out dark:text-neutral-100',
             {
               'text-center': alignment === 'center',
               'text-end': alignment === 'end',

@@ -56,11 +56,11 @@ export const Button: React.FC<ButtonProps> = ({
         className={classNames(
           'block ml-4 relative left-1 group-hover/btn:left-2 transition-all duration-300 ease',
           {
-            'text-primary-600 group-hover/btn:text-slate-100':
+            'text-primary-600 group-hover/btn:text-neutral-100':
               variant === 'outline',
-            'text-inherit group-hover/btn:text-slate-100':
+            'text-inherit group-hover/btn:text-neutral-100':
               variant === 'outline-black',
-            'text-slate-100 group-hover/btn:text-inherit':
+            'text-neutral-100 group-hover/btn:text-inherit':
               variant === 'outline-white',
           },
         )}
@@ -92,7 +92,7 @@ export const Button: React.FC<ButtonProps> = ({
   const getVariantClasses = () => {
     if (variant === 'ghost') {
       return classNames(
-        'w-full py-1.5 border-b-3 border-dotted border-red-500/0 flex relative left-0 font-normal text-base hover:left-1 hover:text-red-800 hover:border-b-3 hover:border-red-500/50 transition-all duration-500 ease text-slate-600 dark:text-slate-200',
+        'w-full py-1.5 border-b-3 border-dotted border-red-500/0 flex relative left-0 font-normal text-base hover:left-1 hover:text-red-800 hover:border-b-3 hover:border-red-500/50 transition-all duration-500 ease text-neutral-600 dark:text-neutral-200',
         {
           'text-sm': size === 'sm',
           'text-base': size === 'base',
@@ -106,19 +106,19 @@ export const Button: React.FC<ButtonProps> = ({
     return classNames(
       'w-full whitespace-nowrap relative border rounded-theme-button transition-all duration-500 ease',
       {
-        'border-primary-600 bg-primary-600 hover:brightness-110 text-slate-100':
+        'border-primary-600 bg-primary-600 hover:brightness-110 text-neutral-100':
           variant === 'primary',
-        'border-secondary-600 bg-secondary-600 hover:brightness-110 text-slate-100':
+        'border-secondary-600 bg-secondary-600 hover:brightness-110 text-neutral-100':
           variant === 'secondary',
-        'border-slate-950 bg-slate-950 text-slate-100 hover:bg-slate-900 hover:border-slate-900 dark:border-slate-700':
+        'border-neutral-950 bg-neutral-950 text-neutral-100 hover:bg-neutral-900 hover:border-neutral-900 dark:border-neutral-700':
           variant === 'black',
-        'text-slate-800 border-slate-50 bg-slate-50 hover:bg-white hover:border-white text-inherit':
+        'text-neutral-800 border-neutral-50 bg-neutral-50 hover:bg-white hover:border-white text-inherit':
           variant === 'white',
-        'border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-slate-100':
+        'border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-neutral-100':
           variant === 'outline',
-        'border-slate-900 text-inherit hover:bg-slate-950 hover:text-slate-100 dark:border-slate-100':
+        'border-neutral-900 text-inherit hover:bg-neutral-950 hover:text-neutral-100 dark:border-neutral-100':
           variant === 'outline-black',
-        'border-white text-slate-100 hover:bg-white hover:text-inherit drop-shadow-lg':
+        'border-white text-neutral-100 hover:bg-white hover:text-inherit drop-shadow-lg':
           variant === 'outline-white',
         'px-2 py-2 min-w-[100px] lg:min-w-[120px] text-sm font-medium':
           size === 'sm',

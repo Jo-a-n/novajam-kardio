@@ -71,7 +71,7 @@ export const RichContent: React.FC<{
         />
       )}
       {disclaimer && (
-        <MarkdownRenderer className="-mt-4 prose text-smd text-slate-500">
+        <MarkdownRenderer className="-mt-4 prose text-smd text-neutral-500">
           {disclaimer}
         </MarkdownRenderer>
       )}

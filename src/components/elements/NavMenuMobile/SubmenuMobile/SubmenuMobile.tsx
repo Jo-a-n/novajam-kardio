@@ -27,7 +27,7 @@ export const SubmenuMobile: React.FC<{
         />
       </NavigationMenu.Trigger>
       <NavigationMenu.Content
-        className="bg-white dark:bg-slate-900 mt-2 rounded-theme"
+        className="bg-white dark:bg-neutral-900 mt-2 rounded-theme"
         onPointerLeave={(e) => e.preventDefault()}
       >
         <NavigationMenu.Root

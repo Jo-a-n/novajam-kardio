@@ -19,7 +19,7 @@ export const Mega: React.FC<{ data: SubmenuType }> = ({ data }) => {
                   <NavLinkItem href={item.href}>{item.label}</NavLinkItem>
                 )}
                 {item.contentType === 'linkgroup' && (
-                  <p className="text-slate-600 uppercase text-sm tracking-wide font-medium mb-2">
+                  <p className="text-neutral-600 uppercase text-sm tracking-wide font-medium mb-2">
                     {item.label}
                   </p>
                 )}

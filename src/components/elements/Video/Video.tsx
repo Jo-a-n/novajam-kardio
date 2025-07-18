@@ -45,7 +45,7 @@ export const Video: React.FC<{
     >
       <video
         className={classNames(
-          'not-prose object-cover before:cont before:bg-slate-300/90',
+          'not-prose object-cover before:cont before:bg-neutral-300/90',
           aspectRatioClass,
           {
             'w-full': dimensionBase === 'width',
@@ -73,9 +73,9 @@ export const Video: React.FC<{
         Your browser does not support the video tag.
       </video>
       {!videoStarted && videoControls && (
-        <div className="absolute z-10 bottom-0 right-0 w-full h-full bg-slate-600/50 flex justify-center items-center transition-opacity duration-300 ease-linear group-hover:opacity-100">
+        <div className="absolute z-10 bottom-0 right-0 w-full h-full bg-neutral-600/50 flex justify-center items-center transition-opacity duration-300 ease-linear group-hover:opacity-100">
           <button
-            className="w-20 h-20 flex justify-center items-center bg-slate-100 rounded-full"
+            className="w-20 h-20 flex justify-center items-center bg-neutral-100 rounded-full"
             onClick={() => {
               videoRef.current?.play();
               setVideoStarted(true);

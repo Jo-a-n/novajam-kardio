@@ -18,7 +18,7 @@ const PricingBadge: React.FC<{ badge?: string }> = ({ badge }) => {
   if (!badge) return null;
 
   return (
-    <div className="px-4 py-3 rounded-t-theme text-center font-heading bg-primary-600 text-slate-100 font-semibold tracking-wider">
+    <div className="px-4 py-3 rounded-t-theme text-center font-heading bg-primary-600 text-neutral-100 font-semibold tracking-wider">
       {badge}
     </div>
   );
@@ -35,11 +35,11 @@ const PricingOptions: React.FC<{
           key={idx}
           className={classNames({ hidden: billingCycle !== item.billingCycle })}
         >
-          <div className="font-bold font-heading text-lg-heading text-slate-800">
+          <div className="font-bold font-heading text-lg-heading text-neutral-800">
             {item.price}
           </div>
           {item.priceSuffix && (
-            <div className="text-sm tracking-wide text-slate-400">
+            <div className="text-sm tracking-wide text-neutral-400">
               {item.priceSuffix}
             </div>
           )}
@@ -102,7 +102,7 @@ export const PricingPlan: React.FC<PricingPlanProps> = ({
     <div
       ref={ref}
       className={classNames(
-        'w-full max-w-3xl rounded-theme bg-white dark:bg-slate-50 border border-slate-100 dark:border-none',
+        'w-full max-w-3xl rounded-theme bg-white dark:bg-neutral-50 border border-neutral-100 dark:border-none',
         {
           'scale-105 shadow-lg': featured,
           'relative -bottom-10 opacity-0': animate,
@@ -145,7 +145,7 @@ export const PricingPlan: React.FC<PricingPlanProps> = ({
             </Button>
           )}
           {disclaimer && (
-            <MarkdownRenderer className="prose text-smd text-slate-500">
+            <MarkdownRenderer className="prose text-smd text-neutral-500">
               {disclaimer}
             </MarkdownRenderer>
           )}

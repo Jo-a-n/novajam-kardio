@@ -2,7 +2,7 @@ export const SectionSeparator: React.FC = () => (
   <div className="container">
     <div
       role="separator"
-      className="border-t border-slate-200 dark:border-slate-800"
+      className="border-t border-neutral-200 dark:border-neutral-800"
     />
   </div>
 );

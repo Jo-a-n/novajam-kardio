@@ -108,7 +108,7 @@ export const CarouselList: React.FC<{
           <GoArrowLeft
             size={50}
             className={classNames(
-              'custom-btn-prev cursor-pointer flex justify-center items-center rounded-full p-2.5 bg-opacity-20 hover:bg-primary-600  border-2 border-slate-200 hover:text-slate-100 hover:border-primary-600 transition-colors duration-300 dark:text-slate-100 dark:border-slate-100/30 dark:hover:border-primary-600',
+              'custom-btn-prev cursor-pointer flex justify-center items-center rounded-full p-2.5 bg-opacity-20 hover:bg-primary-600  border-2 border-neutral-200 hover:text-neutral-100 hover:border-primary-600 transition-colors duration-300 dark:text-neutral-100 dark:border-neutral-100/30 dark:hover:border-primary-600',
               {
                 'opacity-20 pointer-events-none cursor-not-allowed':
                   carouselState.isBeginning,
@@ -118,7 +118,7 @@ export const CarouselList: React.FC<{
           <GoArrowRight
             size={50}
             className={classNames(
-              'custom-btn-next cursor-pointer flex justify-center items-center rounded-full p-2.5 bg-opacity-20 hover:bg-primary-600 border-2 border-slate-200 hover:text-slate-100 hover:border-primary-600 transition-colors duration-300 dark:text-slate-100 dark:border-slate-100/30 dark:hover:border-primary-600',
+              'custom-btn-next cursor-pointer flex justify-center items-center rounded-full p-2.5 bg-opacity-20 hover:bg-primary-600 border-2 border-neutral-200 hover:text-neutral-100 hover:border-primary-600 transition-colors duration-300 dark:text-neutral-100 dark:border-neutral-100/30 dark:hover:border-primary-600',
               {
                 'opacity-20 pointer-events-none cursor-not-allowed':
                   carouselState.isEnd,

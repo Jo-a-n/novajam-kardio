@@ -19,7 +19,7 @@ const NavMenuMobile: React.FC<{
     <>
       <NavigationMenu.Root
         className={classNames(
-          'lg:hidden absolute top-0 left-0 z-[99999] w-screen h-screen px-4 pt-24 pb-36 overflow-y-auto bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100 ',
+          'lg:hidden absolute top-0 left-0 z-[99999] w-screen h-screen px-4 pt-24 pb-36 overflow-y-auto bg-neutral-50 text-neutral-800 dark:bg-neutral-900 dark:text-neutral-100 ',
           { hidden: !mobileMenuShowed },
         )}
         orientation="vertical"
@@ -41,7 +41,7 @@ const NavMenuMobile: React.FC<{
                 <NavigationMenu.Item
                   key={item.id}
                   className={classNames(
-                    'py-2.5 flex justify-center text-lg border-b last:border-none border-slate-100 dark:border-slate-800',
+                    'py-2.5 flex justify-center text-lg border-b last:border-none border-neutral-100 dark:border-neutral-800',
                   )}
                 >
                   {item.contentType === 'link' && (

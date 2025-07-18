@@ -8,7 +8,7 @@ export default function NotFound() {
         <div className="font-bold text-4xl lg:text-6xl text-primary-600 mb-6 lg:mb-8 dark:text-primary-500">
           Page Not Found
         </div>
-        <div className="text-slate-600 dark:text-slate-300 lg:text-lg">
+        <div className="text-neutral-600 dark:text-neutral-300 lg:text-lg">
           <p>We’re sorry, the page you requested could not be found.</p>
           <p>Please go back to the homepage.</p>
         </div>

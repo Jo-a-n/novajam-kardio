@@ -27,7 +27,7 @@ export const Footer: React.FC<Props> = ({ data }) => {
         {
           'bg-center bg-no-repeat bg-cover bg-blend-multiply': backgroundImage,
           'dark:bg-opacity-10': !darkMode && backgroundColor,
-          'dark:bg-slate-900/90': !darkMode && backgroundImage,
+          'dark:bg-neutral-900/90': !darkMode && backgroundImage,
           dark: darkMode,
         },
       )}
@@ -60,14 +60,14 @@ export const Footer: React.FC<Props> = ({ data }) => {
             </Link>
           )}
           {description && (
-            <div className="prose text-slate-600 dark:text-white/80 dark:prose-invert pt-4">
+            <div className="prose text-neutral-600 dark:text-white/80 dark:prose-invert pt-4">
               <MarkdownRenderer>{description}</MarkdownRenderer>
             </div>
           )}
           {copyright && (
             <p
               className={classNames(
-                'text-center text-slate-600 dark:text-white/80',
+                'text-center text-neutral-600 dark:text-white/80',
               )}
             >
               {copyright}
@@ -79,12 +79,14 @@ export const Footer: React.FC<Props> = ({ data }) => {
             <div
               key={idx}
               className={classNames(
-                'basis-64 items-center sm:items-start flex flex-col gap-2 dark:text-slate-100',
+                'basis-64 items-center sm:items-start flex flex-col gap-2 dark:text-neutral-100',
                 { 'md:col-start-10': menuItems.length === 1 },
               )}
             >
               <div
-                className={classNames('font-semibold mb-1 dark:text-slate-100')}
+                className={classNames(
+                  'font-semibold mb-1 dark:text-neutral-100',
+                )}
               >
                 {item.label}
               </div>
@@ -93,7 +95,7 @@ export const Footer: React.FC<Props> = ({ data }) => {
                   key={link.label}
                   href={link.href}
                   className={classNames(
-                    'self-center sm:self-start select-none text-slate-600 dark:text-white/80 before:bg-primary-500 dark:before:bg-white underline-hover-effect',
+                    'self-center sm:self-start select-none text-neutral-600 dark:text-white/80 before:bg-primary-500 dark:before:bg-white underline-hover-effect',
                   )}
                   target={link.openNewTab ? '_blank' : '_self'}
                 >
@@ -108,12 +110,14 @@ export const Footer: React.FC<Props> = ({ data }) => {
             <div
               key={idx}
               className={classNames(
-                'basis-64 items-center sm:items-start flex flex-col gap-2 dark:text-slate-100',
+                'basis-64 items-center sm:items-start flex flex-col gap-2 dark:text-neutral-100',
                 { 'md:col-start-10': menuItems2.length === 1 },
               )}
             >
               <div
-                className={classNames('font-semibold mb-1 dark:text-slate-100')}
+                className={classNames(
+                  'font-semibold mb-1 dark:text-neutral-100',
+                )}
               >
                 {item.label}
               </div>
@@ -122,7 +126,7 @@ export const Footer: React.FC<Props> = ({ data }) => {
                   key={link.label}
                   href={link.href}
                   className={classNames(
-                    'self-center sm:self-start text-center sm:text-start select-none text-slate-600 dark:text-white/80 before:bg-primary-500 dark:before:bg-white underline-hover-effect',
+                    'self-center sm:self-start text-center sm:text-start select-none text-neutral-600 dark:text-white/80 before:bg-primary-500 dark:before:bg-white underline-hover-effect',
                   )}
                   target={link.openNewTab ? '_blank' : '_self'}
                 >

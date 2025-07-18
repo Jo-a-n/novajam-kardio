@@ -71,7 +71,7 @@ export const Form: React.FC<{ data: FormType; darkMode?: boolean }> = ({
     <>
       <form
         className={classNames(
-          'mx-auto max-w-md p-4 sm:p-6 flex flex-wrap rounded-theme dark:bg-white dark:text-slate-700',
+          'mx-auto max-w-md p-4 sm:p-6 flex flex-wrap rounded-theme dark:bg-white dark:text-neutral-700',
           { 'gap-4': fields.length > 1 },
           { 'gap-1': fields?.length === 1 },
         )}
@@ -161,7 +161,7 @@ export const Form: React.FC<{ data: FormType; darkMode?: boolean }> = ({
             fullWidth={true}
           />
           {disclaimer && (
-            <MarkdownRenderer className="mt-4 prose text-smd text-slate-400">
+            <MarkdownRenderer className="mt-4 prose text-smd text-neutral-400">
               {disclaimer}
             </MarkdownRenderer>
           )}
@@ -190,7 +190,7 @@ export const Form: React.FC<{ data: FormType; darkMode?: boolean }> = ({
             }}
           >
             <Toast.Close className="absolute top-2 right-2">
-              <IoCloseOutline className="cursor-pointer ml-auto w-10 h-10 p-2 rounded-full text-primary-600 hover:bg-slate-200 transition-all duration-300 ease-in-out" />
+              <IoCloseOutline className="cursor-pointer ml-auto w-10 h-10 p-2 rounded-full text-primary-600 hover:bg-neutral-200 transition-all duration-300 ease-in-out" />
             </Toast.Close>
             <IoMdCheckmarkCircleOutline
               className="text-green-600 m-auto"
@@ -205,9 +205,9 @@ export const Form: React.FC<{ data: FormType; darkMode?: boolean }> = ({
       )}
       {isSubmitted && !isSubmitSuccessful && (
         <Toast.Provider swipeDirection="right" duration={5000}>
-          <Toast.Root className="relative bg-slate-100 rounded-theme border border-slate-300 shadow-lg p-8 data-[state=open]:animate-fadeIn">
+          <Toast.Root className="relative bg-neutral-100 rounded-theme border border-neutral-300 shadow-lg p-8 data-[state=open]:animate-fadeIn">
             <Toast.Close className="absolute top-2 right-2">
-              <IoCloseOutline className="cursor-pointer ml-auto w-10 h-10 p-2 rounded-full text-primary-600 hover:bg-slate-200 transition-all duration-300 ease-in-out" />
+              <IoCloseOutline className="cursor-pointer ml-auto w-10 h-10 p-2 rounded-full text-primary-600 hover:bg-neutral-200 transition-all duration-300 ease-in-out" />
             </Toast.Close>
             <RiErrorWarningLine className="text-red-600 m-auto" size="50" />
             <Toast.Title className="mt-4 font-heading xl:text-lg text-center">

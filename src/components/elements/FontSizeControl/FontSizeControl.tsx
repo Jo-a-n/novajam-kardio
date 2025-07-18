@@ -43,14 +43,14 @@ export function FontSizeControl() {
       <button
         onClick={increaseFontSize}
         aria-label="Increase Font Size"
-        className="w-10 h-10 py-0.5 text-xl flex justify-center items-center rounded-full hover:bg-slate-100/80 dark:hover:bg-red-950/25 dark:text-slate-100"
+        className="w-10 h-10 py-0.5 text-xl flex justify-center items-center rounded-full hover:bg-neutral-100/80 dark:hover:bg-red-950/25 dark:text-neutral-100"
       >
         <MdTextIncrease />
       </button>
       <button
         onClick={decreaseFontSize}
         aria-label="Decrease Font Size"
-        className="w-10 h-10 py-0.5 text-xl flex justify-center items-center rounded-full hover:bg-slate-100/80 dark:hover:bg-red-950/25 dark:text-slate-100"
+        className="w-10 h-10 py-0.5 text-xl flex justify-center items-center rounded-full hover:bg-neutral-100/80 dark:hover:bg-red-950/25 dark:text-neutral-100"
       >
         <MdTextDecrease />
       </button>

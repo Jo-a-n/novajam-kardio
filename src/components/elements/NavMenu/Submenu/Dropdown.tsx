@@ -27,7 +27,7 @@ export const Dropdown: React.FC<{ data: SubmenuType }> = ({ data }) => {
                     className={classNames(
                       'w-full select-none text-left pb-2 rounded-theme data-[state=open]:text-primary-600 group',
                       {
-                        'bg-slate-100': item.links.find(
+                        'bg-neutral-100': item.links.find(
                           (link) => link.href === pathname,
                         ),
                       },

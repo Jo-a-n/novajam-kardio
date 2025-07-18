@@ -31,7 +31,7 @@ export const Statistics: React.FC<{
     >
       <div
         className={classNames(
-          'font-heading text-lg-heading leading-none font-bold tracking-tight dark:text-slate-100',
+          'font-heading text-lg-heading leading-none font-bold tracking-tight dark:text-neutral-100',
           {
             'self-start pt-1': layout === 'horizontal',
             'text-center': alignment === 'center',
@@ -43,7 +43,7 @@ export const Statistics: React.FC<{
       </div>
       <div
         className={classNames(
-          'tracking-wide leading-loose text-slate-600 dark:text-white/80',
+          'tracking-wide leading-loose text-neutral-600 dark:text-white/80',
           {
             'text-center': alignment === 'center',
             'text-end': alignment === 'end',

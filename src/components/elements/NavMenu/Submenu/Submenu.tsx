@@ -12,7 +12,7 @@ export const Submenu: React.FC<{
   return (
     <>
       <NavigationMenu.Trigger className="group">
-        <span className="inline-block select-none before:bg-primary-600 dark:before:bg-slate-100 underline-hover-effect group-data-[state=open]:before:w-full">
+        <span className="inline-block select-none before:bg-primary-600 dark:before:bg-neutral-100 underline-hover-effect group-data-[state=open]:before:w-full">
           {data.label}
           <FaChevronDown
             size={10}
@@ -22,11 +22,11 @@ export const Submenu: React.FC<{
       </NavigationMenu.Trigger>
       <NavigationMenu.Content
         className={classNames('text-inherit', {
-          'absolute top-full left-0 w-full bg-white dark:bg-slate-900 border-t shadow-lg data-[state=open]:animate-slidingSubmenu':
+          'absolute top-full left-0 w-full bg-white dark:bg-neutral-900 border-t shadow-lg data-[state=open]:animate-slidingSubmenu':
             data.layout === 'mega' && layout === 'standard',
-          'absolute top-full left-0 w-full bg-white dark:bg-slate-900 shadow-radiant rounded-md data-[state=open]:animate-slidingSubmenu':
+          'absolute top-full left-0 w-full bg-white dark:bg-neutral-900 shadow-radiant rounded-md data-[state=open]:animate-slidingSubmenu':
             data.layout === 'mega' && layout === 'overlay',
-          'absolute top-full left-0 w-64 px-6 py-4 -mt-2 bg-white dark:bg-slate-800 shadow-radiant rounded-md data-[state=open]:animate-slidingSubmenu':
+          'absolute top-full left-0 w-64 px-6 py-4 -mt-2 bg-white dark:bg-neutral-800 shadow-radiant rounded-md data-[state=open]:animate-slidingSubmenu':
             data.layout === 'dropdown',
         })}
       >

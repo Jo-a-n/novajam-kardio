@@ -87,14 +87,14 @@ export const FlexibleContent: React.FC<{
           )}
         >
           {eyebrow && (
-            <div className="text-xs xl:text-sm tracking-wide text-slate-600 dark:text-white/80">
+            <div className="text-xs xl:text-sm tracking-wide text-neutral-600 dark:text-white/80">
               {eyebrow}
             </div>
           )}
           {title && (
             <MarkdownRenderer
               className={classNames(
-                'text-xl font-semibold tracking-wider xl:text-xl font-heading dark:text-slate-100',
+                'text-xl font-semibold tracking-wider xl:text-xl font-heading dark:text-neutral-100',
                 { 'group-hover:text-primary-500': !!redirectUrl },
               )}
             >
@@ -104,7 +104,7 @@ export const FlexibleContent: React.FC<{
           {!!tags?.length && (
             <div
               className={classNames(
-                'text-xs xl:text-sm tracking-wide text-slate-600 dark:text-white/80',
+                'text-xs xl:text-sm tracking-wide text-neutral-600 dark:text-white/80',
                 {
                   'mt-1': title,
                 },
@@ -116,7 +116,7 @@ export const FlexibleContent: React.FC<{
           {body && (
             <MarkdownRenderer
               className={classNames(
-                'text-lg xl:text-xl font-normal tracking-wide leading-relaxed text-slate-800 dark:text-white/80 dark:hover:text-white/95',
+                'text-lg xl:text-xl font-normal tracking-wide leading-relaxed text-neutral-800 dark:text-white/80 dark:hover:text-white/95',
                 {
                   'mt-1 lg:mt-2': title || !!tags?.length,
                   'mb-3 lg:mb-5': buttons.length > 0,

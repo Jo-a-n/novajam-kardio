@@ -35,19 +35,19 @@ export const QnA: React.FC<{ data: QAType }> = ({ data }) => {
   };
 
   return (
-    <div className="w-full max-w-3xl rounded-theme bg-white dark:bg-slate-900">
+    <div className="w-full max-w-3xl rounded-theme bg-white dark:bg-neutral-900">
       <button
         id={id}
         className="p-4 lg:p-6 w-full flex rounded-lg justify-between items-baseline gap-10 accent-red-500/30 scroll-mt-24"
         onClick={toggleCollapsed}
       >
-        <span className="text-lg xl:text-xl text-start font-heading font-semibold text-slate-800 dark:text-slate-100 max-w-none">
+        <span className="text-lg xl:text-xl text-start font-heading font-semibold text-neutral-800 dark:text-neutral-100 max-w-none">
           {heading}
         </span>
         <FaChevronRight
           size={15}
           className={classNames(
-            'shrink-0 transition-transform duration-500 text-slate-800 dark:text-slate-100',
+            'shrink-0 transition-transform duration-500 text-neutral-800 dark:text-neutral-100',
             {
               'rotate-90': collapsed,
             },
@@ -62,7 +62,7 @@ export const QnA: React.FC<{ data: QAType }> = ({ data }) => {
         }}
         className={classNames('transition-all duration-500 ease')}
       >
-        <MarkdownRenderer className="max-w-none prose px-4 lg:px-6 pb-4 lg:pb-6 2xl:prose-lg text-slate-600 dark:text-slate-300">
+        <MarkdownRenderer className="max-w-none prose px-4 lg:px-6 pb-4 lg:pb-6 2xl:prose-lg text-neutral-600 dark:text-neutral-300">
           {body}
         </MarkdownRenderer>
       </div>

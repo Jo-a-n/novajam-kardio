@@ -68,7 +68,7 @@ export const MarkdownRenderer: React.FC<{
           );
         },
         del: ({ children, ...props }) => (
-          <del className="text-slate-300" {...props}>
+          <del className="text-neutral-300" {...props}>
             {children}
           </del>
         ),
