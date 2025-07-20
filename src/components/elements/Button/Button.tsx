@@ -92,7 +92,7 @@ export const Button: React.FC<ButtonProps> = ({
   const getVariantClasses = () => {
     if (variant === 'ghost') {
       return classNames(
-        'w-full py-1.5 border-b-3 border-dotted border-red-500/0 flex relative left-0 font-normal text-base hover:left-1 hover:text-red-800 hover:border-b-3 hover:border-red-500/50 transition-all duration-500 ease text-neutral-600 dark:text-neutral-200',
+        'w-full py-1.5 border-b-3 border-dotted border-red-500/0 flex relative left-0 font-normal text-base hover:left-1 hover:text-red-800 hover:border-b-3 hover:border-red-500/50 transition-all duration-500 ease drop-shadow-xl text-neutral-700 dark:text-neutral-50/90',
         {
           'text-sm': size === 'sm',
           'text-base': size === 'base',

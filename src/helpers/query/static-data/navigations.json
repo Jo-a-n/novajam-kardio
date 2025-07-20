@@ -28,7 +28,7 @@
       {
         "id": "doctor",
         "label": "Η Καρδιολόγος",
-        "href": "/dr-Agapitou",
+        "href": "/about-Dr-Agapitou",
         "openNewTab": false,
         "contentType": "link"
       },
@@ -61,7 +61,7 @@
   },
   {
     "url": [
-      { "url": "/dr-Agapitou" },
+      { "url": "/about-Dr-Agapitou" },
       { "url": "/office-clinic" },
       { "url": "/clinic-services" }
     ],
@@ -92,7 +92,7 @@
       {
         "id": "doctor",
         "label": "Η Καρδιολόγος",
-        "href": "/dr-Agapitou",
+        "href": "/about-Dr-Agapitou",
         "openNewTab": false,
         "contentType": "link"
       },
@@ -134,7 +134,7 @@
     "logo": {
       "id": "logo",
       "url": "https://images.ctfassets.net/n8ip1shnectl/5X4m7QXlzGkj5kqeDXK7nl/438e970033b872efc4554545bcc66d07/logo.webp",
-      "title": "dr Agapitou logo black",
+      "title": "dr Agapitou logo",
       "description": null,
       "width": 459,
       "height": 160,
@@ -152,7 +152,7 @@
       {
         "id": "doctor",
         "label": "Η Καρδιολόγος",
-        "href": "/dr-Agapitou",
+        "href": "/about-Dr-Agapitou",
         "openNewTab": false,
         "contentType": "link"
       },

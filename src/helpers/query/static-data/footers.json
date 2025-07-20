@@ -20,7 +20,7 @@
           {
             "id": "dr-agapitou",
             "label": "Η Καρδιολόγος",
-            "href": "/dr-Agapitou",
+            "href": "/about-Dr-Agapitou",
             "openNewTab": false,
             "contentType": "link"
           },
@@ -40,7 +40,7 @@
           },
           {
             "id": "contact",
-            "label": "Ραντεβού Doctoranytime↗",
+            "label": "Ραντεβού Doctoranytime ↗",
             "href": "https://www.doctoranytime.gr/d/Kardiologos/agapitou-elena",
             "openNewTab": true,
             "contentType": "link"

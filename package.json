@@ -1,7 +1,7 @@
 {
-  "name": "novajam",
-  "description": "NovaJAM is an Multi-purpose All-in-One JAMstack Template & Web Page Composer which is built with cutting edge technologies: React, NextJS 14, Typescript, Tailwind and seamlessly integrated with Contentful CMS.",
-  "author": "HelloWebbie",
+  "name": "Kardiologos-Agapitou",
+  "description": "Επίσημη ιστοσελίδα της Καρδιολόγου Έλενας Αγαπητού. 15+ χρόνια εμπειρίας, σύγχρονος εξοπλισμός, και ολοκληρωμένες καρδιολογικές υπηρεσίες στην Ηλιούπολη.",
+  "author": "jlioliou",
   "version": "1.0.0",
   "private": true,
   "scripts": {
