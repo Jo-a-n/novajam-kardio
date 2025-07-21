@@ -6,7 +6,12 @@ import { useEffect } from 'react';
 
 export function PostHogProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
-    posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
+    const posthogKey = process.env.NEXT_PUBLIC_POSTHOG_KEY;
+    if (!posthogKey) {
+      console.error('Error: NEXT_PUBLIC_POSTHOG_KEY is not defined. PostHog will not be initialized.');
+      return;
+    }
+    posthog.init(posthogKey, {
       api_host: '/ingest',
       ui_host: 'https://eu.posthog.com',
       defaults: '2025-05-24',
