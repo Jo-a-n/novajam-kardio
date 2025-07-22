@@ -19,7 +19,7 @@ const Logo: React.FC<{ redirectUrl?: string; logo: MediaType }> = ({
 }) => (
   <Link
     href={redirectUrl ?? '/'}
-    className="block max-h-14 max-w-[12rem] dark:invert dark:filter dark:brightness-0"
+    className="block max-h-13 max-w-[155px] sm:max-w-[188px] dark:invert dark:filter dark:brightness-0"
   >
     <Image
       className="dark:invert dark:filter dark:brightness-0"
@@ -94,17 +94,17 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
             },
           )}
         >
-          <div className="w-full max-w-screen-2xl mx-auto px-3.5 pr-4 md:px-6 lg:px-8 xl:px-10 flex items-center gap-x-1.5 sm:gap-x-3 ">
-            <div className=" py-4">
+          <div className="w-full max-w-screen-2xl mx-auto pl-3 pr-3.5 md:px-6 lg:px-8 xl:px-10 flex items-center gap-x-1 sm:gap-x-3 ">
+            <div className=" py-3.5">
               <Logo redirectUrl={logoRedirect ?? ''} logo={logo} />
             </div>
-            <div className="flex-1 lg:text-lg">
+            <div className="flex-1 text-sm lg:text-lg">
               {menuItems && <NavMenu menuItems={menuItems} layout={layout} />}
             </div>
             {showFontControl && <FontSizeControl />}
             {showModeSelector && <DarkModeToggle />}
             {buttons && buttons.length > 0 && (
-              <div className="shrink-0 hidden xl:block">
+              <div className="hidden xl:block">
                 <ButtonGroup data={buttons} size="sm" />
               </div>
             )}
