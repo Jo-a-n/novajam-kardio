@@ -20,6 +20,8 @@
     "classnames": "^2.3.2",
     "date-fns": "^2.30.0",
     "next": "^14.2.10",
+    "posthog-js": "^1.257.1",
+    "posthog-node": "^5.5.1",
     "react": "^19.0.0",
     "react-datepicker": "^4.20.0",
     "react-dom": "^19.0.0",
