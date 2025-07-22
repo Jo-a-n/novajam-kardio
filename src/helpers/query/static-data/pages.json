@@ -55,7 +55,7 @@
             "alignment": "left",
             "paddingTop": "2xl",
             "paddingLeft": "xs",
-            "paddingBottom": "none",
+            "paddingBottom": "xs",
             "paddingRight": "lg",
             "contentType": "richcontent",
             "ctas": [
