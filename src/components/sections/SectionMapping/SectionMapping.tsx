@@ -6,7 +6,9 @@ export const SectionMapping: React.FC<{
 }> = ({ data }) => {
   return (
     <main className="flex flex-col min-h-screen">
-      {data?.map((section, idx) => <SmartSection key={idx} data={section} />)}
+      {data?.map((section, idx) => (
+        <SmartSection key={idx} data={section} />
+      ))}
     </main>
   );
 };

@@ -8,7 +8,9 @@ export function PostHogProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const posthogKey = process.env.NEXT_PUBLIC_POSTHOG_KEY;
     if (!posthogKey) {
-      console.error('Error: NEXT_PUBLIC_POSTHOG_KEY is not defined. PostHog will not be initialized.');
+      console.error(
+        'Error: NEXT_PUBLIC_POSTHOG_KEY is not defined. PostHog will not be initialized.',
+      );
       return;
     }
     posthog.init(posthogKey, {
