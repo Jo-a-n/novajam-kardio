@@ -61,21 +61,12 @@
             "ctas": [
               {
                 "href": "/contact",
-                "label": "Κλείστε Ραντεβού",
+                "label": "Επικοινωνία",
                 "openNewTab": false,
                 "variant": "secondary",
-                "withArrow": false,
+                "withArrow": true,
                 "icon": null,
                 "id": "4jw1KgKF0C9vHH3Zym3m6w"
-              },
-              {
-                "href": "/clinic-services",
-                "label": "Υπηρεσίες του Ιατρείου",
-                "openNewTab": false,
-                "variant": "ghost",
-                "withArrow": false,
-                "icon": null,
-                "id": "6qJNP6mum4yxzvYD6kaBEN"
               }
             ]
           }
@@ -100,7 +91,7 @@
           {
             "eyebrow": null,
             "title": "## __Υπηρεσίες__",
-            "disclaimer": "_---Pending: Finalized service carousel will be placed here after final revisions---_",
+            "disclaimer": null,
             "titleFontSize": "sm",
             "alignment": "center",
             "paddingTop": "none",
@@ -112,14 +103,14 @@
           },
           {
             "contentType": "contentlist",
-            "id": "a621bf4f-c54d-4fa3-9e50-55b62ffa83b9",
-            "gap": "sm",
-            "layout": "grid",
-            "columns": 4,
+            "id": "homepage-services-preview-carousel",
+            "gap": "base",
+            "layout": "carousel",
+            "columns": 3,
             "ctas": [
               {
-                "href": "/clinic-services",
-                "label": "Όλες οι Υπηρεσίες",
+                "href": "/contact",
+                "label": "Κλείστε Ραντεβού",
                 "openNewTab": false,
                 "variant": "secondary",
                 "withArrow": true,
@@ -127,7 +118,416 @@
                 "id": "c24a3e46-e2ae-4876-b8c7-711726274fb9"
               }
             ],
-            "contentItems": []
+            "contentItems": [
+              {
+                "contentType": "flexiblecontent",
+                "id": "a621bf4f-c54d-4fa3-9e50-55b62ffa83b9",
+                "alignment": "center",
+                "title": "Ηλεκτροκαρδιογράφημα",
+                "body": null,
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/6fURLBcNnF1ezjndFsJ0QR/c1745b0ce1bdf9e9c5a5bdeacc0b6b37/agapitou-hlektrokardiografhma.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Ηλεκτροκαρδιογράφημα – Εξοπλισμός της εξέτασης στο ιατρείο"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "dbd89a60-5da4-41a0-91d6-9f2e32f754ee",
+                    "href": "/clinic-services/#hlektrokardiografhma",
+                    "label": "Απαραίτητο μέρος της βασικής καρδιολογικής εξέτασης. Μέσω της καταγραφής της ηλεκτρικής δραστηριότητας της καρδιάς, μας δίνει ...Πάτησε για να μάθεις περισσότερα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "bfb7ed87-deeb-44f9-b9c1-ada88038982d",
+                "alignment": "left",
+                "title": "Υπέρηχος (triplex) καρδίας & αορτής",
+                "body": null,
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/306r6q4itavlR5Qz5bNmtq/8ec1adf2a24846aa9c318b40c241272e/agapitou-uperhxos.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Η γιατρός καθισμένη χειρίζεται το μηχάνημα εξέτασης για υπέρηχο καρδιάς και αορτής"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "dbd89a60-5da4-41a0-91d6-9f2e32f754ee",
+                    "href": "/clinic-services/#uperhxos-kardias-aortis",
+                    "label": "Υπέρηχος (triplex) καρδίας & αορτής είναι η βασικότερη εξέταση που εκτιμά τη δομή και λειτουργία της καρδιάς, καθώς και της αορτής ...Πάτησε για να μάθεις περισσότερα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "96a764c1-e6aa-46f5-95b4-e3a012ee368d",
+                "alignment": "left",
+                "title": "Holter ρυθμού (24ώρου & 48ώρου)",
+                "body": null,
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/29eSztdHVGnHjBf3Td4C4e/2ca2d13bc9570353d35beae13e4ef81a/holter-ruthmou.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Holter πίεσης και ρυθμού – Εξοπλισμός της εξέτασης στο ιατρείο"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "93b6ede0-e42d-4afb-91ce-dd8ee850e52d",
+                    "href": "/clinic-services/#holter-ruthmou",
+                    "label": "Συνεχόμενη καταγραφή ηλεκτροκαρδιογραφήματος για 24 ή 48 ώρες, μέσω μιας ειδικής μικρής συσκευής. Χρησιμοποιείται για διερεύνηση ...Πάτησε για να μάθεις περισσότερα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Holter πίεσης",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/2N1pdoYL3hkDD1SglSyZrX/236e914241de4973c6d5d778a86304c8/holter-pieshs.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Φωτογραφία καταγραφέα Holter του ιατρείου"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services/#holter-pieshs",
+                    "label": "Παρακολούθηση της αρτηριακής πίεσης για 24 ώρες. Πραγματοποιείται με ειδική μικρή συσκευή με περιχειρίδα που μετρά την ...Πάτησε για να μάθεις περισσότερα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Δοκιμασία κόπωσης με τάπητα",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/4za8XaU3ZkhUAI3gIyu7Om/26041f922d3d75348501ffe7cf1455bc/agapitou-12.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Ο διάδρομος και τα μηχανήματα καταγραφής του ιατρείου για δοκιμασία κόπωσης με τάπητα"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services/#dokimasia-kopwshs",
+                    "label": "Παρακολούθηση και καταγραφή του ηλεκτροκαρδιογραφήματος και της αρτηριακής πίεσης κατά τη διάρκεια φυσικής άσκησης ...Πάτησε για να μάθεις περισσότερα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Προαθλητικός έλεγχος",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/LBqz43fszXn1W16qsUnoc/4f20e8c3b2794f8adff4c14a3febf8ff/agapitou-13.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Το δωμάτιο εξέτασης όπως φαίνεται από το κρεβάτι εξέτασης, με τον εξοπλισμό και εικόνες ανατομίας της καρδιάς στον τοίχο"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services/#proathlitikos-elegxos",
+                    "label": "Προαθλητικός έλεγχος ενηλίκων και παιδιών με κλινική εξέταση, ηλεκτροκαρδιογράφημα και τρίπλεξ καρδιάς (ή και ...Πάτησε για να μάθεις περισσότερα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Προεγχειρητικός έλεγχος",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/tPkyMiG9xaDymT1H2Buha/7bb30b0d66a3fcd93040d235c14c79ae/agapitou-11.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Φωτογραφία στο δωμάτιο εξέτασης με το κρεβάτι εξέτασης και τον εξοπλισμό εξέτασης"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services/#proegcheirhtikos-elegxos",
+                    "label": "Προεγχειρητικός καρδιολογικός έλεγχος για την εκτίμηση της καρδιακής λειτουργίας και τη ρύθμιση των παραγόντων ...Πάτησε για να μάθεις περισσότερα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Πιστοποιητικά υγείας / βεβαιώσεις / ΚΕΠΑ",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/2vwFwmxMBYBdsLjjZvwBC7/6e446b29958c49794480ee2603c75cd0/agapitou-6.jpg",
+                    "width": 1000,
+                    "height": 660,
+                    "description": "Το γραφείο της γιατρού με δύο καρέκλες επισκεπτών μπροστά του"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services/#pistopoihtika-ygeias-bebaioseis-kepa",
+                    "label": "Έκδοση πιστοποιητικών υγείας, βεβαιώσεων για εργασία, αθλητικές δραστηριότητες ή ΚΕΠΑ, σύμφωνα με τις ισχύουσες ...Πάτησε για να μάθεις περισσότερα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "4d4f9b7a-f92f-498a-88d1-3e32cfdacd2c",
+                "title": "Διαχείριση παθήσεων & διερεύνηση συμπτωμάτων",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/24LGAoBqoixY41rYKwRhDs/fe23270aec5a06427b8b0dcf2fd53a1f/agapitou-9.jpg",
+                    "width": 1000,
+                    "height": 660,
+                    "description": "Η ιατρός κοιτάζει την οθόνη μηχανήματος εξέτασης του ιατρείου"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services/#pathhseis-kai-symptwmata",
+                    "label": "Διαχείριση παθήσεων όπως υπέρταση, δυσλιπιδαιμία, στεφανιαία νόσος, αρρυθμίες, ανεύρυσμα αορτής, καρδιακή ανεπάρκεια, ...Πάτησε για να μάθεις περισσότερα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "bd327c05-5e38-4a30-958e-611c3f1daddf",
+                "alignment": "left",
+                "title": "Συνταγογράφηση",
+                "body": null,
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/6Va6zOhPsb7sSxvbqdIqDn/b96380b459d866b733f770bc39ec5232/agapitou-suntagografhsh.jpg",
+                    "width": 1000,
+                    "height": 660,
+                    "description": "Ο φορητός υπολογιστής και το μπλοκάκι με το στυλό της ιατρού στο πλάι"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "9ecbaad6-373d-4381-b121-7fc40c27f20b",
+                    "href": "/clinic-services/#suntagografhsh",
+                    "label": "Συνταγογράφηση φαρμάκων και εξετάσεων μέσω Ε.Ο.Π.Υ.Υ.",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "size": "base",
+                    "onClick": null,
+                    "icon": {
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "d6e1e7c2-9b2a-4f7a-8c2e-1e7b2a9c3d4e",
+                "title": "Ιατρείο διακοπής καπνίσματος",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/cAmxOoxCLurVQcolMLnih/ffdffbd92cb726447951f57cc4b940b7/agapitou-5.jpg",
+                    "width": 1000,
+                    "height": 660,
+                    "description": "Φωτογραφία του χώρου με καναπέ και έργα τέχνης στον τοίχο πίσω του"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services/#iatreio-diakophs-kapnismatos",
+                    "label": "Στόχος είναι αφενός να εξηγήσουμε στον ασθενή τα πολλαπλά οφέλη από τη διακοπή του καπνίσματος και αφετέρου να ...Πάτησε για να μάθεις περισσότερα",
+                    "openNewTab": false,
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              },
+              {
+                "contentType": "flexiblecontent",
+                "id": "e7b8c2a1-4d5f-4e9a-8c2e-7a1b6d3c4e5f",
+                "title": "Επίσκεψη κατ' οίκον",
+                "body": null,
+                "alignment": "left",
+                "media": [
+                  {
+                    "type": "image/jpg",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/7e238Rx8WlnJyuqcqNB8Fh/38868fd4abda33621f193f7e0457f963/agapitou-19.jpg",
+                    "width": 1000,
+                    "height": 667,
+                    "description": "Φορητός καταγραφέας για εξετάσεις στο σπίτι"
+                  }
+                ],
+                "buttons": [
+                  {
+                    "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
+                    "href": "/clinic-services/#episkeyh-kat-oikon",
+                    "label": "Δυνατότητα εξέτασης κατ'οίκον όπου μπορεί να διενεργηθεί ηλεκτροκαρδιογράφημα και υπέρηχος καρδιάς με φορητό εξοπλισμό ...Πάτησε για να μάθεις περισσότερα",
+                    "variant": "ghost",
+                    "withArrow": false,
+                    "icon": {
+                      "type": "svg",
+                      "url": "https://images.ctfassets.net/n8ip1shnectl/1snqGegKp9Mikf9CzzXCRj/89a14c715c7fa370600477a01e1f3539/ep_more-filled.svg",
+                      "title": "Read More",
+                      "width": 20,
+                      "height": 20,
+                      "description": "Three dots icon"
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -266,7 +666,7 @@
           {
             "eyebrow": null,
             "title": "## __Άρτια εξοπλισμένο Ιατρείο__",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "body": "Το ιατρείο διαθέτει τον πιο σύγχρονο εξοπλισμό, ώστε να διενεργούνται άμεσα οι απαραίτητες διαγνωστικές εξετάσεις, με ακρίβεια και αξιοπιστία.",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",
@@ -308,7 +708,7 @@
           {
             "eyebrow": null,
             "title": "## __Συστάσεις & Αξιολογήσεις Ασθενών__",
-            "body": "Οι αξιολογήσεις προέρχονται από άτομα που έχουν επισκεφθεί το ιατρείο μέσω doctoranytime.",
+            "body": "Οι αξιολογήσεις προέρχονται από επιβεβαιωμένες επισκέψεις του ιατρείου μέσω doctoranytime.",
             "disclaimer": null,
             "titleFontSize": "base",
             "alignment": "start",
@@ -329,7 +729,7 @@
             "ctas": [],
             "contentItems": [
               {
-                "content": "### Άριστη επαγγελματίας\n\"Την συνιστούμε ανεπιφύλακτα! Της μεταβίβασαμε τα συγχαρητήρια για την διάγνωση από τους καρδιολογους της ΜΕΘ του Ευαγγελισμου για το επείγον καρδιολογικο πρόβλημα που αντιμετωπισαμε. Την ευχαριστούμε και την συστήνουμε για μια ακόμη φορα\"",
+                "content": "### Άριστη επαγγελματίας\n«Την συνιστούμε ανεπιφύλακτα! Της μεταβίβασαμε τα συγχαρητήρια για την διάγνωση από τους καρδιολόγους της ΜΕΘ του Ευαγγελισμού για το επείγον καρδιολογικό πρόβλημα που αντιμετωπίσαμε. Την ευχαριστούμε και την συστήνουμε για μια ακόμη φορά.»",
                 "authorName": "ΟΛΓΑ",
                 "authorTitle": null,
                 "authorImage": null,
@@ -341,7 +741,7 @@
                 "id": "1DYnx6k8erO8X7lVbwRqsz"
               },
               {
-                "content": "### Επεξηγηματική και Κατανοητή\n\"Η γιατρος ηταν ιδιαιτερα επεξηγηματικη. Διερευνησε το προβλημα μου κ μου εδωσε κατανοητες επεξηγησεις και οδηγιες.\"",
+                "content": "### Επεξηγηματική και Κατανοητή\n«Η γιατρός ήταν ιδιαίτερα επεξηγηματική. Διερεύνησε το πρόβλημά μου κ μου έδωσε κατανοητές επεξηγήσεις και οδηγίες.»",
                 "authorName": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
                 "authorTitle": null,
                 "authorImage": null,
@@ -353,7 +753,7 @@
                 "id": "1GV2wbtNig8qwHoExp7mz1"
               },
               {
-                "content": "### Μεθοδική, προσιτή και αξιόπιστη\n\"Παρόλο που πήγα για έναν απλό καρδιολογικό έλεγχο η κα Αγαπητού έδωσε μεγάλη σημασία και προσοχή στην εξέτασή μου. Με έκανε να αισθανθώ πολύ άνετα και μου έλυσε όποιες απορίες είχα. Τη συστήνω ανεπιφύλακτα\"",
+                "content": "### Μεθοδική, προσιτή και αξιόπιστη\n«Παρόλο που πήγα για έναν απλό καρδιολογικό έλεγχο η κα Αγαπητού έδωσε μεγάλη σημασία και προσοχή στην εξέτασή μου. Με έκανε να αισθανθώ πολύ άνετα και μου έλυσε όποιες απορίες είχα. Τη συστήνω ανεπιφύλακτα.»",
                 "authorName": "Maria",
                 "authorTitle": null,
                 "authorImage": null,
@@ -540,7 +940,7 @@
             "alignment": "center",
             "paddingTop": "lg",
             "paddingLeft": null,
-            "paddingBottom": "xs",
+            "paddingBottom": null,
             "paddingRight": null,
             "contentType": "richcontent",
             "ctas": []
@@ -708,7 +1108,7 @@
             "alignment": "center",
             "paddingTop": "lg",
             "paddingLeft": null,
-            "paddingBottom": "xs",
+            "paddingBottom": null,
             "paddingRight": null,
             "contentType": "richcontent",
             "ctas": []
@@ -736,7 +1136,7 @@
         "enableParallaxEffect": true,
         "darkMode": false,
         "sectionSeparator": false,
-        "paddingTop": "lg",
+        "paddingTop": "xs",
         "paddingBottom": "lg",
         "fullViewWidth": false,
         "backgroundImage": null,
@@ -756,7 +1156,7 @@
           },
           {
             "contentType": "contentlist",
-            "id": "a621bf4f-c54d-4fa3-9e50-55b62ffa83b9",
+            "id": "clinic-services-services-preview-carousel",
             "gap": "base",
             "layout": "carousel",
             "columns": 3,
@@ -971,7 +1371,7 @@
                   {
                     "id": "7a1954e0-bdcc-44bf-b699-6a7100d395ef",
                     "href": "#proathlitikos-elegxos",
-                    "label": "Προαθλητικός έλεγχος ενηλίκων και παιδιών.",
+                    "label": "Προαθλητικός έλεγχος ενηλίκων και παιδιών με κλινική εξέταση, ηλεκτροκαρδιογράφημα και τρίπλεξ καρδιάς (ή και ...Πάτησε για να μάθεις περισσότερα",
                     "openNewTab": false,
                     "variant": "ghost",
                     "withArrow": false,
@@ -1253,7 +1653,7 @@
               },
               {
                 "heading": "Προαθλητικός έλεγχος",
-                "body": "Προαθλητικός έλεγχος ενηλίκων και παιδιών.",
+                "body": "Προαθλητικός έλεγχος ενηλίκων και παιδιών με κλινική εξέταση, ηλεκτροκαρδιογράφημα και τρίπλεξ καρδιάς (ή και περαιτέρω διερεύνηση εάν κριθεί αναγκαίο).",
                 "isCollapsed": true,
                 "contentType": "qa",
                 "id": "proathlitikos-elegxos"
@@ -1510,7 +1910,7 @@
             "alignment": "center",
             "paddingTop": "lg",
             "paddingLeft": null,
-            "paddingBottom": "xs",
+            "paddingBottom": null,
             "paddingRight": null,
             "contentType": "richcontent",
             "ctas": []
