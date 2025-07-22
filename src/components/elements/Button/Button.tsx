@@ -104,7 +104,7 @@ export const Button: React.FC<ButtonProps> = ({
     }
 
     return classNames(
-      'w-full whitespace-nowrap relative border rounded-theme-button transition-all duration-500 ease',
+      'w-full min-h-[60px] whitespace-nowrap relative border rounded-theme-button transition-all duration-500 ease',
       {
         'border-primary-600 bg-primary-600 hover:brightness-110 text-neutral-100':
           variant === 'primary',
