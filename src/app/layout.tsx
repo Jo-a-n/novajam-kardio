@@ -10,7 +10,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="dark:bg-neutral-900 dark:text-neutral-100">
+      <body className="bg-[#EBEDF4] dark:bg-neutral-900 dark:text-neutral-100">
         <PostHogProvider>
           {children}
           <Analytics />

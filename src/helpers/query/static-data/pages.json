@@ -2003,7 +2003,7 @@
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": false,
-        "sectionSeparator": true,
+        "sectionSeparator": false,
         "paddingTop": "xl",
         "paddingBottom": "xl",
         "fullViewWidth": false,
