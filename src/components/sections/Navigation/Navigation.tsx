@@ -76,7 +76,7 @@ const Header: React.FC<{ data: NavigationType }> = ({ data }) => {
   if (layout === 'overlay') {
     return (
       <header
-        className={classNames('relative z-[99999] w-screen tracking-wider ', {
+        className={classNames('relative z-[99999] tracking-wider ', {
           'sticky w-full z-50 top-0 animate-headerSlideIn': sticky,
           dark: darkMode,
         })}
