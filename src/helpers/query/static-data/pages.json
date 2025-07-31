@@ -49,7 +49,7 @@
           {
             "eyebrow": null,
             "title": "# __Έλενα Αγαπητού Καρδιολόγος__",
-            "body": "Αριστούχος Ιατρικής Αθηνών με 15+ χρόνια κλινικής εμπειρίας",
+            "body": "Dr. Elena Agapitou - Cardiologist\n\nΑριστούχος Ιατρικής Αθηνών με 15+ χρόνια κλινικής εμπειρίας",
             "disclaimer": null,
             "titleFontSize": "xl",
             "alignment": "left",
@@ -61,7 +61,7 @@
             "ctas": [
               {
                 "href": "/contact",
-                "label": "Επικοινωνία",
+                "label": "Επικοινωνία / Contact",
                 "openNewTab": false,
                 "variant": "secondary",
                 "withArrow": true,
@@ -873,7 +873,7 @@
             "ctas": [
               {
                 "href": "/contact",
-                "label": "Επικοινωνία",
+                "label": "Επικοινωνία / Contact",
                 "openNewTab": false,
                 "variant": "secondary",
                 "withArrow": true,
@@ -1903,12 +1903,12 @@
         "content": [
           {
             "eyebrow": null,
-            "title": "# __Επικοινωνία__",
+            "title": "# __Επικοινωνία / Contact__",
             "disclaimer": null,
             "titleFontSize": "lg",
-            "body": "Έχετε απορίες ή θέλετε να προγραμματίσετε ραντεβού; Επικοινωνήστε με το ιατρείο.",
+            "body": "Έχετε απορίες ή θέλετε να προγραμματίσετε ραντεβού; Επικοινωνήστε με το ιατρείο.\n\n🇬🇧 🇫🇷 For English and French-speaking patients, the doctor offers full services in both languages.",
             "alignment": "center",
-            "paddingTop": "xs",
+            "paddingTop": "base",
             "paddingLeft": null,
             "paddingBottom": null,
             "paddingRight": null,
@@ -1927,7 +1927,7 @@
               {
                 "href": "https://www.doctoranytime.gr/d/Kardiologos/agapitou-elena",
                 "target": "_blank",
-                "label": "Ραντεβού Doctoranytime",
+                "label": "Book on Doctoranytime",
                 "openNewTab": true,
                 "variant": "secondary",
                 "withArrow": false,
