@@ -38,7 +38,7 @@ export const QnA: React.FC<{ data: QAType }> = ({ data }) => {
         const element = document.getElementById(id);
         if (element && element.offsetParent !== null) {
           // Element is visible, safe to scroll
-          element.scrollIntoView({ behavior: 'smooth' });
+          element.scrollIntoView();
         } else {
           // Element not ready yet, try again
           setTimeout(checkAndScroll, 50);
