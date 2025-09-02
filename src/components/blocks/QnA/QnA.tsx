@@ -29,8 +29,28 @@ export const QnA: React.FC<{ data: QAType }> = ({ data }) => {
     }
   }, [collapsed]);
 
+  // Handle initial scroll on mount if there's a matching hash
+  useEffect(() => {
+    const hash = window.location.hash.substring(1);
+    if (hash === id) {
+      // Wait for DOM to be ready and element to be mounted
+      const checkAndScroll = () => {
+        const element = document.getElementById(id);
+        if (element && element.offsetParent !== null) {
+          // Element is visible, safe to scroll
+          element.scrollIntoView();
+        } else {
+          // Element not ready yet, try again
+          setTimeout(checkAndScroll, 50);
+        }
+      };
+
+      // Start checking after a brief delay
+      setTimeout(checkAndScroll, 100);
+    }
+  }, [id]);
+
   const toggleCollapsed = () => {
-    console.log('toggle');
     setCollapsed(!collapsed);
   };
 
