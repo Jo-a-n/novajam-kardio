@@ -643,28 +643,28 @@
             "ctas": [],
             "contentItems": [
               {
-                "keyNumber": "15+",
-                "description": "Χρόνια Κλινικής Εμπειρίας",
-                "alignment": "start",
+                "keyNumber": "120+",
+                "description": "Συστάσεις Επισκεπτών",
+                "alignment": "center",
                 "layout": "horizontal",
                 "contentType": "statistics",
-                "id": "4Xg1CiTXOzmdxCUCR9XmV9"
+                "id": "1fDHw3l1niEN4sWphcmwhV"
               },
               {
                 "keyNumber": "12",
                 "description": "Εξειδικευμένες Υπηρεσίες",
-                "alignment": "start",
+                "alignment": "center",
                 "layout": "horizontal",
                 "contentType": "statistics",
                 "id": "2iSfAdQ4EzD9bBAe04dikO"
               },
               {
-                "keyNumber": "90+",
-                "description": "Συστάσεις Ασθενών",
-                "alignment": "start",
+                "keyNumber": "15+",
+                "description": "Χρόνια Κλινικής Εμπειρίας",
+                "alignment": "center",
                 "layout": "horizontal",
                 "contentType": "statistics",
-                "id": "1fDHw3l1niEN4sWphcmwhV"
+                "id": "4Xg1CiTXOzmdxCUCR9XmV9"
               }
             ]
           }
