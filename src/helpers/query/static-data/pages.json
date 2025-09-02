@@ -797,6 +797,114 @@
                 "fontSize": "lg",
                 "contentType": "testimonial",
                 "id": "AKU3xAy7lKK9DBQbCv9tV"
+              },
+              {
+                "content": "### Εξαιρετική σε όλα\n«Εξαιρετική σε όλα..με εμπειρία που σε εκπλήσσει..αναλυτική ώστε να νιώθεις ηρεμία και ασφάλεια.»",
+                "authorName": "ΕΛΕΝΗ",
+                "authorTitle": null,
+                "authorImage": null,
+                "rating": 5,
+                "alignment": "center",
+                "layout": "vertical",
+                "fontSize": "lg",
+                "contentType": "testimonial",
+                "id": "AKU3xAy7lKK9DBQbCv9tΖ"
+              },
+              {
+                "content": "### Σωστή και έμπειρη επαγγελματίας\n«Πολύ ευγενική, σωστή και έμπειρη επαγγελματίας. Έμεινα απόλυτα ευχαριστημένη από όλες τις απόψεις.»",
+                "authorName": "ΑΓΓΕΛΙΚΗ",
+                "authorTitle": null,
+                "authorImage": null,
+                "rating": 5,
+                "alignment": "center",
+                "layout": "vertical",
+                "fontSize": "lg",
+                "contentType": "testimonial",
+                "id": "AKU3xAy7lKK9DBQbCv9tΖ"
+              },
+              {
+                "content": "### Αναλυτική και προσεκτική εξέταση\n«Έλαβε εκτενές ιατρικό ιστορικό και έκανε την εξέταση λέγοντας επακριβώς, αλλά με απλή και κατανοητή γλώσσα, τί έκανε και γιατί. Εξερεύνησε την περίπτωσή μου σε βάθος και παρέθεσε όλες τις περιπτώσεις και λύσεις τους με κατανόηση και ενσυναίσθηση. Μου ενέπνευσε εμπιστοσύνη, θα συνεχίσω να την επιλέγω ως καρδιολόγο και τη συστήνω ανεπιφύλακτα.»",
+                "authorName": "Μαντώ",
+                "authorTitle": null,
+                "authorImage": null,
+                "rating": 5,
+                "alignment": "center",
+                "layout": "vertical",
+                "fontSize": "lg",
+                "contentType": "testimonial",
+                "id": "AKU3xAy7lKK9DBQbCv9tΑ"
+              },
+              {
+                "content": "### Αμεσότητα, ευγένεια, εμβάθυνση\n«Αμεσότητα, ευγένεια, εμβάθυνση και επεξήγηση στα αποτελέσματα των εξετάσεων, σύσταση θεραπείας κατόπιν λεπτομερούς αξιολόγησης του προφίλ ασθενούς και κλινικής εξέτασης, παροχή σαφών ιατρικών συμβουλών.»",
+                "authorName": "ΑΝΑΣΤΑΣΙΑ",
+                "authorTitle": null,
+                "authorImage": null,
+                "rating": 5,
+                "alignment": "center",
+                "layout": "vertical",
+                "fontSize": "lg",
+                "contentType": "testimonial",
+                "id": "AKU3xAy7lKK9DBQbCv9tS"
+              },
+              {
+                "content": "### Καταρτισμένη επιστήμων\n«Καταρτισμένη επιστήμων, άριστη προσέγγιση των ζητημάτων του ασθενούς, τα οποία εξηγεί με κατανοητό τρόπο, υψηλή ποιότητα υπηρεσιών, ευγένεια, άμεση εξυπηρέτηση σε περίπτωση επείγοντος.»",
+                "authorName": "ΚΥΡΙΑΚΗ",
+                "authorTitle": null,
+                "authorImage": null,
+                "rating": 5,
+                "alignment": "center",
+                "layout": "vertical",
+                "fontSize": "lg",
+                "contentType": "testimonial",
+                "id": "AKU3xAy7lKK9DBQbCv9tG"
+              },
+              {
+                "content": "### Ανθρώπινη και με ειλικρινές ενδιαφέρον\n«Κέρδισε την εμπιστοσύνη μου όχι μόνο με την σχολαστικότητα στην εξέταση και στη λήψη ιστορικού αλλά και με την ζεστασιά στην προσέγγιση, την υπομονή και την κατανόηση στις απορίες και ανησυχίες μου.»",
+                "authorName": "ΑΓΓΕΛΙΚΗ",
+                "authorTitle": null,
+                "authorImage": null,
+                "rating": 5,
+                "alignment": "center",
+                "layout": "vertical",
+                "fontSize": "lg",
+                "contentType": "testimonial",
+                "id": "AKU3xAy7lKK9DBQbCv9tP"
+              },
+              {
+                "content": "### Αναλυτική, και πολύ προσεκτική\n«Εξαιρετική επιστήμονας. Αναλυτική, και πολύ προσεκτική. Με ηρεμία και ενσυναίσθηση μας εξήγησε και μας κατεύθυνε για τα επόμενα βήματα.»",
+                "authorName": "ΓΕΩΡΓΙΟΣ",
+                "authorTitle": null,
+                "authorImage": null,
+                "rating": 5,
+                "alignment": "center",
+                "layout": "vertical",
+                "fontSize": "lg",
+                "contentType": "testimonial",
+                "id": "AKU3xAy7lKK9DBQbCv9tW"
+              },
+              {
+                "content": "### Καταρτισμένη γιατρός\n«Καταρτισμένη γιατρός! Υπέροχος άνθρωπος. Ασχολήθηκε σε βάθος με την περίπτωση μου και μου εξηγησε κάθε απορία που είχα!!»",
+                "authorName": "Αγγελικη",
+                "authorTitle": null,
+                "authorImage": null,
+                "rating": 5,
+                "alignment": "center",
+                "layout": "vertical",
+                "fontSize": "lg",
+                "contentType": "testimonial",
+                "id": "AKU3xAy7lKK9DBQbCv9t5"
+              },
+              {
+                "content": "### Με έκανε να νιώσω ασφάλεια\n«Φανταστική γιατρός! Με γνήσιο ενδιαφέρον για τον ασθενή και πολύ φροντιστική στάση. Με έκανε να νιώσω ασφάλεια, γνωρίζει πολύ καλά το αντικείμενο της. Την συστήνω ανεπιφύλακτα.»",
+                "authorName": "Άννα",
+                "authorTitle": null,
+                "authorImage": null,
+                "rating": 5,
+                "alignment": "center",
+                "layout": "vertical",
+                "fontSize": "lg",
+                "contentType": "testimonial",
+                "id": "AKU3xAy7lKK9DBQbCv9t8"
               }
             ]
           }
