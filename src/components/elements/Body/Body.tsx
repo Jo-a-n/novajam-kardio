@@ -13,7 +13,8 @@ export const Body: React.FC<{
       {
         'text-center': alignment === 'center',
         'text-end': alignment === 'end',
-        'text-white md:text-neutral-600 drop-shadow': bodyWhiteOnMobile,
+        'text-white drop-shadow sm:text-neutral-600 sm:drop-shadow-none':
+          bodyWhiteOnMobile,
       },
     )}
   >
