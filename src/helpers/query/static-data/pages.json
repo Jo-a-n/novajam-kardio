@@ -50,6 +50,7 @@
             "eyebrow": null,
             "title": "# __Έλενα Αγαπητού Καρδιολόγος__",
             "body": "Dr. Elena Agapitou - Cardiologist\n\nΑριστούχος Ιατρικής Αθηνών με 15+ χρόνια κλινικής εμπειρίας",
+            "bodyWhiteOnMobile": true,
             "disclaimer": null,
             "titleFontSize": "xl",
             "alignment": "left",

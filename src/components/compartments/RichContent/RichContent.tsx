@@ -13,6 +13,7 @@ export const RichContent: React.FC<{
     eyebrow,
     title,
     body,
+    bodyWhiteOnMobile,
     ctas,
     disclaimer,
     titleFontSize,
@@ -59,7 +60,7 @@ export const RichContent: React.FC<{
       {title && (
         <Title content={title} titleFontSize={titleFontSize ?? 'base'} />
       )}
-      {body && <Body content={body} />}
+      {body && <Body content={body} bodyWhiteOnMobile={bodyWhiteOnMobile} />}
       {!!ctas?.length && (
         <ButtonGroup
           className={classNames({
