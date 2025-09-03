@@ -144,7 +144,7 @@ export type RichContentType = {
   eyebrow: string | null;
   title: string | null;
   body: string | null;
-  bodyWhiteOnMobile: boolean | false;
+  textWhiteOnMobile: boolean | false;
   ctas: Array<ButtonType> | null;
   disclaimer: string | null;
   titleFontSize: TitleFontSizeType;

@@ -6,7 +6,8 @@ export const Title: React.FC<{
   content: string;
   titleFontSize: TitleFontSizeType;
   alignment?: AlignmentType;
-}> = ({ content, titleFontSize, alignment }) => (
+  textWhiteOnMobile?: boolean;
+}> = ({ content, titleFontSize, alignment, textWhiteOnMobile }) => (
   <div
     className={classNames(
       'font-heading leading-tight sm:leading-snug dark:text-neutral-50 drop-shadow-2xl sm:drop-shadow-none',
@@ -18,6 +19,8 @@ export const Title: React.FC<{
         'text-lg-heading': titleFontSize === 'lg',
         'text-xl-heading': titleFontSize === 'xl',
         'text-2xl-heading': titleFontSize === '2xl',
+        'text-white/90 drop-shadow-sm sm:text-inherit sm:drop-shadow-none':
+          textWhiteOnMobile,
       },
     )}
   >
