@@ -914,6 +914,38 @@
 
       {
         "contentType": "smartsection",
+        "id": "4jCYEQTHOSTC7SJl1VSSS2",
+        "htmlid": "greece-ekt-financial-support",
+        "layout": "Columns",
+        "gap": "lg",
+        "backgroundColor": "#F2F3F8",
+        "backgroundImage": null,
+        "enableParallaxEffect": false,
+        "darkMode": false,
+        "sectionSeparator": false,
+        "paddingTop": "xl",
+        "paddingBottom": "xl",
+        "fullViewWidth": false,
+        "content": [
+          {
+            "eyebrow": null,
+            "title": "### __🇪🇺 «Κοινωνική και Συμπεριληπτική Ευρώπη»__",
+            "body": "Η επιχείρηση ενισχύθηκε στο πλαίσιο Προγράμματος Επιχειρηματικότητας με τη συγχρηματοδότηση του __Ελληνικού Δημοσίου και του ΕΚΤ+__. \n\n[__Πληροφορίες για τη Δράση__ ↗](https://assets.ctfassets.net/n8ip1shnectl/3UTarxrSTAfrTd8uOYO860/4f61cf43de853edb562fd7e4417cf2bb/Afisa_Programmatos_Xrhmatodothshs.pdf)",
+            "disclaimer": null,
+            "titleFontSize": "sm",
+            "alignment": "center",
+            "paddingTop": "none",
+            "paddingLeft": "none",
+            "paddingBottom": "none",
+            "paddingRight": "none",
+            "contentType": "richcontent",
+            "ctas": []
+          }
+        ]
+      },
+
+      {
+        "contentType": "smartsection",
         "id": "6xG6U4YgzbztEemgDmq1cn",
         "htmlid": "contact-section",
         "layout": "Rows",
