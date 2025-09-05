@@ -923,8 +923,8 @@
         "enableParallaxEffect": false,
         "darkMode": false,
         "sectionSeparator": false,
-        "paddingTop": "lg",
-        "paddingBottom": "lg",
+        "paddingTop": "xl",
+        "paddingBottom": "xl",
         "fullViewWidth": false,
         "content": [
           {
