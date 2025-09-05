@@ -917,7 +917,7 @@
         "id": "4jCYEQTHOSTC7SJl1VSSS2",
         "htmlid": "company-funding-section",
         "layout": "grid",
-        "gap": "sm",
+        "gap": "lg",
         "backgroundColor": "#FCFCFD",
         "backgroundImage": null,
         "enableParallaxEffect": false,
@@ -929,14 +929,14 @@
         "content": [
           {
             "eyebrow": null,
-            "title": "### __«Κοινωνική και Συμπεριληπτική Ευρώπη»__",
+            "title": null,
             "body": "Η επιχείρηση ενισχύθηκε στο πλαίσιο Προγράμματος Επιχειρηματικότητας με τη συγχρηματοδότηση του __Ελληνικού Δημοσίου και του ΕΚΤ+__. [__Πληροφορίες για τη Δράση__ →](https://assets.ctfassets.net/n8ip1shnectl/3UTarxrSTAfrTd8uOYO860/4f61cf43de853edb562fd7e4417cf2bb/Afisa_Programmatos_Xrhmatodothshs.pdf)",
             "disclaimer": null,
             "titleFontSize": "sm",
             "alignment": "center",
             "paddingTop": "none",
             "paddingLeft": "xs",
-            "paddingBottom": "xs",
+            "paddingBottom": "none",
             "paddingRight": "xs",
             "contentType": "richcontent",
             "ctas": []
