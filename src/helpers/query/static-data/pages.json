@@ -915,31 +915,59 @@
       {
         "contentType": "smartsection",
         "id": "4jCYEQTHOSTC7SJl1VSSS2",
-        "htmlid": "greece-ekt-financial-support",
-        "layout": "Columns",
-        "gap": "lg",
-        "backgroundColor": "#F2F3F8",
+        "htmlid": "company-funding-section",
+        "layout": "grid",
+        "gap": "sm",
+        "backgroundColor": "#FCFCFD",
         "backgroundImage": null,
         "enableParallaxEffect": false,
         "darkMode": false,
         "sectionSeparator": false,
-        "paddingTop": "xl",
-        "paddingBottom": "xl",
+        "paddingTop": "lg",
+        "paddingBottom": "lg",
         "fullViewWidth": false,
         "content": [
           {
             "eyebrow": null,
-            "title": "### __🇪🇺 «Κοινωνική και Συμπεριληπτική Ευρώπη»__",
-            "body": "Η επιχείρηση ενισχύθηκε στο πλαίσιο Προγράμματος Επιχειρηματικότητας με τη συγχρηματοδότηση του __Ελληνικού Δημοσίου και του ΕΚΤ+__. \n\n[__Πληροφορίες για τη Δράση__ ↗](https://assets.ctfassets.net/n8ip1shnectl/3UTarxrSTAfrTd8uOYO860/4f61cf43de853edb562fd7e4417cf2bb/Afisa_Programmatos_Xrhmatodothshs.pdf)",
+            "title": "### __«Κοινωνική και Συμπεριληπτική Ευρώπη»__",
+            "body": "Η επιχείρηση ενισχύθηκε στο πλαίσιο Προγράμματος Επιχειρηματικότητας με τη συγχρηματοδότηση του __Ελληνικού Δημοσίου και του ΕΚΤ+__. [__Πληροφορίες για τη Δράση__ →](https://assets.ctfassets.net/n8ip1shnectl/3UTarxrSTAfrTd8uOYO860/4f61cf43de853edb562fd7e4417cf2bb/Afisa_Programmatos_Xrhmatodothshs.pdf)",
             "disclaimer": null,
             "titleFontSize": "sm",
             "alignment": "center",
             "paddingTop": "none",
-            "paddingLeft": "none",
-            "paddingBottom": "none",
-            "paddingRight": "none",
+            "paddingLeft": "xs",
+            "paddingBottom": "xs",
+            "paddingRight": "xs",
             "contentType": "richcontent",
             "ctas": []
+          },
+          {
+            "contentType": "contentlist",
+            "id": "funders-logos",
+            "gap": "base",
+            "layout": "grid",
+            "columns": 1,
+            "ctas": [],
+            "contentItems": [
+              {
+                "contentType": "flexiblecontent",
+                "id": "funder-logos",
+                "alignment": "center",
+                "title": null,
+                "titleFontSize": null,
+                "body": null,
+                "media": [
+                  {
+                    "type": "png",
+                    "url": "https://images.ctfassets.net/n8ip1shnectl/5ZADQbkOy8EexPnOK8ve0T/d4fb867049f1b147d780dc5c8f7c1ae3/banner-sm.png",
+                    "width": 660,
+                    "height": 79,
+                    "description": "Λογότυπα Ευρωπαϊκής Ένωσης, ΕΣΠΑ και ΔΥΠΑ"
+                  }
+                ],
+                "buttons": []
+              }
+            ]
           }
         ]
       },
