@@ -92,7 +92,7 @@ export const Button: React.FC<ButtonProps> = ({
   const getVariantClasses = () => {
     if (variant === 'ghost') {
       return classNames(
-        'w-full py-1.5 border-b-3 border-dotted border-red-500/0 flex relative left-0 font-normal text-base hover:left-1 hover:text-red-800 hover:border-b-3 hover:border-red-500/50 transition-all duration-500 ease drop-shadow-xl text-neutral-700 dark:text-neutral-50/90',
+        'py-1.5 border-b-3 border-dotted border-red-500/0 flex relative left-0 font-normal text-base hover:left-1 hover:text-red-800 hover:border-b-3 hover:border-red-500/50 transition-all duration-500 ease drop-shadow-xl text-neutral-700 dark:text-neutral-50/90',
         {
           'text-sm': size === 'sm',
           'text-base': size === 'base',
@@ -104,7 +104,7 @@ export const Button: React.FC<ButtonProps> = ({
     }
 
     return classNames(
-      'w-full min-h-[60px] whitespace-nowrap relative border rounded-theme-button transition-all duration-500 ease',
+      'min-h-[60px] whitespace-nowrap relative border rounded-theme-button transition-all duration-500 ease',
       {
         'border-primary-600 bg-primary-600 hover:brightness-110 text-neutral-100':
           variant === 'primary',
@@ -134,46 +134,53 @@ export const Button: React.FC<ButtonProps> = ({
 
   const buttonClasses = classNames({ 'w-full': fullWidth });
 
-  const renderLinkOrSpan = () => {
-    const content = (
-      <span
+  const content = (
+    <span
+      className={classNames(
+        'group/btn flex justify-center items-center text-center',
+        getVariantClasses(),
+      )}
+    >
+      {renderButtonContent()}
+    </span>
+  );
+
+  // Determine whether we should render an anchor (link) or native button.
+  if (href) {
+    // an anchor should not be wrapped by a button; handle disabled state
+    const AnchorComponent = Link;
+    return (
+      <AnchorComponent
         className={classNames(
           'group/btn flex justify-center items-center text-center',
+          buttonClasses,
           getVariantClasses(),
         )}
+        href={href}
+        target={openNewTab ? '_blank' : '_self'}
+        scroll
+        aria-disabled={disabled ? 'true' : undefined}
+        tabIndex={disabled ? -1 : undefined}
+        onClick={disabled ? (e) => e.preventDefault() : undefined}
       >
         {renderButtonContent()}
-      </span>
+      </AnchorComponent>
     );
+  }
 
-    if (href) {
-      return (
-        <Link
-          className={classNames(
-            'group/btn flex justify-center items-center text-center',
-            getVariantClasses(),
-          )}
-          href={href}
-          target={openNewTab ? '_blank' : '_self'}
-          scroll
-        >
-          {renderButtonContent()}
-        </Link>
-      );
-    }
-
-    return content;
-  };
-
+  // plain button case
   return (
     <button
       type={type}
       onClick={onClick}
       disabled={disabled}
-      aria-label={label}
+      aria-label={
+        // only expose label when no visible children provided
+        !children && label ? label : undefined
+      }
       className={buttonClasses}
     >
-      {renderLinkOrSpan()}
+      {content}
     </button>
   );
 };
