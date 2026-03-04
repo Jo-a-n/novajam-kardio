@@ -9,7 +9,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="el" className="scroll-smooth">
       <head>
         {/* Google tag (gtag.js) */}
         <Script
