@@ -4,10 +4,10 @@ NovaJAM is an Multi-purpose All-in-One JAMstack Template & Web Page Composer whi
 
 ## Getting Started
 
-1. Create `.env` file from `.env.template` file
+1. Create `.env` file from `.env.example` file
 
 ```bash
-cp .env.template .env
+cp .env.example .env
 ```
 
 2. Install dependencies
