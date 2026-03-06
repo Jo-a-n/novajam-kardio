@@ -19,10 +19,9 @@ export const Title: React.FC<{
         'text-lg-heading': titleFontSize === 'lg',
         'text-xl-heading': titleFontSize === 'xl',
         'text-2xl-heading': titleFontSize === '2xl',
-        'text-white/90 drop-shadow-sm sm:text-inherit sm:drop-shadow-none':
+        'text-white/90 drop-shadow-sm sm:text-inherit sm:drop-shadow-none group-[.high-contrast]:bg-neutral-800 group-[.high-contrast]:!text-[#EBEDF4] group-[.high-contrast]:px-3 group-[.high-contrast]:py-1':
           textWhiteOnMobile,
       },
-      'group-[.high-contrast]:bg-neutral-800 group-[.high-contrast]:!text-[#EBEDF4] group-[.high-contrast]:px-3 group-[.high-contrast]:py-1',
     )}
   >
     <MarkdownRenderer>{content}</MarkdownRenderer>
