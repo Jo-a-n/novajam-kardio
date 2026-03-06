@@ -1,26 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1"
-	 id="svg2" inkscape:version="0.48.2 r9819" sodipodi:docname="MUTCD D9-3a.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 81.6 81.6"
-	 style="enable-background:new 0 0 81.6 81.6;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#FFFFFF;stroke-width:40;}
-	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:1.6933;}
-	.st2{fill:#0F4C88;}
-	.st3{fill:#FFFFFF;}
-</style>
-<sodipodi:namedview  bordercolor="#666666" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" gridtolerance="10" guidetolerance="10" id="namedview58" inkscape:current-layer="svg2" inkscape:cx="30.16135" inkscape:cy="19.412365" inkscape:guide-bbox="true" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="1004" inkscape:window-maximized="1" inkscape:window-width="1280" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="3.8704158" objecttolerance="10" pagecolor="#ffffff" showgrid="false" showguides="true">
-	</sodipodi:namedview>
-<polygon id="polygon10" class="st0" points="-963,6003.7 -934.7,6063.9 -963,6124.2 -991.4,6063.9 "/>
-<path id="path3924" inkscape:connector-curvature="0" class="st1" d="M7.5,0.3h66.6c4,0,7.2,3.2,7.2,7.2v66.6c0,4-3.2,7.2-7.2,7.2
-	H7.5c-4,0-7.2-3.2-7.2-7.2V7.5C0.3,3.5,3.5,0.3,7.5,0.3"/>
-<path id="path3948" inkscape:connector-curvature="0" class="st2" d="M7.5,2.1h66.6c3,0,5.4,2.4,5.4,5.4v66.6c0,3-2.4,5.4-5.4,5.4
-	H7.5c-3,0-5.4-2.4-5.4-5.4V7.5C2.1,4.5,4.5,2.1,7.5,2.1"/>
-<path id="path3046" inkscape:connector-curvature="0" class="st3" d="M32.4,20.1c2.9-0.3,5.2-2.8,5.2-5.7c0-3.2-2.6-5.7-5.7-5.7
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.6 93.6">
+<circle cx="46.8" cy="46.8" r="46.8" fill="#0F4C88"/>
+<g transform="translate(6,6)">
+<path fill="#FFFFFF" d="M32.4,20.1c2.9-0.3,5.2-2.8,5.2-5.7c0-3.2-2.6-5.7-5.7-5.7
 	c-3.2,0-5.7,2.6-5.7,5.7c0,1,0.3,1.9,0.7,2.8l2,28.7l21,0l8.6,20.2l11.3-4.4l-1.8-4.2l-6.3,2.3l-8.3-19.2l-19.5,0.1L33.6,37l14.1,0
 	v-5.4l-14.7,0C33.1,31.6,32.4,20.1,32.4,20.1z"/>
-<path id="path3050" inkscape:connector-curvature="0" class="st3" d="M53.6,61.3c-3.5,7-11,11.6-18.9,11.6
+<path fill="#FFFFFF" d="M53.6,61.3c-3.5,7-11,11.6-18.9,11.6
 	c-11.6,0-21.1-9.5-21.1-21.1c0-8.2,4.9-15.7,12.3-19.1l0.5,6.2c-4.4,2.7-7.1,7.7-7.1,12.9c0,8.4,6.9,15.3,15.3,15.3
 	c7.7,0,14.3-5.9,15.2-13.5L53.6,61.3z"/>
+</g>
 </svg>
