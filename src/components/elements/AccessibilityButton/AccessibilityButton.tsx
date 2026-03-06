@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import classNames from 'classnames';
 import { Roboto_Font } from '@/helpers/fonts';
+import { FontSizeControl } from '@/components/elements/FontSizeControl/FontSizeControl';
 
 export const AccessibilityButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,27 +58,30 @@ export const AccessibilityButton = () => {
         />
       </button>
 
-      {isOpen && (
-        <div
-          id="a11y-panel"
-          ref={panelRef}
-          role="region"
-          aria-label="Εργαλεία προσβασιμότητας"
-          className={classNames(
-            'absolute bottom-0 right-14 w-[250px] p-5 rounded-xl shadow-xl',
-            'bg-blue-900 text-white',
-            Roboto_Font.className,
-            'gap-3.5 flex flex-col',
-          )}
-        >
-          <p className="text-md">
-            WCAG 2.1, Level AA ✓ <br /> EN 301 549 v3.2.1 ✓
-          </p>
-          <div>
-            <p className="text-md font-bold">Μεγεθος κειμενου </p>
+      <div
+        id="a11y-panel"
+        ref={panelRef}
+        role="region"
+        aria-label="Εργαλεία προσβασιμότητας"
+        className={classNames(
+          'absolute bottom-1.5 right-14 w-[250px] p-5 rounded-xl shadow-xl',
+          'transition-all duration-150',
+          'bg-[#224D84] text-white',
+          Roboto_Font.className,
+          'gap-3.5 flex flex-col',
+          isOpen ? 'opacity-100 visible' : 'opacity-0 invisible',
+        )}
+      >
+        <p className="text-md">
+          WCAG 2.1, Level AA ✓ <br /> EN 301 549 v3.2.1 ✓
+        </p>
+        <div>
+          <p className="text-md font-bold">Μέγεθος κειμένου</p>
+          <div className="flex flex-row gap-2 mt-2">
+            <FontSizeControl />
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
 };
