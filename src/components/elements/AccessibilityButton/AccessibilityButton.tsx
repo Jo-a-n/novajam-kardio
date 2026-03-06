@@ -5,6 +5,7 @@ import Image from 'next/image';
 import classNames from 'classnames';
 import { Roboto_Font } from '@/helpers/fonts';
 import { FontSizeControl } from '@/components/elements/FontSizeControl/FontSizeControl';
+import { HighContrastToggle } from '@/components/elements/HighContrastToggle/HighContrastToggle';
 
 export const AccessibilityButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,7 +65,7 @@ export const AccessibilityButton = () => {
         role="region"
         aria-label="Εργαλεία προσβασιμότητας"
         className={classNames(
-          'absolute bottom-1.5 right-14 w-[250px] p-5 rounded-xl shadow-xl',
+          'absolute bottom-1.5 right-14 w-[200px] p-5 rounded-xl shadow-xl',
           'transition-all duration-150',
           'bg-[#224D84] text-white',
           Roboto_Font.className,
@@ -79,6 +80,12 @@ export const AccessibilityButton = () => {
           <p className="text-md font-bold">Μέγεθος κειμένου</p>
           <div className="flex flex-row gap-2 mt-2">
             <FontSizeControl />
+          </div>
+        </div>
+        <div>
+          <p className="text-md font-bold">Αντίθεση Κειμένου</p>
+          <div className="mt-2">
+            <HighContrastToggle />
           </div>
         </div>
       </div>
