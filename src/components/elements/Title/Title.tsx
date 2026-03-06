@@ -22,6 +22,7 @@ export const Title: React.FC<{
         'text-white/90 drop-shadow-sm sm:text-inherit sm:drop-shadow-none':
           textWhiteOnMobile,
       },
+      'group-[.high-contrast]:bg-neutral-800 group-[.high-contrast]:!text-[#EBEDF4] group-[.high-contrast]:px-3 group-[.high-contrast]:py-1',
     )}
   >
     <MarkdownRenderer>{content}</MarkdownRenderer>

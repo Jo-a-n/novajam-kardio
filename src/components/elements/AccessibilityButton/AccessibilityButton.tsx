@@ -65,7 +65,7 @@ export const AccessibilityButton = () => {
         role="region"
         aria-label="Εργαλεία προσβασιμότητας"
         className={classNames(
-          'absolute bottom-1.5 right-14 w-[200px] p-5 rounded-xl shadow-xl',
+          'absolute bottom-1.5 right-14 w-fit px-5 py-3.5 rounded-xl shadow-xl  whitespace-nowrap',
           'transition-all duration-150',
           'bg-[#224D84] text-white',
           Roboto_Font.className,
