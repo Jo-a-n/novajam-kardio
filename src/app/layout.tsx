@@ -1,5 +1,4 @@
 import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import '@/app/styles/globals.css';
 import Script from 'next/script';
 import { AccessibilityButton } from '@/components/elements/AccessibilityButton/AccessibilityButton';
@@ -30,7 +29,6 @@ export default async function RootLayout({
         {children}
         <AccessibilityButton />
         <Analytics />
-        <SpeedInsights />
       </body>
     </html>
   );
