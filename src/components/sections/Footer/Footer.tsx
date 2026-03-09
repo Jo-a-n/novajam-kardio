@@ -39,7 +39,7 @@ export const Footer: React.FC<Props> = ({ data }) => {
                   var(--tw-bg-opacity))`
           : 'none',
         backgroundImage: backgroundImage
-          ? `url(${backgroundImage.url}), url('/fallback.png)`
+          ? `url(${backgroundImage.url}), url('/fallback.png')`
           : 'none',
       }}
     >

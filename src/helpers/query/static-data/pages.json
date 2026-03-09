@@ -34,7 +34,7 @@
         "htmlid": "dr-agapitou-hero",
         "layout": "Columns",
         "gap": "lg",
-        "backgroundColor": "#141414",
+        "backgroundColor": null,
         "backgroundImage": {
           "url": "https://images.ctfassets.net/n8ip1shnectl/crycxuaejlWCMeEsVOdoW/9c310e6cf595f2f32730b2853d08f8ec/hero-homepage-v3.png",
           "description": "Η Καρδιολόγος Έλενα Αγαπητού στο γραφείο του ιατρείου της στην Ηλιούπολη"

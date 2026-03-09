@@ -49,9 +49,7 @@ export const SmartSection: React.FC<SmartSectionProps> = ({
             ${parseInt(backgroundColor.slice(5, 7), 16)}, 
             var(--tw-bg-opacity))`
       : 'none',
-    backgroundImage: backgroundImage
-      ? `url(${backgroundImage.url}), url('/fallback.png)`
-      : 'none',
+    backgroundImage: backgroundImage ? `url(${backgroundImage.url})` : 'none',
   };
 
   function mapSectionContent(
