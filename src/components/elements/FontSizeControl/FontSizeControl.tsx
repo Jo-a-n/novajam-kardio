@@ -28,7 +28,7 @@ export function FontSizeControl() {
 
   function decreaseFontSize() {
     setFontSize((prev) => {
-      const next = prev > 16 ? prev - 2 : prev;
+      const next = prev > 14 ? prev - 2 : prev;
       if (typeof window !== 'undefined') {
         document.documentElement.style.fontSize = `${next}px`;
         localStorage.setItem('fontSize', next.toString());

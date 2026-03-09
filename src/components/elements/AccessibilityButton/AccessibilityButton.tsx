@@ -40,14 +40,14 @@ export const AccessibilityButton = () => {
   }, [isOpen]);
 
   return (
-    <div className="fixed z-[100000] bottom-6 right-6 md:right-10">
+    <div className="fixed z-[100000] bottom-[18px] right-[16px] md:bottom-6 md:right-10">
       <button
         ref={buttonRef}
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Εργαλεία προσβασιμότητας"
         aria-expanded={isOpen}
         aria-controls="a11y-panel"
-        className="w-11 h-11 rounded-full overflow-hidden shadow-md"
+        className="w-[50px] h-[50px] rounded-full overflow-hidden shadow-md"
       >
         <Image
           src="/icons/wcag.svg"
@@ -65,7 +65,7 @@ export const AccessibilityButton = () => {
         role="region"
         aria-label="Εργαλεία προσβασιμότητας"
         className={classNames(
-          'absolute bottom-1.5 right-[52px] w-fit px-5 py-3.5 rounded-xl shadow-xl  whitespace-nowrap',
+          'absolute bottom-[5px] right-[56px] w-fit px-5 py-3.5 rounded-xl shadow-lg  whitespace-nowrap',
           'transition-all duration-150',
           'bg-[#224D84] text-white',
           Roboto_Font.className,
