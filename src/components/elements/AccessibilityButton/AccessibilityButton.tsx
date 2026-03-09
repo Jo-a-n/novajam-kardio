@@ -40,7 +40,7 @@ export const AccessibilityButton = () => {
   }, [isOpen]);
 
   return (
-    <div className="fixed z-[100000] bottom-[18px] right-[16px] md:bottom-6 md:right-10">
+    <div className="fixed z-[100000] bottom-[16px] right-[14px] md:bottom-7 md:right-10">
       <button
         ref={buttonRef}
         onClick={() => setIsOpen(!isOpen)}
@@ -65,7 +65,7 @@ export const AccessibilityButton = () => {
         role="region"
         aria-label="Εργαλεία προσβασιμότητας"
         className={classNames(
-          'absolute bottom-[5px] right-[56px] w-fit px-5 py-3.5 rounded-xl shadow-lg  whitespace-nowrap',
+          'absolute bottom-[5px] right-[56px] w-fit px-5 py-3.5 rounded-xl shadow-lg whitespace-nowrap',
           'transition-all duration-150',
           'bg-[#224D84] text-white',
           Roboto_Font.className,
