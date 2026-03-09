@@ -43,14 +43,14 @@ export function FontSizeControl() {
       <button
         onClick={increaseFontSize}
         aria-label="Increase Font Size"
-        className="w-9 h-9 p-0.5 text-xl flex justify-center items-center rounded-full hover:bg-neutral-100/80 dark:hover:bg-red-950/25 dark:text-neutral-100"
+        className="w-9 h-9 p-0.5 text-xl flex justify-center items-center rounded-full bg-blue-50/5 hover:bg-blue-950/80 dark:hover:bg-red-950/25 dark:text-neutral-100 transition duration-300"
       >
         <MdTextIncrease />
       </button>
       <button
         onClick={decreaseFontSize}
         aria-label="Decrease Font Size"
-        className="w-9 h-9 p-0.5 text-xl flex justify-center items-center rounded-full hover:bg-neutral-100/80 dark:hover:bg-red-950/25 dark:text-neutral-100"
+        className="w-9 h-9 p-0.5 text-xl flex justify-center items-center rounded-full bg-blue-50/5 hover:bg-blue-950/80 dark:hover:bg-red-950/25 dark:text-neutral-100 transition duration-300"
       >
         <MdTextDecrease />
       </button>

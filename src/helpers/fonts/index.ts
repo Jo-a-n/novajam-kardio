@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { Roboto, Inter } from 'next/font/google';
 
-const Roboto_Font = Roboto({
+export const Roboto_Font = Roboto({
   subsets: ['latin', 'latin-ext', 'greek', 'greek-ext'],
   weight: ['100', '300', '400', '500', '700', '900'],
 });

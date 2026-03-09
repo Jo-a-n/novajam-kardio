@@ -2,6 +2,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import '@/app/styles/globals.css';
 import Script from 'next/script';
+import { AccessibilityButton } from '@/components/elements/AccessibilityButton/AccessibilityButton';
 
 export default async function RootLayout({
   children,
@@ -9,7 +10,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="el" className="scroll-smooth">
+    <html lang="el" className="group scroll-smooth">
       <head>
         {/* Google tag (gtag.js) */}
         <Script
@@ -29,6 +30,7 @@ export default async function RootLayout({
       </head>
       <body className="bg-[#EBEDF4] dark:bg-neutral-900 dark:text-neutral-100">
         {children}
+        <AccessibilityButton />
         <Analytics />
         <SpeedInsights />
       </body>
