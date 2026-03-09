@@ -4,11 +4,13 @@ import { Roboto, Inter } from 'next/font/google';
 export const Roboto_Font = Roboto({
   subsets: ['latin', 'latin-ext', 'greek', 'greek-ext'],
   weight: ['100', '300', '400', '500', '700', '900'],
+  preload: true,
 });
 
 const Inter_Font = Inter({
   subsets: ['latin', 'latin-ext', 'greek', 'greek-ext'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
+  preload: false,
 });
 
 export const generateFontClassnames = (
