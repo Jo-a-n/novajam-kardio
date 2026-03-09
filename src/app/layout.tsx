@@ -25,6 +25,30 @@ export default async function RootLayout({
           gtag('config', 'G-0GGQJPH7FV');
           `}
         </Script>
+        <Script id="history-origin-guard" strategy="beforeInteractive">
+          {`
+          (function () {
+            if (typeof window === 'undefined' || !window.history) return;
+
+            function withSameOriginGuard(originalMethod) {
+              return function (state, title, url) {
+                if (typeof url === 'string' && url.length > 0) {
+                  try {
+                    var nextUrl = new URL(url, window.location.href);
+                    if (nextUrl.origin !== window.location.origin) return;
+                  } catch (_error) {
+                    return;
+                  }
+                }
+                return originalMethod.apply(window.history, arguments);
+              };
+            }
+
+            window.history.replaceState = withSameOriginGuard(window.history.replaceState);
+            window.history.pushState = withSameOriginGuard(window.history.pushState);
+          })();
+          `}
+        </Script>
         {children}
         <AccessibilityButton />
       </body>
