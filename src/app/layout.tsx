@@ -32,9 +32,10 @@ export default async function RootLayout({
 
             function withSameOriginGuard(originalMethod) {
               return function (state, title, url) {
-                if (typeof url === 'string' && url.length > 0) {
+                if (url != null) {
                   try {
-                    var nextUrl = new URL(url, window.location.href);
+                    var rawUrl = typeof url === 'string' ? url : String(url);
+                    var nextUrl = new URL(rawUrl, window.location.href);
                     if (nextUrl.origin !== window.location.origin) {
                       var router = window.next && window.next.router;
                       if (router && typeof router.replace === 'function') {
@@ -46,7 +47,18 @@ export default async function RootLayout({
                     return;
                   }
                 }
-                return originalMethod.apply(window.history, arguments);
+                try {
+                  return originalMethod.apply(window.history, arguments);
+                } catch (error) {
+                  if (error && error.name === 'SecurityError') {
+                    var router = window.next && window.next.router;
+                    if (router && typeof router.replace === 'function') {
+                      router.replace(window.location.pathname, undefined, { shallow: true });
+                    }
+                    return;
+                  }
+                  throw error;
+                }
               };
             }
 
