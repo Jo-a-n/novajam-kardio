@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react';
 import '@/app/styles/globals.css';
 import Script from 'next/script';
 import { AccessibilityButton } from '@/components/elements/AccessibilityButton/AccessibilityButton';
@@ -28,7 +27,6 @@ export default async function RootLayout({
         </Script>
         {children}
         <AccessibilityButton />
-        <Analytics />
       </body>
     </html>
   );
