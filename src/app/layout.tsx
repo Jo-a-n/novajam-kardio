@@ -35,7 +35,13 @@ export default async function RootLayout({
                 if (typeof url === 'string' && url.length > 0) {
                   try {
                     var nextUrl = new URL(url, window.location.href);
-                    if (nextUrl.origin !== window.location.origin) return;
+                    if (nextUrl.origin !== window.location.origin) {
+                      var router = window.next && window.next.router;
+                      if (router && typeof router.replace === 'function') {
+                        router.replace(window.location.pathname, undefined, { shallow: true });
+                      }
+                      return;
+                    }
                   } catch (_error) {
                     return;
                   }
