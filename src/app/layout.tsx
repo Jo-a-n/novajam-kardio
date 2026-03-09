@@ -11,7 +11,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="el" className="group scroll-smooth">
-      <head>
+      <body className="bg-[#EBEDF4] dark:bg-neutral-900 dark:text-neutral-100">
         {/* Google tag (gtag.js) */}
         <Script
           async
@@ -27,8 +27,6 @@ export default async function RootLayout({
           gtag('config', 'G-0GGQJPH7FV');
           `}
         </Script>
-      </head>
-      <body className="bg-[#EBEDF4] dark:bg-neutral-900 dark:text-neutral-100">
         {children}
         <AccessibilityButton />
         <Analytics />
