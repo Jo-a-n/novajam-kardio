@@ -30,7 +30,7 @@
     --sm-heading-font-size: clamp(1.5rem, 6vw, 2.25rem);
     --base-heading-font-size: clamp(1.75rem, 6vw, 2.675rem);
     --lg-heading-font-size: clamp(2.25rem, 7vw, 3.25rem);
-    --xl-heading-font-size: clamp(3.25rem, 7vw, 4rem);
+    --xl-heading-font-size: clamp(2.8rem, 7vw, 4rem);
     --2xl-heading-font-size: clamp(3.75rem, 7vw, 5rem);
 
     --container-horizontal-padding: 1rem;

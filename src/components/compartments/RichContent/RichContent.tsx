@@ -49,7 +49,7 @@ export const RichContent: React.FC<{
         'pl-6 md:pl-8 lg:pl-10': paddingLeft === 'base',
         'pr-6 md:pr-8 lg:pr-10': paddingRight === 'base',
         'pl-10 md:pl-12 lg:pl-16': paddingLeft === 'lg',
-        'pr-10 md:pr-12 lg:pr-16': paddingRight === 'lg',
+        'pr-2 sm:pr-10 md:pr-12 lg:pr-16': paddingRight === 'lg',
         'pl-16 md:pl-20 lg:pl-28': paddingLeft === 'xl',
         'pr-16 md:pr-20 lg:pr-28': paddingRight === 'xl',
         'pl-26 md:pl-32 lg:pl-39': paddingLeft === '2xl',
